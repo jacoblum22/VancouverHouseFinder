@@ -1,0 +1,78 @@
+name: Hourly Scrape
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # every hour (GitHub may delay up to ~1 h under load)
+  workflow_dispatch:        # also triggerable manually from the Actions tab
+
+permissions:
+  contents: write           # needed to push updated data files back to repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ------------------------------------------------------------------ #
+      # 1. Checkout                                                          #
+      # ------------------------------------------------------------------ #
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Use the built-in token so the commit-back step can push
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ------------------------------------------------------------------ #
+      # 2. Python                                                            #
+      # ------------------------------------------------------------------ #
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -e .
+
+      # ------------------------------------------------------------------ #
+      # 3. Run scrape pipeline                                               #
+      # ------------------------------------------------------------------ #
+      - name: Run pipeline
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: vhf
+
+      # ------------------------------------------------------------------ #
+      # 4. Detect new listings and send email                                #
+      # ------------------------------------------------------------------ #
+      - name: Send notifications
+        env:
+          SMTP_HOST:     ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:     ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM:    ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:      ${{ secrets.EMAIL_TO }}
+        run: python -m vhf.notify
+
+      # ------------------------------------------------------------------ #
+      # 5. Commit updated exports + state back to repo                       #
+      # (skipped automatically if nothing changed)                           #
+      # ------------------------------------------------------------------ #
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage everything that may have changed
+          git add \
+            data/exports/results.html \
+            data/exports/results.csv \
+            data/processed/transit_cache.json \
+            data/state/last_seen.json
+
+          # Only commit if there are staged changes
+          git diff --staged --quiet \
+            || git commit -m "chore: update listings snapshot [skip ci]"
+
+          git push

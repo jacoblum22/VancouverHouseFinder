@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Raw fetch artifacts — large, ephemeral, never committed
+data/raw/
+
+# Processed: only the transit cache is committed (saves Google Maps API costs);
+# the full listings JSONL is regenerated each run.
+data/processed/listings.jsonl
+
+# Logs
+logs/
+*.log
+
+# Temp planning files
+TEMP_*.md
+
+# data/exports/       ← NOT ignored: results.html + results.csv committed each run
+# data/processed/transit_cache.json ← NOT ignored: committed to preserve transit data
+# data/state/         ← NOT ignored: last_seen.json persists new-listing detection state
