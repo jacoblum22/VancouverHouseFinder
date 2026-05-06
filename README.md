@@ -51,7 +51,7 @@ export SMTP_PORT="587"
 export SMTP_USERNAME="you@gmail.com"
 export SMTP_PASSWORD="your_app_password"
 export EMAIL_FROM="you@gmail.com"
-export EMAIL_TO="you@gmail.com"
+export EMAIL_TO="you@gmail.com,friend@example.com"
 ```
 
 On Windows PowerShell:
@@ -74,6 +74,8 @@ python -m vhf.notify
 ```
 
 Compares current listings against `data/state/last_seen.json`. Sends email if new listings exist. Updates the state file.
+
+`EMAIL_TO` supports multiple recipients separated by comma, semicolon, or newline.
 
 ## Email Setup (Gmail recommended)
 

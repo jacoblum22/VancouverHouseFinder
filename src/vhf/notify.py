@@ -12,6 +12,7 @@ from __future__ import annotations
 import html as _html
 import json
 import os
+import re
 import smtplib
 from datetime import UTC, datetime
 from email.mime.multipart import MIMEMultipart
@@ -169,8 +170,9 @@ def _send_email(new_listings: list[Listing], total_current: int) -> None:
     smtp_pass = os.environ.get("SMTP_PASSWORD", "")
     email_from = os.environ.get("EMAIL_FROM", "") or smtp_user
     email_to = os.environ.get("EMAIL_TO", "")
+    recipients = _parse_recipients(email_to)
 
-    if not all([smtp_host, smtp_user, smtp_pass, email_to]):
+    if not all([smtp_host, smtp_user, smtp_pass, recipients]):
         console.print("  [yellow]SKIP[/yellow] Email: SMTP env vars not configured")
         return
 
@@ -182,7 +184,7 @@ def _send_email(new_listings: list[Listing], total_current: int) -> None:
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"] = email_from
-    msg["To"] = email_to
+    msg["To"] = ", ".join(recipients)
     msg.attach(MIMEText(plain, "plain", "utf-8"))
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
@@ -190,9 +192,23 @@ def _send_email(new_listings: list[Listing], total_current: int) -> None:
         smtp.ehlo()
         smtp.starttls()
         smtp.login(smtp_user, smtp_pass)
-        smtp.sendmail(email_from, [email_to], msg.as_string())
+        smtp.sendmail(email_from, recipients, msg.as_string())
 
-    console.print(f"  [green]Email sent[/green] -> {email_to}  ({subject})")
+    console.print(
+        f"  [green]Email sent[/green] -> {', '.join(recipients)}  ({subject})"
+    )
+
+
+def _parse_recipients(raw: str) -> list[str]:
+    """Parse EMAIL_TO into a recipient list.
+
+    Accepts comma, semicolon, or newline separated values.
+    """
+    if not raw:
+        return []
+    parts = [p.strip() for p in re.split(r"[,\n;]+", raw) if p.strip()]
+    # Keep insertion order while removing accidental duplicates
+    return list(dict.fromkeys(parts))
 
 
 # ------------------------------------------------------------------ #
