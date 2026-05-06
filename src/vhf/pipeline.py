@@ -50,10 +50,17 @@ async def _run_async(*, criteria: SearchCriteria) -> PipelineResult:
     cl_listings = cl_scraper.parse(cl_docs)
     console.print(f"  Listings parsed:    {len(cl_listings)}")
 
-    cl_detail_docs, n_fetched, n_cached = await cl_scraper.fetch_details(cl_listings)
-    cache_note = f"  ({n_fetched} fetched, {n_cached} cached)" if n_cached else ""
+    cl_detail_docs, n_fetched, n_disk, n_state = await cl_scraper.fetch_details(cl_listings)
+    parts = []
+    if n_fetched:
+        parts.append(f"{n_fetched} fetched")
+    if n_disk:
+        parts.append(f"{n_disk} disk-cached")
+    if n_state:
+        parts.append(f"{n_state} state-reused")
+    note = f"  ({', '.join(parts)})" if parts else ""
     console.print(
-        f"  Detail pages loaded:   {len(cl_detail_docs)}/{len(cl_listings)}{cache_note}"
+        f"  Detail pages loaded:   {len(cl_detail_docs)}/{len(cl_listings)}{note}"
     )
     cl_listings, n_cl_enriched = cl_scraper.enrich_listings(cl_listings, cl_detail_docs)
     console.print(f"  Listings enriched:     {n_cl_enriched}")

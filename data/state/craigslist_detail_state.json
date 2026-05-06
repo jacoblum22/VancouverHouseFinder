@@ -1,0 +1,1331 @@
+{
+  "updated_at": "2026-05-06T12:43:41.760500+00:00",
+  "items": {
+    "7927399350": {
+      "fingerprint": "58ff1877d4f2",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "SW Marine Drive, Vancouver, BC V6N1Y4",
+        "latitude": 49.23475,
+        "longitude": -123.194332
+      }
+    },
+    "7927399279": {
+      "fingerprint": "cc027528bf12",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver West",
+        "latitude": 49.234727,
+        "longitude": -123.194675
+      }
+    },
+    "7932450603": {
+      "fingerprint": "adb5a139db23",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 7.0,
+        "address_text": "Shaughnessy",
+        "latitude": 49.257834,
+        "longitude": -123.185406
+      }
+    },
+    "7925509096": {
+      "fingerprint": "e1bb02aa21c4",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "1339 West 53rd Ave, Vancouver, BC V6P1K8",
+        "latitude": 49.222554,
+        "longitude": -123.136074
+      }
+    },
+    "7932442041": {
+      "fingerprint": "76264ff9e017",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "ontario, Vancouver, BC V5Y2V9",
+        "latitude": 49.229341,
+        "longitude": -123.107128
+      }
+    },
+    "7923380729": {
+      "fingerprint": "c434d61b7990",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "475 West 64th Avenue, Vancouver, BC V5X2M2",
+        "latitude": 49.212295,
+        "longitude": -123.11636
+      }
+    },
+    "7932436284": {
+      "fingerprint": "d71de6d40178",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "1188 W 45th Ave, Vancouver, BC V6M2G7",
+        "latitude": 49.230252,
+        "longitude": -123.132792
+      }
+    },
+    "7931101041": {
+      "fingerprint": "1d0fc177f752",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "w 16th Ave Vancouver",
+        "latitude": 49.258521,
+        "longitude": -123.20195
+      }
+    },
+    "7932422785": {
+      "fingerprint": "9378d718077d",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "Vancouver Kerrisdale",
+        "latitude": 49.2329,
+        "longitude": -123.148198
+      }
+    },
+    "7932420299": {
+      "fingerprint": "c0b76d539375",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "Selkirk Street, Vancouver, BC V6P4H2",
+        "latitude": 49.224866,
+        "longitude": -123.133372
+      }
+    },
+    "7930015480": {
+      "fingerprint": "a5591110483f",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "latitude": 49.1551,
+        "longitude": -122.9124
+      }
+    },
+    "7925953279": {
+      "fingerprint": "62890d453496",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "1257 E 18TH AVE, Vancouver, BC V5V1H3",
+        "latitude": 49.254445,
+        "longitude": -123.078746
+      }
+    },
+    "7928626280": {
+      "fingerprint": "4add2de2d7f4",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Dunbar St, Vancouver, BC V6S1W5",
+        "latitude": 49.244913,
+        "longitude": -123.184923
+      }
+    },
+    "7926291709": {
+      "fingerprint": "40d472731632",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Commercial Drive",
+        "latitude": 49.2551,
+        "longitude": -123.0667
+      }
+    },
+    "7930801532": {
+      "fingerprint": "88b3c5b98bec",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "W48th Avenue, Vancouver, BC V5Y2V9",
+        "latitude": 49.226929,
+        "longitude": -123.107697
+      }
+    },
+    "7932391841": {
+      "fingerprint": "17fc6a9956a0",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 7.0,
+        "latitude": 49.222,
+        "longitude": -123.0683
+      }
+    },
+    "7930518372": {
+      "fingerprint": "98b6dc82248f",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "122 Walter Hardwick Ave, vancouver, BC V5Y0C9",
+        "latitude": 49.270989,
+        "longitude": -123.105881
+      }
+    },
+    "7932383707": {
+      "fingerprint": "748e70ae8886",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Mount Pleasant",
+        "latitude": 49.262,
+        "longitude": -123.0923
+      }
+    },
+    "7932368554": {
+      "fingerprint": "7b403800f1a9",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "Vancouver",
+        "latitude": 49.226423,
+        "longitude": -123.042412
+      }
+    },
+    "7932327305": {
+      "fingerprint": "c3867bf2024b",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Rupert, Vancouver, BC V5M2M5",
+        "latitude": 49.262223,
+        "longitude": -123.033837
+      }
+    },
+    "7931841407": {
+      "fingerprint": "d81e7f8d0376",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Carnarvon St, Vancouver, BC V6L1L1",
+        "latitude": 49.259648,
+        "longitude": -123.172215
+      }
+    },
+    "7929260796": {
+      "fingerprint": "a94b845a4fa0",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "Holland Street, Vancouver, BC V6N2A7",
+        "latitude": 49.236438,
+        "longitude": -123.192274
+      }
+    },
+    "7924218569": {
+      "fingerprint": "eb656c69fc88",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "w 28, Vancouver, BC V6S1S7",
+        "latitude": 49.247022,
+        "longitude": -123.195105
+      }
+    },
+    "7923939649": {
+      "fingerprint": "162e852dbf7b",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "Dunbar",
+        "latitude": 49.2302,
+        "longitude": -123.189
+      }
+    },
+    "7928560245": {
+      "fingerprint": "0854d2b40848",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 7.0,
+        "address_text": "Fraserview, Vancouver",
+        "latitude": 49.222,
+        "longitude": -123.0683
+      }
+    },
+    "7927106339": {
+      "fingerprint": "4395a330fabb",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "5998 Larch Street, Vancouver, BC V6M4E4",
+        "latitude": 49.231919,
+        "longitude": -123.16251
+      }
+    },
+    "7928453208": {
+      "fingerprint": "09d7d86b014c",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "7765 Allman Street, Burnaby, BC V5E2A9",
+        "latitude": 49.234442,
+        "longitude": -122.951171
+      }
+    },
+    "7932229301": {
+      "fingerprint": "90a9c91d7e21",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver",
+        "latitude": 49.256144,
+        "longitude": -122.899287
+      }
+    },
+    "7930412961": {
+      "fingerprint": "6225f87fb17c",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "South Surrey",
+        "latitude": 49.050519,
+        "longitude": -122.781647
+      }
+    },
+    "7928323538": {
+      "fingerprint": "ce17d37ddcc2",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "William Street, Vancouver, BC V5K2Y4",
+        "latitude": 49.27413,
+        "longitude": -123.033626
+      }
+    },
+    "7931324908": {
+      "fingerprint": "8029efed3bed",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "W 62 Ave, Vancouver, BC V6P2G1",
+        "latitude": 49.215195,
+        "longitude": -123.146503
+      }
+    },
+    "7932222732": {
+      "fingerprint": "3a9f22c2ebc1",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "3569 W.32nd Avenue",
+        "latitude": 49.243483,
+        "longitude": -123.183888
+      }
+    },
+    "7930650882": {
+      "fingerprint": "3eca135b4e54",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "vancouver",
+        "latitude": 49.226869,
+        "longitude": -123.139701
+      }
+    },
+    "7929317089": {
+      "fingerprint": "38cdc77f10f7",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "3980 Inlet Crescent, North Vancouver, BC V7G2P9",
+        "latitude": 49.320544,
+        "longitude": -122.963625
+      }
+    },
+    "7928048969": {
+      "fingerprint": "686ee32fc217",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "Vancouver",
+        "latitude": 49.2151,
+        "longitude": -123.1396
+      }
+    },
+    "7932163063": {
+      "fingerprint": "50f035001f4f",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Rupert, Vancouver, BC V5M2M5",
+        "latitude": 49.262223,
+        "longitude": -123.033837
+      }
+    },
+    "7932157524": {
+      "fingerprint": "d1c770ec94bb",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Dunbar Street, Vancouver, BC V6R2G3",
+        "latitude": 49.257989,
+        "longitude": -123.184013
+      }
+    },
+    "7932151174": {
+      "fingerprint": "7deae2e4d5e1",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Main/Fraser",
+        "latitude": 49.2327,
+        "longitude": -123.0917
+      }
+    },
+    "7931516305": {
+      "fingerprint": "ee4e944d92bb",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "4910 Willow Street, VANCOUVER, BC V5Z0G3",
+        "latitude": 49.241004,
+        "longitude": -123.123286
+      }
+    },
+    "7932136418": {
+      "fingerprint": "99853c3b768e",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver",
+        "latitude": 49.2297,
+        "longitude": -123.0613
+      }
+    },
+    "7929875795": {
+      "fingerprint": "cb4941c65e5a",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "7989 Cambie Street, Vancouver, BC V6P3J4",
+        "latitude": 49.210237,
+        "longitude": -123.117225
+      }
+    },
+    "7932120057": {
+      "fingerprint": "5d76fefbda7a",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "1st Avenue, Vancouver, BC V5M1A2",
+        "latitude": 49.26,
+        "longitude": -123.0398
+      }
+    },
+    "7925998985": {
+      "fingerprint": "f792f5c35ae8",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver",
+        "latitude": 49.248,
+        "longitude": -123.0913
+      }
+    },
+    "7928451772": {
+      "fingerprint": "9282a8949739",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Renfrew Collingwood, Vancouver",
+        "latitude": 49.240878,
+        "longitude": -123.040738
+      }
+    },
+    "7929688454": {
+      "fingerprint": "339ecab2abe2",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "80 Avenue, Langley, BC V2Y0J4",
+        "latitude": 49.1285,
+        "longitude": -122.6236
+      }
+    },
+    "7932073310": {
+      "fingerprint": "9f7baaf9243f",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "latitude": 49.22927,
+        "longitude": -123.107933
+      }
+    },
+    "7932068815": {
+      "fingerprint": "ed95aa130db1",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "V7R 3V4",
+        "latitude": 49.36156,
+        "longitude": -123.099586
+      }
+    },
+    "7930103828": {
+      "fingerprint": "d46e9962f6f9",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "6th Avenue, Vancouver, BC V5N5C7",
+        "latitude": 49.2551,
+        "longitude": -123.0667
+      }
+    },
+    "7932055486": {
+      "fingerprint": "5f73425c8b8e",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Cambie, Vancouver, BC V5Z1Y6",
+        "latitude": 49.252411,
+        "longitude": -123.115947
+      }
+    },
+    "7924285466": {
+      "fingerprint": "b9273a65c3d5",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "Dunbar",
+        "latitude": 49.2302,
+        "longitude": -123.189
+      }
+    },
+    "7929517213": {
+      "fingerprint": "f6cad0f58dab",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "W62 Ave, Vancouver, BC V6X2E4",
+        "latitude": 49.213985,
+        "longitude": -123.11567
+      }
+    },
+    "7926557314": {
+      "fingerprint": "ef77afd6070c",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "hastings sunrise",
+        "latitude": 49.2807,
+        "longitude": -123.0397
+      }
+    },
+    "7925307129": {
+      "fingerprint": "a520d5d63c36",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "hastings sunrise",
+        "latitude": 49.2807,
+        "longitude": -123.0397
+      }
+    },
+    "7924856183": {
+      "fingerprint": "2291999e097f",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "hastings sunrise",
+        "latitude": 49.2807,
+        "longitude": -123.0397
+      }
+    },
+    "7924435469": {
+      "fingerprint": "4e99bcfe1204",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "hastings sunrise",
+        "latitude": 49.2807,
+        "longitude": -123.0397
+      }
+    },
+    "7923599948": {
+      "fingerprint": "525362c98587",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "hastings sunrise",
+        "latitude": 49.2807,
+        "longitude": -123.0397
+      }
+    },
+    "7930221460": {
+      "fingerprint": "2eb4db26a209",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "latitude": 49.2151,
+        "longitude": -123.1396
+      }
+    },
+    "7931594367": {
+      "fingerprint": "ebbe32a9b82d",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "43rd ave, Vancouver, BC V5R2Z8",
+        "latitude": 49.2308,
+        "longitude": -123.0388
+      }
+    },
+    "7931993631": {
+      "fingerprint": "d5f063112a24",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver",
+        "latitude": 49.257274,
+        "longitude": -123.123436
+      }
+    },
+    "7931993532": {
+      "fingerprint": "ea65c3a7fbcb",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "West Vancouver",
+        "latitude": 49.4614,
+        "longitude": -123.3294
+      }
+    },
+    "7930573436": {
+      "fingerprint": "62885650a2b6",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "latitude": 49.222,
+        "longitude": -123.0683
+      }
+    },
+    "7931992299": {
+      "fingerprint": "377577f9200a",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "34th ave, Vancouver, BC V6P3W4",
+        "latitude": 49.2151,
+        "longitude": -123.1396
+      }
+    },
+    "7924044694": {
+      "fingerprint": "6a7421f18caf",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "4982 57 A street, Delta Central, BC V4K3G5",
+        "latitude": 49.0986,
+        "longitude": -123.0318
+      }
+    },
+    "7927141037": {
+      "fingerprint": "c8a51eb32ae3",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "34xxxx W 19th Ave Vancouver",
+        "latitude": 49.255297,
+        "longitude": -123.180707
+      }
+    },
+    "7925235248": {
+      "fingerprint": "a31640e31ac3",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "43xxx W 11th Ave Vancouver",
+        "latitude": 49.26259,
+        "longitude": -123.203773
+      }
+    },
+    "7927725239": {
+      "fingerprint": "cd87c3108ad9",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Alma st, VANCOUVER, BC V6X0C3",
+        "latitude": 49.272873,
+        "longitude": -123.185555
+      }
+    },
+    "7926826575": {
+      "fingerprint": "43f6a145adc5",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "w 18th ave, Vancouver, BC V6S1A7",
+        "latitude": 49.256447,
+        "longitude": -123.181136
+      }
+    },
+    "7928204395": {
+      "fingerprint": "5a8d8ddd31a7",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "vancouver",
+        "latitude": 49.2151,
+        "longitude": -123.1396
+      }
+    },
+    "7931966065": {
+      "fingerprint": "51c30eacebc2",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "East 1st Avenue, vancouver, BC V5M1A3",
+        "latitude": 49.269374,
+        "longitude": -123.044221
+      }
+    },
+    "7931957872": {
+      "fingerprint": "6791d2de1aef",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Arbutus, Vancouver, BC V6L2B2",
+        "latitude": 49.243199,
+        "longitude": -123.146715
+      }
+    },
+    "7931947834": {
+      "fingerprint": "da15e0ddabe5",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "E 14th Ave, Vancouver, BC V5M2J5",
+        "latitude": 49.257234,
+        "longitude": -123.034784
+      }
+    },
+    "7926682125": {
+      "fingerprint": "d8781814c452",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver",
+        "latitude": 49.250383,
+        "longitude": -123.095069
+      }
+    },
+    "7931923778": {
+      "fingerprint": "0a9818bbe609",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 8.0,
+        "address_text": "Shaughnessy",
+        "latitude": 49.2575,
+        "longitude": -123.1388
+      }
+    },
+    "7926748071": {
+      "fingerprint": "e3aac4c36f3b",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "4100 WEST 15TH AVENUE, VANCOUVER, BC V6R3A4",
+        "latitude": 49.259151,
+        "longitude": -123.198152
+      }
+    },
+    "7926911474": {
+      "fingerprint": "d45c3ad3bea7",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "10th AVE, VANCOUVER, BC V6X0C3",
+        "latitude": 49.1836,
+        "longitude": -123.1168
+      }
+    },
+    "7930035584": {
+      "fingerprint": "395047c9c403",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "28th ave, Vancouver, BC V6S1S8",
+        "latitude": 49.246481,
+        "longitude": -123.194435
+      }
+    },
+    "7929962128": {
+      "fingerprint": "5058fba38901",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver west",
+        "latitude": 49.2491,
+        "longitude": -123.2088
+      }
+    },
+    "7926009746": {
+      "fingerprint": "ed631a3279b9",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Knight Street, Vancouver, BC V5N3K4",
+        "latitude": 49.257388,
+        "longitude": -123.074589
+      }
+    },
+    "7925067792": {
+      "fingerprint": "cc6f79e842b0",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Knight Street, Vancouver, BC V5N3K6",
+        "latitude": 49.256701,
+        "longitude": -123.075018
+      }
+    },
+    "7926506111": {
+      "fingerprint": "23cccd053e9c",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Kingsway, Vancouver, BC V5R4S7",
+        "latitude": 49.25894,
+        "longitude": -123.095181
+      }
+    },
+    "7923211771": {
+      "fingerprint": "9628a8981420",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "57 Ave, Surrey, BC, BC V3S8W3",
+        "latitude": 49.0791,
+        "longitude": -122.7553
+      }
+    },
+    "7927389607": {
+      "fingerprint": "bcf063ba1fb5",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver East",
+        "latitude": 49.230973,
+        "longitude": -123.054031
+      }
+    },
+    "7931773481": {
+      "fingerprint": "dfd35e0a867e",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver Knight / Frasverview",
+        "latitude": 49.222,
+        "longitude": -123.0683
+      }
+    },
+    "7925726147": {
+      "fingerprint": "ccd2427b8f8c",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "2262 nanaimo street, Vancouver, BC V5N5C9",
+        "latitude": 49.263982,
+        "longitude": -123.056145
+      }
+    },
+    "7926865173": {
+      "fingerprint": "61b5cdc31a5f",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Fraserview",
+        "latitude": 49.209044,
+        "longitude": -123.059235
+      }
+    },
+    "7924980326": {
+      "fingerprint": "661496082ee4",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "985 Westbury Walk, Vancouver, BC V6P6Z5",
+        "latitude": 49.217938,
+        "longitude": -123.12789
+      }
+    },
+    "7924121111": {
+      "fingerprint": "1962011a012c",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "Dunbar near Crown/41st",
+        "latitude": 49.2302,
+        "longitude": -123.189
+      }
+    },
+    "7929666902": {
+      "fingerprint": "72ffcbadb79e",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "3853 W 15th Ave, Vancouver, BC V6R3A1",
+        "latitude": 49.258983,
+        "longitude": -123.189572
+      }
+    },
+    "7926896031": {
+      "fingerprint": "7143541c27b8",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "3550 W 39th Ave, Vancouver, BC V6N3A5",
+        "latitude": 49.236497,
+        "longitude": -123.159861
+      }
+    },
+    "7926916707": {
+      "fingerprint": "b72902e26dd5",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 8.0,
+        "address_text": "3853 W 15th Ave, Vancouver, BC V6R3A1",
+        "latitude": 49.258983,
+        "longitude": -123.189572
+      }
+    },
+    "7926897812": {
+      "fingerprint": "9e65d388ab53",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "3550 W 39th Ave, Vancouver, BC V6N3A5",
+        "latitude": 49.236439,
+        "longitude": -123.182017
+      }
+    },
+    "7926894599": {
+      "fingerprint": "0884087c6fcc",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 8.0,
+        "address_text": "3853 W 15th Ave, Vancouver, BC V6R3A1",
+        "latitude": 49.258983,
+        "longitude": -123.189572
+      }
+    },
+    "7926893450": {
+      "fingerprint": "76a0341cddfc",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "3550 W 39th Ave, Vancouver, BC V6N3A5",
+        "latitude": 49.235884,
+        "longitude": -123.13032
+      }
+    },
+    "7925535333": {
+      "fingerprint": "c6862ebeb958",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "4443west 8th, vancouver, BC V6R2A3",
+        "latitude": 49.26555,
+        "longitude": -123.20733
+      }
+    },
+    "7931594590": {
+      "fingerprint": "be9b00300509",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver",
+        "latitude": 49.255766,
+        "longitude": -123.182144
+      }
+    },
+    "7931585821": {
+      "fingerprint": "2477b1f0abd0",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "latitude": 49.26,
+        "longitude": -123.0398
+      }
+    },
+    "7931580858": {
+      "fingerprint": "e271b16dc690",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "McLean Drive, Vancouver, BC V5L3P3",
+        "latitude": 49.27307,
+        "longitude": -123.074477
+      }
+    },
+    "7931563746": {
+      "fingerprint": "7db410c7dee7",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "41st Ave, Vancouver, BC V6N1Z1",
+        "latitude": 49.234455,
+        "longitude": -123.188152
+      }
+    },
+    "7931535393": {
+      "fingerprint": "86fc2a58459e",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "E 12th Ave, Vancouver, BC V5T2H8",
+        "latitude": 49.259744,
+        "longitude": -123.090486
+      }
+    },
+    "7931137078": {
+      "fingerprint": "7bd18b862c9a",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Alma, Vancouver, BC V6R3S2",
+        "latitude": 49.2666,
+        "longitude": -123.1976
+      }
+    },
+    "7931013730": {
+      "fingerprint": "6937a6671b8d",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 7.0,
+        "address_text": "Vancouver",
+        "latitude": 49.2789,
+        "longitude": -123.0362
+      }
+    },
+    "7931007678": {
+      "fingerprint": "4f6b3edf5d50",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Dunbar, Vancouver",
+        "latitude": 49.238532,
+        "longitude": -123.187509
+      }
+    },
+    "7930990989": {
+      "fingerprint": "55b6b438be14",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 6.0,
+        "address_text": "Vancouver",
+        "latitude": 49.2807,
+        "longitude": -123.0397
+      }
+    },
+    "7930884344": {
+      "fingerprint": "1f0250492981",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Kings Rd, Vancouver, BC V6T1K8",
+        "latitude": 49.4635,
+        "longitude": -122.822
+      }
+    },
+    "7930661134": {
+      "fingerprint": "0ea5328c375c",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "W. 63rd Ave, Vancouver, BC V5X2H6",
+        "latitude": 49.213397,
+        "longitude": -123.107965
+      }
+    },
+    "7924562523": {
+      "fingerprint": "a77758832bf7",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "1775 East 59th Ave, Vancouver, BC V6B0G6",
+        "latitude": 49.282952,
+        "longitude": -123.106889
+      }
+    },
+    "7930405279": {
+      "fingerprint": "eaf0c2ff25fe",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Dunbar (Vancouver west)",
+        "latitude": 49.246903,
+        "longitude": -123.193882
+      }
+    },
+    "7930400210": {
+      "fingerprint": "516113d625d1",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 5.0,
+        "address_text": "W 48th Ave, Vancouver, BC V6M2N5",
+        "latitude": 49.227718,
+        "longitude": -123.135062
+      }
+    },
+    "7930387425": {
+      "fingerprint": "68ef6206fa76",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 4.0,
+        "address_text": "Vancouver",
+        "latitude": 49.24464,
+        "longitude": -123.103845
+      }
+    },
+    "7932214903": {
+      "fingerprint": "82818e2268c9",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 2.0,
+        "address_text": "lower mainland"
+      }
+    },
+    "7926220598": {
+      "fingerprint": "cb2b1826eec0",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "Vancouver"
+      }
+    },
+    "7930402007": {
+      "fingerprint": "73fa12947ebd",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "Vancouver"
+      }
+    },
+    "7932101025": {
+      "fingerprint": "26a2f728a456",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {}
+    },
+    "7925658019": {
+      "fingerprint": "b158bc1678af",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "vancouver"
+      }
+    },
+    "7932067399": {
+      "fingerprint": "a3ba1a67edf9",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 2.0,
+        "address_text": "Downtown Vancouver"
+      }
+    },
+    "7925470082": {
+      "fingerprint": "50b2e9da2f09",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "Vancouver"
+      }
+    },
+    "7931945268": {
+      "fingerprint": "a73d7c18c232",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "van-langley"
+      }
+    },
+    "7927277350": {
+      "fingerprint": "a7a4a705d75a",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 2.0,
+        "address_text": "Vancouver bc"
+      }
+    },
+    "7931565934": {
+      "fingerprint": "073f69be06c7",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0,
+        "address_text": "Vancouver"
+      }
+    },
+    "7928214936": {
+      "fingerprint": "a36cb3d3bab4",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0
+      }
+    },
+    "7929298472": {
+      "fingerprint": "a29e70e2c7c4",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 2.0
+      }
+    },
+    "7930841710": {
+      "fingerprint": "a8740502a84e",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "Vancouver"
+      }
+    },
+    "7930831402": {
+      "fingerprint": "910f29e1fcac",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "Vancouver"
+      }
+    },
+    "7930822791": {
+      "fingerprint": "96b829acde9d",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "Anywhere BC"
+      }
+    },
+    "7928497501": {
+      "fingerprint": "0a1847768906",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {}
+    },
+    "7929802138": {
+      "fingerprint": "7cb1cc0f431d",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0,
+        "address_text": "Vancouver"
+      }
+    },
+    "7929783641": {
+      "fingerprint": "3a5c442ec01d",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0
+      }
+    },
+    "7929326400": {
+      "fingerprint": "5c341b8416b1",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 3.0,
+        "address_text": "Vancouver"
+      }
+    },
+    "7929215389": {
+      "fingerprint": "58f6dbe5aa49",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0,
+        "address_text": "Westend - English Bay"
+      }
+    },
+    "7929032907": {
+      "fingerprint": "c300745403a9",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0
+      }
+    },
+    "7928189969": {
+      "fingerprint": "b835e2c57c2b",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {}
+    },
+    "7928001214": {
+      "fingerprint": "b936c7ae0984",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 2.0,
+        "address_text": "Vancouver BC"
+      }
+    },
+    "7925093018": {
+      "fingerprint": "abf207b9b5dc",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 3.0,
+        "address_text": "Vancouver"
+      }
+    },
+    "7927335892": {
+      "fingerprint": "beb40d4b566b",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0,
+        "address_text": "Vancouver"
+      }
+    },
+    "7927153165": {
+      "fingerprint": "e38d58392263",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {}
+    },
+    "7924806642": {
+      "fingerprint": "0d01dfe08213",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "East Van"
+      }
+    },
+    "7925880427": {
+      "fingerprint": "578cf468fff8",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0
+      }
+    },
+    "7925386863": {
+      "fingerprint": "2b196b2e0232",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0
+      }
+    },
+    "7925030507": {
+      "fingerprint": "9359947ccaee",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "Dunbar"
+      }
+    },
+    "7925013163": {
+      "fingerprint": "4ea2460a831d",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 2.0,
+        "address_text": "Vancouver/Burnaby"
+      }
+    },
+    "7924428135": {
+      "fingerprint": "871620d67c7a",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "Vancouver"
+      }
+    },
+    "7923543694": {
+      "fingerprint": "9f22c5b867f1",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "address_text": "KITSILANO"
+      }
+    },
+    "7922801084": {
+      "fingerprint": "8c5952ecd604",
+      "last_enriched_at": "2026-05-06T12:43:09.512421+00:00",
+      "detail_fields": {
+        "bedrooms": 1.0,
+        "address_text": "Vancouver"
+      }
+    }
+  }
+}
