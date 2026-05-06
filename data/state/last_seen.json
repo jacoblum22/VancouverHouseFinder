@@ -11,7 +11,6 @@
     "craigslist_van:7925535333",
     "craigslist_van:7925953279",
     "craigslist_van:7925998985",
-    "craigslist_van:7926557314",
     "craigslist_van:7926682125",
     "craigslist_van:7926826575",
     "craigslist_van:7926865173",
@@ -37,6 +36,7 @@
     "craigslist_van:7930661134",
     "craigslist_van:7930801532",
     "craigslist_van:7930884344",
+    "craigslist_van:7930990989",
     "craigslist_van:7931007678",
     "craigslist_van:7931013730",
     "craigslist_van:7931101041",
@@ -69,11 +69,17 @@
     "craigslist_van:7932450603",
     "craigslist_van:7932565625",
     "craigslist_van:7932619186",
+    "craigslist_van:7932626477",
     "padmapper:59887444",
     "padmapper:62284509",
     "padmapper:64087176",
     "padmapper:64223378",
-    "padmapper:64251534"
+    "padmapper:64251534",
+    "rentals_ca:cmVudGFsbGlzdGluZzo5NDg2NDg=",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTU2NTQz",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTcyNDk5",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjAwMzMy",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjE2Njgz"
   ],
-  "updated_at": "2026-05-06T22:22:35.356187+00:00"
+  "updated_at": "2026-05-06T23:23:45.331451+00:00"
 }
