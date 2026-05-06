@@ -96,6 +96,8 @@ def export_html(path: Path, listings: list[Listing], *, generated_at: datetime) 
     th {{ background: #f6f6f6; text-align: left; position: sticky; top: 0; }}
     tr:nth-child(even) {{ background: #fcfcfc; }}
     .nowrap {{ white-space: nowrap; }}
+    th.sortable {{ cursor: pointer; user-select: none; }}
+    th.sortable .sort-indicator {{ color: #888; margin-left: 4px; font-size: 12px; }}
   </style>
 </head>
 <body>
@@ -104,20 +106,71 @@ def export_html(path: Path, listings: list[Listing], *, generated_at: datetime) 
   <table>
     <thead>
       <tr>
-        <th class="nowrap">Price</th>
-        <th class="nowrap">Beds</th>
-        <th class="nowrap">Transit to UBC</th>
-        <th>Neighborhood</th>
-        <th>Address/Postal</th>
-        <th class="nowrap">Source</th>
-        <th class="nowrap">URL</th>
-        <th>Title</th>
+        <th class="nowrap sortable">Price<span class="sort-indicator"></span></th>
+        <th class="nowrap sortable">Beds<span class="sort-indicator"></span></th>
+        <th class="nowrap sortable">Transit to UBC<span class="sort-indicator"></span></th>
+        <th class="sortable">Neighborhood<span class="sort-indicator"></span></th>
+        <th class="sortable">Address/Postal<span class="sort-indicator"></span></th>
+        <th class="nowrap sortable">Source<span class="sort-indicator"></span></th>
+        <th class="nowrap sortable">URL<span class="sort-indicator"></span></th>
+        <th class="sortable">Title<span class="sort-indicator"></span></th>
       </tr>
     </thead>
     <tbody>
       {"".join(rows)}
     </tbody>
   </table>
+  <script>
+    (function () {{
+      const table = document.querySelector("table");
+      if (!table) return;
+      const tbody = table.querySelector("tbody");
+      const headers = Array.from(table.querySelectorAll("thead th.sortable"));
+      let sortedCol = -1;
+      let ascending = true;
+
+      function toSortValue(text, colIndex) {{
+        const raw = text.trim();
+        if (colIndex === 0) return Number(raw.replace(/[^0-9.-]/g, "")) || 0; // Price
+        if (colIndex === 1) return Number(raw.replace(/[^0-9.-]/g, "")) || 0; // Beds
+        if (colIndex === 2) return Number(raw.replace(/[^0-9.-]/g, "")) || 0; // Transit min
+        return raw.toLowerCase();
+      }}
+
+      function updateIndicators() {{
+        headers.forEach((h, i) => {{
+          const indicator = h.querySelector(".sort-indicator");
+          if (!indicator) return;
+          indicator.textContent = i === sortedCol ? (ascending ? "▲" : "▼") : "";
+        }});
+      }}
+
+      headers.forEach((header, colIndex) => {{
+        header.addEventListener("click", () => {{
+          const rows = Array.from(tbody.querySelectorAll("tr"));
+          if (sortedCol === colIndex) {{
+            ascending = !ascending;
+          }} else {{
+            sortedCol = colIndex;
+            ascending = true;
+          }}
+
+          rows.sort((a, b) => {{
+            const aText = a.children[colIndex]?.textContent || "";
+            const bText = b.children[colIndex]?.textContent || "";
+            const av = toSortValue(aText, colIndex);
+            const bv = toSortValue(bText, colIndex);
+            if (av < bv) return ascending ? -1 : 1;
+            if (av > bv) return ascending ? 1 : -1;
+            return 0;
+          }});
+
+          rows.forEach((row) => tbody.appendChild(row));
+          updateIndicators();
+        }});
+      }});
+    }})();
+  </script>
 </body>
 </html>
 """

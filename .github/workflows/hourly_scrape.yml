@@ -56,7 +56,16 @@ jobs:
         run: python -m vhf.notify
 
       # ------------------------------------------------------------------ #
-      # 5. Commit updated exports + state back to repo                       #
+      # 5. Publish GitHub Pages artifact (docs/index.html)                   #
+      # ------------------------------------------------------------------ #
+      - name: Copy HTML export to docs/index.html
+        run: |
+          mkdir -p docs
+          cp data/exports/results.html docs/index.html
+          touch docs/.nojekyll
+
+      # ------------------------------------------------------------------ #
+      # 6. Commit updated exports + state back to repo                       #
       # (skipped automatically if nothing changed)                           #
       # ------------------------------------------------------------------ #
       - name: Commit updated data
@@ -69,7 +78,9 @@ jobs:
             data/exports/results.html \
             data/exports/results.csv \
             data/processed/transit_cache.json \
-            data/state/last_seen.json
+            data/state/last_seen.json \
+            docs/index.html \
+            docs/.nojekyll
 
           # Only commit if there are staged changes
           git diff --staged --quiet \
