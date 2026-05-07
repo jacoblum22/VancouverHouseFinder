@@ -130,42 +130,6 @@ def _table_rows_from_listings(
     return rows_html
 
 
-def _table_rows_from_summaries(
-    summaries: list[dict[str, Any]],
-    cell_style: str,
-) -> list[str]:
-    rows_html: list[str] = []
-    for i, s in enumerate(summaries):
-        pc = s.get("price_cad")
-        price = f"${int(pc):,}" if isinstance(pc, int) else "?"
-        beds = _fmt_beds(s.get("bedrooms") if isinstance(s.get("bedrooms"), (int, float)) else None)
-        tm = s.get("transit_minutes_to_ubc")
-        transit = f"{int(tm)} min" if isinstance(tm, int) else "—"
-        raw_url = s.get("url") or ""
-        url = _html.escape(str(raw_url))
-        neigh = _html.escape(str(s.get("neighborhood") or ""))
-        address = _html.escape(str(s.get("address_text") or ""))
-        title = _html.escape(str(s.get("title") or ""))
-        source = _html.escape(str(s.get("source") or ""))
-        bg = "#ffffff" if i % 2 == 0 else "#fafafa"
-        link_cell = (
-            f'<a href="{url}" style="color:#1a73e8">link</a>' if raw_url else "—"
-        )
-        rows_html.append(
-            f'<tr style="background:{bg}">'
-            f'<td style="{cell_style}">{price}</td>'
-            f'<td style="{cell_style}">{beds}</td>'
-            f'<td style="{cell_style}">{transit}</td>'
-            f'<td style="{cell_style}">{neigh}</td>'
-            f'<td style="{cell_style}">{address}</td>'
-            f'<td style="{cell_style}">{source}</td>'
-            f'<td style="{cell_style}">{link_cell}</td>'
-            f'<td style="{cell_style}">{title}</td>'
-            "</tr>"
-        )
-    return rows_html
-
-
 def _thead_html(head_cell: str) -> str:
     return f"""    <thead>
       <tr>
@@ -183,13 +147,13 @@ def _thead_html(head_cell: str) -> str:
 
 def _build_email(
     new_listings: list[Listing],
-    removed_summaries: list[dict[str, Any]],
+    removed_count: int,
     total_current: int,
     run_at: datetime,
 ) -> tuple[str, str]:
     """Return (plain_text, html_text) for the notification email."""
     n_new = len(new_listings)
-    n_rm = len(removed_summaries)
+    n_rm = removed_count
     ts = run_at.strftime("%Y-%m-%d %H:%M UTC")
 
     summary_bits: list[str] = []
@@ -219,23 +183,11 @@ def _build_email(
             f"  {lst.url}",
             "",
         ]
-    if removed_summaries:
-        if new_listings:
-            lines.append("")
-        lines.append("REMOVED (no longer in filtered snapshot)")
-        lines.append("")
-    for s in removed_summaries:
-        pc = s.get("price_cad")
-        price = f"${int(pc):,}" if isinstance(pc, int) else "?"
-        br = s.get("bedrooms")
-        beds = _fmt_beds(br if isinstance(br, (int, float)) else None)
-        tm = s.get("transit_minutes_to_ubc")
-        transit = f"{int(tm)} min to UBC" if isinstance(tm, int) else ""
+    if n_rm:
         lines += [
-            f"  {price} | {beds} bed | {transit}",
-            f"  {s.get('neighborhood') or ''} — {s.get('address_text') or ''}",
-            f"  [{s.get('source') or ''}]  {s.get('title') or ''}",
-            f"  {s.get('url') or s.get('_key') or ''}",
+            "",
+            f"REMOVED: {n_rm} listing{'s' if n_rm != 1 else ''} "
+            "(no longer in filtered snapshot)",
             "",
         ]
     plain = "\n".join(lines)
@@ -256,16 +208,12 @@ def _build_email(
     </tbody>
   </table>"""
         )
-    if removed_summaries:
-        rows = "".join(_table_rows_from_summaries(removed_summaries, cell))
+    if n_rm:
         sections.append(
             f"""  <h3 style="margin-top:24px;color:#c5221f;">Removed ({n_rm})</h3>
-  <table style="border-collapse:collapse;width:100%;font-size:14px;">
-{_thead_html(head_cell)}
-    <tbody>
-{rows}
-    </tbody>
-  </table>"""
+  <p style="margin-top:4px;font-size:14px;color:#555;">
+    {n_rm} listing{'s' if n_rm != 1 else ''} were removed from the filtered snapshot.
+  </p>"""
         )
 
     html_body = f"""<!doctype html>
@@ -289,7 +237,7 @@ def _build_email(
 
 def _send_email(
     new_listings: list[Listing],
-    removed_summaries: list[dict[str, Any]],
+    removed_count: int,
     total_current: int,
 ) -> None:
     smtp_host = os.environ.get("SMTP_HOST", "")
@@ -305,7 +253,7 @@ def _send_email(
         return
 
     n_new = len(new_listings)
-    n_rm = len(removed_summaries)
+    n_rm = removed_count
     run_at = datetime.now(UTC)
     sub_parts: list[str] = []
     if n_new:
@@ -314,7 +262,7 @@ def _send_email(
         sub_parts.append(f"{n_rm} removed")
     subject = "VHF: " + ", ".join(sub_parts)
     plain, html_body = _build_email(
-        new_listings, removed_summaries, total_current, run_at
+        new_listings, removed_count, total_current, run_at
     )
 
     msg = MIMEMultipart("alternative")
@@ -361,7 +309,7 @@ def run_notify() -> None:
 
     listings = read_jsonl(_LISTINGS_FILE, Listing)
     current_map: dict[str, Listing] = {_listing_key(l): l for l in listings}
-    prior_keys, prior_entries = _load_prior_state()
+    prior_keys, _prior_entries = _load_prior_state()
 
     is_first_run = len(prior_keys) == 0
     current_keys = set(current_map.keys())
@@ -369,25 +317,20 @@ def run_notify() -> None:
     removed_keys = prior_keys - current_keys
 
     new_listings = [current_map[k] for k in sorted(new_keys)]
-    removed_summaries: list[dict[str, Any]] = []
-    for k in sorted(removed_keys):
-        base = dict(prior_entries.get(k, {}))
-        if not base.get("url") and not base.get("title"):
-            base["_key"] = k
-        removed_summaries.append(base)
+    removed_count = len(removed_keys)
 
     console.print(f"  Prior known:   {len(prior_keys)}")
     console.print(f"  Current total: {len(current_map)}")
     console.print(f"  New listings:  {len(new_listings)}")
-    console.print(f"  Removed:       {len(removed_summaries)}")
+    console.print(f"  Removed:       {removed_count}")
 
     if is_first_run:
         console.print(
             "  [yellow]First run — seeding state snapshot.[/yellow] "
             "No email sent. Future runs will notify on new or removed listings."
         )
-    elif new_listings or removed_summaries:
-        _send_email(new_listings, removed_summaries, len(listings))
+    elif new_listings or removed_count:
+        _send_email(new_listings, removed_count, len(listings))
     else:
         console.print("  No new or removed listings — nothing to send.")
 
