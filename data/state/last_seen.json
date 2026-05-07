@@ -1,5 +1,45 @@
 {
   "entries": {
+    "craigslist_van:7931324908": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-well-maintained-bright/7931324908.html",
+      "title": "Well-Maintained Bright Spacious 5-6BR Whole House Nice Patio & Garage",
+      "source": "craigslist_van",
+      "price_cad": 4500,
+      "bedrooms": 6.0,
+      "neighborhood": "Marpole",
+      "address_text": "W 62 Ave, Vancouver, BC V6P2G1",
+      "transit_minutes_to_ubc": 48
+    },
+    "craigslist_van:7932674659": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-entire-bedroom-house-for-rent/7932674659.html",
+      "title": "\ud83c\udfe1 Entire 7 Bedroom House for Rent",
+      "source": "craigslist_van",
+      "price_cad": 5500,
+      "bedrooms": 7.0,
+      "neighborhood": "North Burnaby (Near SFU)",
+      "address_text": "Approx map: 49.264000, -122.936900",
+      "transit_minutes_to_ubc": 86
+    },
+    "craigslist_van:7932671497": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-entire-house-bedrooms-by/7932671497.html",
+      "title": "Entire House 6 Bedrooms By Canada Line Station",
+      "source": "craigslist_van",
+      "price_cad": 4550,
+      "bedrooms": 6.0,
+      "neighborhood": "Vancouver,Canada Line, Cambie",
+      "address_text": "Approx map: 49.247500, -123.121000",
+      "transit_minutes_to_ubc": 44
+    },
+    "craigslist_van:7930573436": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-beds-baths-house-in-marpole/7930573436.html",
+      "title": "5 Beds-4 Baths House in Marpole for Rent ( FLEXIBLE LEASE)",
+      "source": "craigslist_van",
+      "price_cad": 4500,
+      "bedrooms": 5.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "Approx map: 49.222000, -123.068300",
+      "transit_minutes_to_ubc": 58
+    },
     "craigslist_van:7929875795": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-plhref7969spacious-bedroom/7929875795.html",
       "title": "(PLH_REF#7969)***Spacious 4-Bedroom Family Home in Desirable Marpole \u2014",
@@ -39,16 +79,6 @@
       "neighborhood": "hastings sunrise",
       "address_text": "Approx map: 49.280700, -123.039700",
       "transit_minutes_to_ubc": 75
-    },
-    "craigslist_van:7932626477": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-burnaby-government-road-large/7932626477.html",
-      "title": "Burnaby Government Road Large 5Bd/3Ba Single Family House",
-      "source": "craigslist_van",
-      "price_cad": 4800,
-      "bedrooms": 5.0,
-      "neighborhood": "Burnaby",
-      "address_text": "Approx map: 49.264000, -122.936900",
-      "transit_minutes_to_ubc": 86
     },
     "craigslist_van:7932619186": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-concrete-townhouse-in-ubc/7932619186.html",
@@ -220,16 +250,6 @@
       "address_text": "W48th Avenue, Vancouver, BC V5Y2V9",
       "transit_minutes_to_ubc": 29
     },
-    "craigslist_van:7932391841": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-rare-fraserview-rental-custom/7932391841.html",
-      "title": "Rare Fraserview Rental \u2013 Custom-Built Luxury Home (7 Bed / 6 Bath)",
-      "source": "craigslist_van",
-      "price_cad": 6500,
-      "bedrooms": 7.0,
-      "neighborhood": "city of vancouver",
-      "address_text": "Approx map: 49.222000, -123.068300",
-      "transit_minutes_to_ubc": 58
-    },
     "craigslist_van:7930518372": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-br-unit-for-rent/7930518372.html",
       "title": "$3913.00 / 4BR Unit for Rent",
@@ -310,16 +330,6 @@
       "address_text": "Approx map: 49.050519, -122.781647",
       "transit_minutes_to_ubc": 121
     },
-    "craigslist_van:7931324908": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-well-maintained-bright/7931324908.html",
-      "title": "Well-Maintained Bright Spacious 5-6BR Whole House Nice Patio & Garage",
-      "source": "craigslist_van",
-      "price_cad": 4500,
-      "bedrooms": 6.0,
-      "neighborhood": "Marpole",
-      "address_text": "W 62 Ave, Vancouver, BC V6P2G1",
-      "transit_minutes_to_ubc": 48
-    },
     "craigslist_van:7932222732": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-cozy-4br-family-home-top/7932222732.html",
       "title": "\ud83c\udfe1 Cozy 4BR Family Home | Top School Catchment | Dunbar",
@@ -349,16 +359,6 @@
       "neighborhood": "city of vancouver",
       "address_text": "3980 Inlet Crescent, North Vancouver, BC V7G2P9",
       "transit_minutes_to_ubc": 94
-    },
-    "craigslist_van:7928048969": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-whole-house-for-rent/7928048969.html",
-      "title": "Whole House for Rent | Vancouver Westside | Quiet Residential Area",
-      "source": "craigslist_van",
-      "price_cad": 6500,
-      "bedrooms": 6.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Approx map: 49.215100, -123.139600",
-      "transit_minutes_to_ubc": 44
     },
     "craigslist_van:7932157524": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-kitsilano-4br/7932157524.html",
@@ -429,6 +429,16 @@
       "neighborhood": "city of vancouver",
       "address_text": "V7R 3V4",
       "transit_minutes_to_ubc": 76
+    },
+    "craigslist_van:7930221460": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-west-oak-street/7930221460.html",
+      "title": "Vancouver West Oak Street 4 Bedrooms Townhouse",
+      "source": "craigslist_van",
+      "price_cad": 4700,
+      "bedrooms": 4.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "Approx map: 49.215100, -123.139600",
+      "transit_minutes_to_ubc": 44
     },
     "craigslist_van:7931993631": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bright-bedroom-character/7931993631.html",
@@ -680,16 +690,6 @@
       "address_text": "W. 63rd Ave, Vancouver, BC V5X2H6",
       "transit_minutes_to_ubc": 55
     },
-    "craigslist_van:7924562523": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-main-house-for-rent/7924562523.html",
-      "title": "5-bedroom main house for rent",
-      "source": "craigslist_van",
-      "price_cad": 6500,
-      "bedrooms": 5.0,
-      "neighborhood": "Vancouver",
-      "address_text": "1775 East 59th Ave, Vancouver, BC V6B0G6",
-      "transit_minutes_to_ubc": 62
-    },
     "padmapper:64223378": {
       "url": "https://www.padmapper.com/rentals/28423702p/4-bedroom-2-bath-apartment-at-82-west-45th-avenue-vancouver-bc-v5y-2v9",
       "title": null,
@@ -740,35 +740,15 @@
       "address_text": "2300 Harrison Drive, Vancouver, BC, V5P 2P8",
       "transit_minutes_to_ubc": 68
     },
-    "rentals_ca:cmVudGFsbGlzdGluZzo5NDg2NDg=": {
-      "url": "https://rentals.ca/vancouver/homer-street-id948648",
-      "title": "Homer Street",
-      "source": "rentals_ca",
-      "price_cad": 4200,
-      "bedrooms": 4.0,
-      "neighborhood": null,
-      "address_text": "Homer Street, Vancouver, BC, V6B 6A7",
-      "transit_minutes_to_ubc": 48
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMjE2Njgz": {
-      "url": "https://rentals.ca/vancouver/1969-west-43rd-avenue",
+    "padmapper:64295278": {
+      "url": "https://www.padmapper.com/rentals/28436450p/5-bedroom-3-bath-apartment-at-1458-45th-ave-w-vancouver-bc-v6m-2h1",
       "title": null,
-      "source": "rentals_ca",
-      "price_cad": 6500,
+      "source": "padmapper",
+      "price_cad": 5500,
       "bedrooms": 5.0,
-      "neighborhood": null,
-      "address_text": "1969 West 43rd Avenue, Vancouver, BC, V6M 2C7",
-      "transit_minutes_to_ubc": 32
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMTU2NTQz": {
-      "url": "https://rentals.ca/vancouver/4xxx-28-avenue",
-      "title": "4xxx W 28 AVENUE",
-      "source": "rentals_ca",
-      "price_cad": 6500,
-      "bedrooms": 5.0,
-      "neighborhood": null,
-      "address_text": "4xxx 28 Avenue, Vancouver, BC, V6S 1S7",
-      "transit_minutes_to_ubc": 35
+      "neighborhood": "Oakridge",
+      "address_text": "1458 45th Ave W, Vancouver, BC, V6M 2H1",
+      "transit_minutes_to_ubc": 39
     },
     "rentals_ca:cmVudGFsbGlzdGluZzoxMTcyNDk5": {
       "url": "https://rentals.ca/vancouver/1500-66th-west-street",
@@ -780,16 +760,36 @@
       "address_text": "1500 66TH WEST Street, Vancouver, BC, V6P 2R9",
       "transit_minutes_to_ubc": 48
     },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMTk2MzIw": {
-      "url": "https://rentals.ca/vancouver/2400-west-19th-avenue-id1196320",
-      "title": "2400 WEST 19TH AVENUE",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjAwMzMy": {
+      "url": "https://rentals.ca/vancouver/3400-18th-avenue",
+      "title": "3400 W 18TH AVENUE",
       "source": "rentals_ca",
-      "price_cad": 6600,
-      "bedrooms": 6.0,
+      "price_cad": 6250,
+      "bedrooms": 4.0,
       "neighborhood": null,
-      "address_text": "2400 WEST 19TH Avenue, Vancouver, BC, V6L 1C7",
-      "transit_minutes_to_ubc": 31
+      "address_text": "3400 18TH Avenue, Vancouver, BC, V6S 1A7",
+      "transit_minutes_to_ubc": 29
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTU2NTQz": {
+      "url": "https://rentals.ca/vancouver/4xxx-28-avenue",
+      "title": "4xxx W 28 AVENUE",
+      "source": "rentals_ca",
+      "price_cad": 6500,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "4xxx 28 Avenue, Vancouver, BC, V6S 1S7",
+      "transit_minutes_to_ubc": 35
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTk4NDIy": {
+      "url": "https://rentals.ca/vancouver/2683-w-41st-ave",
+      "title": "2683 W 41ST AVE",
+      "source": "rentals_ca",
+      "price_cad": 6000,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "2683 W 41ST AVE, Vancouver, BC, V6N 3C3",
+      "transit_minutes_to_ubc": 30
     }
   },
-  "updated_at": "2026-05-07T01:47:03.662959+00:00"
+  "updated_at": "2026-05-07T12:43:23.042916+00:00"
 }
