@@ -1,8 +1,8 @@
-name: Hourly Scrape
+name: Scheduled Scrape
 
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour (GitHub may delay up to ~1 h under load)
+    - cron: "0 */12 * * *"   # every 12 hours at :00 UTC (GitHub may delay under load)
   workflow_dispatch:        # also triggerable manually from the Actions tab
 
 permissions:

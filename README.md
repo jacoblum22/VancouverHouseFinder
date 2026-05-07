@@ -1,6 +1,6 @@
 # Vancouver House Finder (VHF)
 
-Scrapes Vancouver rental listings matching your criteria from multiple sites, deduplicates cross-posts, calculates transit time to UBC, and emails you when new listings appear.
+Scrapes Vancouver rental listings matching your criteria from multiple sites, deduplicates cross-posts, calculates transit time to UBC, and emails you when listings are newly found or drop out of the filtered snapshot.
 
 ## What it does
 
@@ -9,8 +9,8 @@ Scrapes Vancouver rental listings matching your criteria from multiple sites, de
 - Deduplicates listings that appear across multiple sites
 - Enriches listings with Google Maps transit time to UBC (6133 University Blvd)
 - Exports `data/exports/results.html` and `data/exports/results.csv`
-- Runs automatically every hour via GitHub Actions
-- Sends one aggregated email per run when new listings are detected
+- Runs automatically every 12 hours via GitHub Actions
+- Sends one aggregated email per run when new or removed listings are detected
 
 ## Repo layout
 
@@ -20,7 +20,7 @@ data/exports/      results.html + results.csv — updated each run, committed to
 data/processed/    transit_cache.json — committed; listings.jsonl — gitignored
 data/state/        last_seen.json — tracks known listing IDs for new-listing detection
 data/raw/          Raw fetched pages — gitignored (ephemeral)
-.github/workflows/ hourly_scrape.yml — GitHub Actions workflow
+.github/workflows/ scheduled_scrape.yml — GitHub Actions workflow
 ```
 
 ## Running locally
@@ -73,7 +73,7 @@ This fetches all sites, filters, deduplicates, enriches transit times, and write
 python -m vhf.notify
 ```
 
-Compares current listings against `data/state/last_seen.json`. Sends email if new listings exist. Updates the state file.
+Compares current listings against `data/state/last_seen.json`. Sends email if new or removed listings are detected. Updates the state file.
 
 `EMAIL_TO` supports multiple recipients separated by comma, semicolon, or newline.
 
@@ -89,7 +89,7 @@ Any other SMTP provider (Outlook, custom) works the same way — just swap the h
 
 ## GitHub Actions Setup
 
-The workflow at `.github/workflows/hourly_scrape.yml` runs every hour automatically.
+The workflow at `.github/workflows/scheduled_scrape.yml` runs every 12 hours automatically (at 00:00 and 12:00 UTC, subject to GitHub runner scheduling).
 
 ### Required GitHub Secrets
 
@@ -107,12 +107,12 @@ Go to **Repository → Settings → Secrets and variables → Actions → New re
 
 ### First run behaviour
 
-The first automated run seeds `data/state/last_seen.json` with all current listings and does **not** send an email (to avoid a big blast of existing listings). From that point forward, only genuinely new listings trigger a notification.
+The first automated run seeds `data/state/last_seen.json` with all current listings and does **not** send an email (to avoid a big blast of existing listings). From that point forward, genuinely new or removed listings trigger a notification.
 
 ### Manual trigger
 
 You can trigger a run any time from:
-**GitHub → Actions tab → Hourly Scrape → Run workflow**
+**GitHub → Actions tab → Scheduled Scrape → Run workflow**
 
 ### Viewing results
 

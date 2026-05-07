@@ -4,8 +4,8 @@ Run as:
     python -m vhf.notify
 
 Compares the current listings.jsonl against the prior state snapshot.
-Sends one aggregated email if new listings are found, then updates the
-state file so the next run only fires on genuinely new entries.
+Sends one aggregated email if new or removed listings are detected, then
+updates the state file so the next run only reports genuine changes.
 """
 from __future__ import annotations
 
@@ -17,6 +17,7 @@ import smtplib
 from datetime import UTC, datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from typing import Any
 
 from rich.console import Console
 
@@ -41,21 +42,48 @@ def _listing_key(listing: Listing) -> str:
     return str(listing.url).lower().rstrip("/")
 
 
-def _load_prior_keys() -> set[str]:
+def _listing_summary_for_state(listing: Listing) -> dict[str, Any]:
+    return {
+        "url": str(listing.url),
+        "title": listing.title,
+        "source": listing.source,
+        "price_cad": listing.price_cad,
+        "bedrooms": listing.bedrooms,
+        "neighborhood": listing.neighborhood,
+        "address_text": listing.address_text,
+        "transit_minutes_to_ubc": listing.transit_minutes_to_ubc,
+    }
+
+
+def _load_prior_state() -> tuple[set[str], dict[str, dict[str, Any]]]:
     if not _STATE_FILE.exists():
-        return set()
+        return set(), {}
     try:
         data = json.loads(_STATE_FILE.read_text(encoding="utf-8"))
-        return set(data.get("keys", []))
     except Exception:
-        return set()
+        return set(), {}
+
+    entries_raw = data.get("entries")
+    if isinstance(entries_raw, dict):
+        entries: dict[str, dict[str, Any]] = {}
+        for k, v in entries_raw.items():
+            if isinstance(v, dict):
+                entries[str(k)] = v
+        return set(entries.keys()), entries
+
+    keys_raw = data.get("keys")
+    if isinstance(keys_raw, list):
+        return {str(k) for k in keys_raw}, {}
+
+    return set(), {}
 
 
-def _save_state(keys: set[str]) -> None:
+def _save_state(current_map: dict[str, Listing]) -> None:
     STATE_DIR.mkdir(parents=True, exist_ok=True)
+    entries = {k: _listing_summary_for_state(v) for k, v in current_map.items()}
     _STATE_FILE.write_text(
         json.dumps(
-            {"keys": sorted(keys), "updated_at": datetime.now(UTC).isoformat()},
+            {"entries": entries, "updated_at": datetime.now(UTC).isoformat()},
             indent=2,
         ),
         encoding="utf-8",
@@ -72,40 +100,12 @@ def _fmt_beds(beds: float | None) -> str:
     return str(int(beds)) if beds == int(beds) else str(beds)
 
 
-def _build_email(
-    new_listings: list[Listing],
-    total_current: int,
-    run_at: datetime,
-) -> tuple[str, str]:
-    """Return (plain_text, html_text) for the notification email."""
-    n = len(new_listings)
-    ts = run_at.strftime("%Y-%m-%d %H:%M UTC")
-
-    # ---- plain text ----
-    lines = [
-        f"Vancouver House Finder — {n} new listing{'s' if n != 1 else ''} found",
-        f"Run: {ts}  |  Total active listings: {total_current}",
-        "",
-    ]
-    for lst in new_listings:
-        price = f"${lst.price_cad:,}" if lst.price_cad else "?"
-        beds = _fmt_beds(lst.bedrooms)
-        transit = f"{lst.transit_minutes_to_ubc} min to UBC" if lst.transit_minutes_to_ubc is not None else ""
-        lines += [
-            f"  {price} | {beds} bed | {transit}",
-            f"  {lst.neighborhood or ''} — {lst.address_text or ''}",
-            f"  [{lst.source}]  {lst.title or ''}",
-            f"  {lst.url}",
-            "",
-        ]
-    plain = "\n".join(lines)
-
-    # ---- HTML ----
-    cell = "padding:8px 12px;border:1px solid #e0e0e0;vertical-align:top;"
-    head_cell = cell + "background:#f5f5f5;font-weight:600;white-space:nowrap;"
-
+def _table_rows_from_listings(
+    listings: list[Listing],
+    cell_style: str,
+) -> list[str]:
     rows_html: list[str] = []
-    for i, lst in enumerate(new_listings):
+    for i, lst in enumerate(listings):
         price = f"${lst.price_cad:,}" if lst.price_cad else "?"
         beds = _fmt_beds(lst.bedrooms)
         transit = f"{lst.transit_minutes_to_ubc} min" if lst.transit_minutes_to_ubc is not None else "—"
@@ -117,27 +117,57 @@ def _build_email(
         bg = "#ffffff" if i % 2 == 0 else "#fafafa"
         rows_html.append(
             f'<tr style="background:{bg}">'
-            f'<td style="{cell}">{price}</td>'
-            f'<td style="{cell}">{beds}</td>'
-            f'<td style="{cell}">{transit}</td>'
-            f'<td style="{cell}">{neigh}</td>'
-            f'<td style="{cell}">{address}</td>'
-            f'<td style="{cell}">{source}</td>'
-            f'<td style="{cell}"><a href="{url}" style="color:#1a73e8">link</a></td>'
-            f'<td style="{cell}">{title}</td>'
+            f'<td style="{cell_style}">{price}</td>'
+            f'<td style="{cell_style}">{beds}</td>'
+            f'<td style="{cell_style}">{transit}</td>'
+            f'<td style="{cell_style}">{neigh}</td>'
+            f'<td style="{cell_style}">{address}</td>'
+            f'<td style="{cell_style}">{source}</td>'
+            f'<td style="{cell_style}"><a href="{url}" style="color:#1a73e8">link</a></td>'
+            f'<td style="{cell_style}">{title}</td>'
             "</tr>"
         )
+    return rows_html
 
-    html_body = f"""<!doctype html>
-<html>
-<head><meta charset="utf-8"/></head>
-<body style="font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;margin:24px;color:#222;">
-  <h2 style="color:#1a73e8;margin-bottom:4px;">
-    Vancouver House Finder — {n} new listing{'s' if n != 1 else ''} found
-  </h2>
-  <p style="color:#666;margin-top:4px;font-size:14px;">{ts} &nbsp;·&nbsp; {total_current} total active listings</p>
-  <table style="border-collapse:collapse;width:100%;font-size:14px;">
-    <thead>
+
+def _table_rows_from_summaries(
+    summaries: list[dict[str, Any]],
+    cell_style: str,
+) -> list[str]:
+    rows_html: list[str] = []
+    for i, s in enumerate(summaries):
+        pc = s.get("price_cad")
+        price = f"${int(pc):,}" if isinstance(pc, int) else "?"
+        beds = _fmt_beds(s.get("bedrooms") if isinstance(s.get("bedrooms"), (int, float)) else None)
+        tm = s.get("transit_minutes_to_ubc")
+        transit = f"{int(tm)} min" if isinstance(tm, int) else "—"
+        raw_url = s.get("url") or ""
+        url = _html.escape(str(raw_url))
+        neigh = _html.escape(str(s.get("neighborhood") or ""))
+        address = _html.escape(str(s.get("address_text") or ""))
+        title = _html.escape(str(s.get("title") or ""))
+        source = _html.escape(str(s.get("source") or ""))
+        bg = "#ffffff" if i % 2 == 0 else "#fafafa"
+        link_cell = (
+            f'<a href="{url}" style="color:#1a73e8">link</a>' if raw_url else "—"
+        )
+        rows_html.append(
+            f'<tr style="background:{bg}">'
+            f'<td style="{cell_style}">{price}</td>'
+            f'<td style="{cell_style}">{beds}</td>'
+            f'<td style="{cell_style}">{transit}</td>'
+            f'<td style="{cell_style}">{neigh}</td>'
+            f'<td style="{cell_style}">{address}</td>'
+            f'<td style="{cell_style}">{source}</td>'
+            f'<td style="{cell_style}">{link_cell}</td>'
+            f'<td style="{cell_style}">{title}</td>'
+            "</tr>"
+        )
+    return rows_html
+
+
+def _thead_html(head_cell: str) -> str:
+    return f"""    <thead>
       <tr>
         <th style="{head_cell}">Price</th>
         <th style="{head_cell}">Beds</th>
@@ -148,11 +178,105 @@ def _build_email(
         <th style="{head_cell}">URL</th>
         <th style="{head_cell}">Title</th>
       </tr>
-    </thead>
+    </thead>"""
+
+
+def _build_email(
+    new_listings: list[Listing],
+    removed_summaries: list[dict[str, Any]],
+    total_current: int,
+    run_at: datetime,
+) -> tuple[str, str]:
+    """Return (plain_text, html_text) for the notification email."""
+    n_new = len(new_listings)
+    n_rm = len(removed_summaries)
+    ts = run_at.strftime("%Y-%m-%d %H:%M UTC")
+
+    summary_bits: list[str] = []
+    if n_new:
+        summary_bits.append(f"{n_new} new listing{'s' if n_new != 1 else ''}")
+    if n_rm:
+        summary_bits.append(f"{n_rm} removed listing{'s' if n_rm != 1 else ''}")
+    headline = "Vancouver House Finder — " + ", ".join(summary_bits)
+
+    # ---- plain text ----
+    lines = [
+        headline,
+        f"Run: {ts}  |  Total active listings: {total_current}",
+        "",
+    ]
+    if new_listings:
+        lines.append("NEW")
+        lines.append("")
+    for lst in new_listings:
+        price = f"${lst.price_cad:,}" if lst.price_cad else "?"
+        beds = _fmt_beds(lst.bedrooms)
+        transit = f"{lst.transit_minutes_to_ubc} min to UBC" if lst.transit_minutes_to_ubc is not None else ""
+        lines += [
+            f"  {price} | {beds} bed | {transit}",
+            f"  {lst.neighborhood or ''} — {lst.address_text or ''}",
+            f"  [{lst.source}]  {lst.title or ''}",
+            f"  {lst.url}",
+            "",
+        ]
+    if removed_summaries:
+        if new_listings:
+            lines.append("")
+        lines.append("REMOVED (no longer in filtered snapshot)")
+        lines.append("")
+    for s in removed_summaries:
+        pc = s.get("price_cad")
+        price = f"${int(pc):,}" if isinstance(pc, int) else "?"
+        br = s.get("bedrooms")
+        beds = _fmt_beds(br if isinstance(br, (int, float)) else None)
+        tm = s.get("transit_minutes_to_ubc")
+        transit = f"{int(tm)} min to UBC" if isinstance(tm, int) else ""
+        lines += [
+            f"  {price} | {beds} bed | {transit}",
+            f"  {s.get('neighborhood') or ''} — {s.get('address_text') or ''}",
+            f"  [{s.get('source') or ''}]  {s.get('title') or ''}",
+            f"  {s.get('url') or s.get('_key') or ''}",
+            "",
+        ]
+    plain = "\n".join(lines)
+
+    # ---- HTML ----
+    cell = "padding:8px 12px;border:1px solid #e0e0e0;vertical-align:top;"
+    head_cell = cell + "background:#f5f5f5;font-weight:600;white-space:nowrap;"
+
+    sections: list[str] = []
+    if new_listings:
+        rows = "".join(_table_rows_from_listings(new_listings, cell))
+        sections.append(
+            f"""  <h3 style="margin-top:24px;color:#1a73e8;">New ({n_new})</h3>
+  <table style="border-collapse:collapse;width:100%;font-size:14px;">
+{_thead_html(head_cell)}
     <tbody>
-      {"".join(rows_html)}
+{rows}
     </tbody>
-  </table>
+  </table>"""
+        )
+    if removed_summaries:
+        rows = "".join(_table_rows_from_summaries(removed_summaries, cell))
+        sections.append(
+            f"""  <h3 style="margin-top:24px;color:#c5221f;">Removed ({n_rm})</h3>
+  <table style="border-collapse:collapse;width:100%;font-size:14px;">
+{_thead_html(head_cell)}
+    <tbody>
+{rows}
+    </tbody>
+  </table>"""
+        )
+
+    html_body = f"""<!doctype html>
+<html>
+<head><meta charset="utf-8"/></head>
+<body style="font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;margin:24px;color:#222;">
+  <h2 style="color:#1a73e8;margin-bottom:4px;">
+    {headline}
+  </h2>
+  <p style="color:#666;margin-top:4px;font-size:14px;">{ts} &nbsp;·&nbsp; {total_current} total active listings</p>
+{"".join(sections)}
 </body>
 </html>"""
 
@@ -163,7 +287,11 @@ def _build_email(
 # SMTP send                                                            #
 # ------------------------------------------------------------------ #
 
-def _send_email(new_listings: list[Listing], total_current: int) -> None:
+def _send_email(
+    new_listings: list[Listing],
+    removed_summaries: list[dict[str, Any]],
+    total_current: int,
+) -> None:
     smtp_host = os.environ.get("SMTP_HOST", "")
     smtp_port = int(os.environ.get("SMTP_PORT", "587"))
     smtp_user = os.environ.get("SMTP_USERNAME", "")
@@ -176,10 +304,18 @@ def _send_email(new_listings: list[Listing], total_current: int) -> None:
         console.print("  [yellow]SKIP[/yellow] Email: SMTP env vars not configured")
         return
 
-    n = len(new_listings)
+    n_new = len(new_listings)
+    n_rm = len(removed_summaries)
     run_at = datetime.now(UTC)
-    subject = f"VHF: {n} new Vancouver listing{'s' if n != 1 else ''} found"
-    plain, html_body = _build_email(new_listings, total_current, run_at)
+    sub_parts: list[str] = []
+    if n_new:
+        sub_parts.append(f"{n_new} new")
+    if n_rm:
+        sub_parts.append(f"{n_rm} removed")
+    subject = "VHF: " + ", ".join(sub_parts)
+    plain, html_body = _build_email(
+        new_listings, removed_summaries, total_current, run_at
+    )
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
@@ -216,7 +352,7 @@ def _parse_recipients(raw: str) -> list[str]:
 # ------------------------------------------------------------------ #
 
 def run_notify() -> None:
-    """Compare current listings against prior snapshot; email if new ones exist."""
+    """Compare current listings against prior snapshot; email on changes."""
     console.print("[bold]Notify[/bold]")
 
     if not _LISTINGS_FILE.exists():
@@ -225,28 +361,38 @@ def run_notify() -> None:
 
     listings = read_jsonl(_LISTINGS_FILE, Listing)
     current_map: dict[str, Listing] = {_listing_key(l): l for l in listings}
-    prior_keys = _load_prior_keys()
+    prior_keys, prior_entries = _load_prior_state()
 
     is_first_run = len(prior_keys) == 0
-    new_keys = set(current_map.keys()) - prior_keys
-    new_listings = [current_map[k] for k in new_keys]
+    current_keys = set(current_map.keys())
+    new_keys = current_keys - prior_keys
+    removed_keys = prior_keys - current_keys
+
+    new_listings = [current_map[k] for k in sorted(new_keys)]
+    removed_summaries: list[dict[str, Any]] = []
+    for k in sorted(removed_keys):
+        base = dict(prior_entries.get(k, {}))
+        if not base.get("url") and not base.get("title"):
+            base["_key"] = k
+        removed_summaries.append(base)
 
     console.print(f"  Prior known:   {len(prior_keys)}")
     console.print(f"  Current total: {len(current_map)}")
     console.print(f"  New listings:  {len(new_listings)}")
+    console.print(f"  Removed:       {len(removed_summaries)}")
 
     if is_first_run:
         console.print(
             "  [yellow]First run — seeding state snapshot.[/yellow] "
-            "No email sent. Future runs will notify on new listings."
+            "No email sent. Future runs will notify on new or removed listings."
         )
-    elif new_listings:
-        _send_email(new_listings, len(listings))
+    elif new_listings or removed_summaries:
+        _send_email(new_listings, removed_summaries, len(listings))
     else:
-        console.print("  No new listings — nothing to send.")
+        console.print("  No new or removed listings — nothing to send.")
 
     # Always update state after a successful check
-    _save_state(set(current_map.keys()))
+    _save_state(current_map)
     console.print(f"  State saved -> {_STATE_FILE}")
 
 
