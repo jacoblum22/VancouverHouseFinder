@@ -11,7 +11,7 @@ def apply_criteria(listings: list[Listing], criteria: SearchCriteria) -> list[Li
     """
     result: list[Listing] = []
     for listing in listings:
-        if listing.price_cad is not None and listing.price_cad < 3500:
+        if listing.price_cad is not None and listing.price_cad <= 0:
             continue
         if listing.price_cad is not None and listing.price_cad > criteria.max_rent_cad:
             continue

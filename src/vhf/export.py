@@ -82,6 +82,8 @@ def export_html(path: Path, listings: list[Listing], *, generated_at: datetime) 
             + "</tr>"
         )
 
+    n = len(listings)
+    listing_word = "listing" if n == 1 else "listings"
     doc = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -98,11 +100,27 @@ def export_html(path: Path, listings: list[Listing], *, generated_at: datetime) 
     .nowrap {{ white-space: nowrap; }}
     th.sortable {{ cursor: pointer; user-select: none; }}
     th.sortable .sort-indicator {{ color: #888; margin-left: 4px; font-size: 12px; }}
+    .filters {{ display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end; margin-bottom: 18px; padding: 14px 16px; background: #f9f9f9; border: 1px solid #e0e0e0; border-radius: 8px; max-width: 960px; }}
+    .filters label {{ display: flex; flex-direction: column; font-size: 13px; gap: 5px; color: #333; }}
+    .filters input {{ min-width: 110px; padding: 7px 9px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; }}
+    .filter-clear {{ padding: 8px 14px; font-size: 14px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #fff; align-self: flex-end; }}
+    .filter-clear:hover {{ background: #f0f0f0; }}
+    .filters-hint {{ font-size: 12px; color: #666; width: 100%; margin: 0; line-height: 1.4; }}
   </style>
 </head>
 <body>
   <h2>Vancouver House Finder — Results</h2>
-  <div class="meta">Generated at: {html.escape(generated_at.isoformat())} — Count: {len(listings)}</div>
+  <div class="meta">
+    <span id="vhf-timestamp">Generated at: {html.escape(generated_at.isoformat())}</span>
+    — <span id="vhf-count-line">{n} {listing_word}</span>
+  </div>
+  <div class="filters" aria-label="Filter listings in the browser">
+    <p class="filters-hint">These filters only change what you see on this page. Scraped data, CSV, and email alerts are unchanged.</p>
+    <label>Min price (CAD)<input type="number" id="vhf-min-price" min="0" step="1" placeholder="Any" inputmode="numeric" /></label>
+    <label>Max price (CAD)<input type="number" id="vhf-max-price" min="0" step="1" placeholder="Any" inputmode="numeric" /></label>
+    <label>Max transit (min to UBC)<input type="number" id="vhf-max-transit" min="0" step="1" placeholder="Any" inputmode="numeric" /></label>
+    <button type="button" id="vhf-clear-filters" class="filter-clear">Clear</button>
+  </div>
   <table>
     <thead>
       <tr>
@@ -122,18 +140,77 @@ def export_html(path: Path, listings: list[Listing], *, generated_at: datetime) 
   </table>
   <script>
     (function () {{
+      const COL_PRICE = 0;
+      const COL_TRANSIT = 2;
       const table = document.querySelector("table");
       if (!table) return;
       const tbody = table.querySelector("tbody");
+      const countLine = document.getElementById("vhf-count-line");
+      const minEl = document.getElementById("vhf-min-price");
+      const maxEl = document.getElementById("vhf-max-price");
+      const transitEl = document.getElementById("vhf-max-transit");
+      const clearBtn = document.getElementById("vhf-clear-filters");
       const headers = Array.from(table.querySelectorAll("thead th.sortable"));
       let sortedCol = -1;
       let ascending = true;
 
+      function parsePrice(td) {{
+        const t = (td && td.textContent || "").trim();
+        if (!t) return null;
+        const n = Number(t.replace(/[^0-9.-]/g, ""));
+        return Number.isFinite(n) ? n : null;
+      }}
+
+      function parseTransit(td) {{
+        const t = (td && td.textContent || "").trim();
+        if (!t) return null;
+        const n = Number(t.replace(/[^0-9.-]/g, ""));
+        return Number.isFinite(n) ? n : null;
+      }}
+
+      function filtersActive() {{
+        return (
+          (minEl.value.trim() !== "" && Number.isFinite(Number(minEl.value))) ||
+          (maxEl.value.trim() !== "" && Number.isFinite(Number(maxEl.value))) ||
+          (transitEl.value.trim() !== "" && Number.isFinite(Number(transitEl.value)))
+        );
+      }}
+
+      function applyFilters() {{
+        const minV = Number(minEl.value);
+        const maxV = Number(maxEl.value);
+        const maxT = Number(transitEl.value);
+        const hasMin = minEl.value.trim() !== "" && Number.isFinite(minV);
+        const hasMax = maxEl.value.trim() !== "" && Number.isFinite(maxV);
+        const hasTransit = transitEl.value.trim() !== "" && Number.isFinite(maxT);
+        let visible = 0;
+        const total = tbody.querySelectorAll("tr").length;
+        tbody.querySelectorAll("tr").forEach((row) => {{
+          const cells = row.children;
+          const price = parsePrice(cells[COL_PRICE]);
+          const transit = parseTransit(cells[COL_TRANSIT]);
+          let show = true;
+          if (price !== null && price <= 0) show = false;
+          if (show && hasMin && price !== null && price < minV) show = false;
+          if (show && hasMax && price !== null && price > maxV) show = false;
+          if (show && hasTransit && transit !== null && transit > maxT) show = false;
+          row.style.display = show ? "" : "none";
+          if (show) visible++;
+        }});
+        if (countLine) {{
+          if (filtersActive()) {{
+            countLine.textContent = `Showing ${{visible}} of ${{total}}`;
+          }} else {{
+            countLine.textContent = total + (total === 1 ? " listing" : " listings");
+          }}
+        }}
+      }}
+
       function toSortValue(text, colIndex) {{
         const raw = text.trim();
-        if (colIndex === 0) return Number(raw.replace(/[^0-9.-]/g, "")) || 0; // Price
-        if (colIndex === 1) return Number(raw.replace(/[^0-9.-]/g, "")) || 0; // Beds
-        if (colIndex === 2) return Number(raw.replace(/[^0-9.-]/g, "")) || 0; // Transit min
+        if (colIndex === 0) return Number(raw.replace(/[^0-9.-]/g, "")) || 0;
+        if (colIndex === 1) return Number(raw.replace(/[^0-9.-]/g, "")) || 0;
+        if (colIndex === 2) return Number(raw.replace(/[^0-9.-]/g, "")) || 0;
         return raw.toLowerCase();
       }}
 
@@ -167,7 +244,16 @@ def export_html(path: Path, listings: list[Listing], *, generated_at: datetime) 
 
           rows.forEach((row) => tbody.appendChild(row));
           updateIndicators();
+          applyFilters();
         }});
+      }});
+
+      [minEl, maxEl, transitEl].forEach((el) => el.addEventListener("input", applyFilters));
+      clearBtn.addEventListener("click", () => {{
+        minEl.value = "";
+        maxEl.value = "";
+        transitEl.value = "";
+        applyFilters();
       }});
     }})();
   </script>
@@ -175,4 +261,3 @@ def export_html(path: Path, listings: list[Listing], *, generated_at: datetime) 
 </html>
 """
     path.write_text(doc, encoding="utf-8")
-
