@@ -1,5 +1,65 @@
 {
   "entries": {
+    "craigslist_van:7931594367": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-east-van-house-for-rent/7931594367.html",
+      "title": "East Van House for Rent",
+      "source": "craigslist_van",
+      "price_cad": 4200,
+      "bedrooms": 5.0,
+      "neighborhood": "Vancouver",
+      "address_text": "43rd ave, Vancouver, BC V5R2Z8",
+      "transit_minutes_to_ubc": 55
+    },
+    "craigslist_van:7930221460": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-west-oak-street/7930221460.html",
+      "title": "Vancouver West Oak Street 4 Bedrooms Townhouse",
+      "source": "craigslist_van",
+      "price_cad": 4700,
+      "bedrooms": 4.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "Approx map: 49.215100, -123.139600",
+      "transit_minutes_to_ubc": 44
+    },
+    "craigslist_van:7932136418": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-new-laneway-bed-35-bath-e45/7932136418.html",
+      "title": "New Laneway 4 Bed 3.5 Bath (E45 & Victoria Dr)",
+      "source": "craigslist_van",
+      "price_cad": 3150,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Approx map: 49.229700, -123.061300",
+      "transit_minutes_to_ubc": 53
+    },
+    "craigslist_van:7933327831": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-near-transit-endless-hot/7933327831.html",
+      "title": "Near Transit Endless hot water high-efficient system Downtown 13 minut",
+      "source": "craigslist_van",
+      "price_cad": 3800,
+      "bedrooms": 4.0,
+      "neighborhood": "Mount Pleasant",
+      "address_text": "E 12th Ave, Vancouver, BC V5T2H8",
+      "transit_minutes_to_ubc": 49
+    },
+    "craigslist_van:7932229301": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-bed-upper-unit-close-to/7932229301.html",
+      "title": "4 BED UPPER UNIT CLOSE TO LOUGHEED MALL AND SKYTRAIN STATION",
+      "source": "craigslist_van",
+      "price_cad": 2500,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Approx map: 49.256144, -122.899287",
+      "transit_minutes_to_ubc": 93
+    },
+    "craigslist_van:7933308368": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-long-term-or-short-term-near/7933308368.html",
+      "title": "LONG term OR SHORT Term near SkyTrain Furnished or Unfurnished #9",
+      "source": "craigslist_van",
+      "price_cad": 4509,
+      "bedrooms": 5.0,
+      "neighborhood": "SkyTrain",
+      "address_text": "E 14th Ave, Vancouver, BC V5M2J5",
+      "transit_minutes_to_ubc": 67
+    },
     "craigslist_van:7926865173": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-house-upper-suite/7926865173.html",
       "title": "4 Bed 2 Bath House Upper Suite Fraserview Vancouver East",
@@ -314,7 +374,7 @@
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedrooms-duplex-in-arbutus/7931841407.html",
       "title": "4 bedrooms Duplex in Arbutus (Dunbar UBC Point Grey)",
       "source": "craigslist_van",
-      "price_cad": 5500,
+      "price_cad": 5700,
       "bedrooms": 4.0,
       "neighborhood": "vancouver",
       "address_text": "Carnarvon St, Vancouver, BC V6L1L1",
@@ -370,11 +430,11 @@
       "address_text": "3853 W 15th Ave, Vancouver, BC V6R3A1",
       "transit_minutes_to_ubc": 23
     },
-    "craigslist_van:7926896031": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7926896031.html",
+    "craigslist_van:7926897812": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7926897812.html",
       "title": "A Furnished Room for Rent in Vancouver",
       "source": "craigslist_van",
-      "price_cad": 1200,
+      "price_cad": 1050,
       "bedrooms": 6.0,
       "neighborhood": "Vancouver",
       "address_text": "3550 W 39th Ave, Vancouver, BC V6N3A5",
@@ -430,16 +490,6 @@
       "address_text": "Approx map: 49.262590, -123.203773",
       "transit_minutes_to_ubc": 15
     },
-    "craigslist_van:7932136418": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-new-laneway-bed-35-bath-e45/7932136418.html",
-      "title": "New Laneway 4 Bed 3.5 Bath (E45 & Victoria Dr)",
-      "source": "craigslist_van",
-      "price_cad": 3150,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Approx map: 49.229700, -123.061300",
-      "transit_minutes_to_ubc": 53
-    },
     "craigslist_van:7932761842": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-bedroom-home-in/7932761842.html",
       "title": "Spacious 4-Bedroom Home in Prime Oakridge (One Month Free Rent)",
@@ -490,26 +540,6 @@
       "address_text": "3233 SW Marine Dr, Vancouver, BC V6N3Y7",
       "transit_minutes_to_ubc": 27
     },
-    "craigslist_van:7930221460": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-west-oak-street/7930221460.html",
-      "title": "Vancouver West Oak Street 4 Bedrooms Townhouse",
-      "source": "craigslist_van",
-      "price_cad": 4700,
-      "bedrooms": 4.0,
-      "neighborhood": "city of vancouver",
-      "address_text": "Approx map: 49.215100, -123.139600",
-      "transit_minutes_to_ubc": 44
-    },
-    "craigslist_van:7931324908": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-well-maintained-bright/7931324908.html",
-      "title": "Well-Maintained Bright Spacious 5-6BR Whole House Nice Patio & Garage",
-      "source": "craigslist_van",
-      "price_cad": 4500,
-      "bedrooms": 6.0,
-      "neighborhood": "Marpole",
-      "address_text": "W 62 Ave, Vancouver, BC V6P2G1",
-      "transit_minutes_to_ubc": 48
-    },
     "craigslist_van:7932674659": {
       "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-entire-bedroom-house-for-rent/7932674659.html",
       "title": "\ud83c\udfe1 Entire 7 Bedroom House for Rent",
@@ -539,16 +569,6 @@
       "neighborhood": "Burnaby, BC, UBC",
       "address_text": "2429 McBain Ave, Vancouver, BC, BC V6L2C5",
       "transit_minutes_to_ubc": 35
-    },
-    "craigslist_van:7931594367": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-east-van-house-for-rent/7931594367.html",
-      "title": "East Van House for Rent",
-      "source": "craigslist_van",
-      "price_cad": 4200,
-      "bedrooms": 5.0,
-      "neighborhood": "Vancouver",
-      "address_text": "43rd ave, Vancouver, BC V5R2Z8",
-      "transit_minutes_to_ubc": 55
     },
     "craigslist_van:7932486329": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-legance-and-uninterrupted/7932486329.html",
@@ -670,16 +690,6 @@
       "address_text": "w 28, Vancouver, BC V6S1S7",
       "transit_minutes_to_ubc": 35
     },
-    "craigslist_van:7932229301": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-bed-upper-unit-close-to/7932229301.html",
-      "title": "4 BED UPPER UNIT CLOSE TO LOUGHEED MALL AND SKYTRAIN STATION",
-      "source": "craigslist_van",
-      "price_cad": 2500,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Approx map: 49.256144, -122.899287",
-      "transit_minutes_to_ubc": 93
-    },
     "craigslist_van:7930650882": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-south-granville-4bed-corner/7930650882.html",
       "title": "South Granville 4Bed Corner Townhome w/ AC + Double Garage",
@@ -779,16 +789,6 @@
       "neighborhood": "Vancouver",
       "address_text": "Arbutus, Vancouver, BC V6L2B2",
       "transit_minutes_to_ubc": 42
-    },
-    "craigslist_van:7931947834": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bath-top-floor-rupert/7931947834.html",
-      "title": "5 Bedroom 2 Bath Top Floor Rupert SkyTrain Furnished or unfurnished",
-      "source": "craigslist_van",
-      "price_cad": 4570,
-      "bedrooms": 5.0,
-      "neighborhood": "Vancouver",
-      "address_text": "E 14th Ave, Vancouver, BC V5M2J5",
-      "transit_minutes_to_ubc": 67
     },
     "craigslist_van:7926682125": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-basement-suite-in/7926682125.html",
@@ -910,16 +910,6 @@
       "address_text": "41st Ave, Vancouver, BC V6N1Z1",
       "transit_minutes_to_ubc": 21
     },
-    "craigslist_van:7931535393": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-quiet-triple-glazed-windows/7931535393.html",
-      "title": "Quiet Triple-glazed Windows Big Yard near Express Buses",
-      "source": "craigslist_van",
-      "price_cad": 4010,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "E 12th Ave, Vancouver, BC V5T2H8",
-      "transit_minutes_to_ubc": 49
-    },
     "craigslist_van:7931137078": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-apartment-in-kitsilano/7931137078.html",
       "title": "4 bedroom apartment in Kitsilano",
@@ -1039,7 +1029,407 @@
       "neighborhood": "Oakridge",
       "address_text": "1458 45th Ave W, Vancouver, BC, V6M 2H1",
       "transit_minutes_to_ubc": 39
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTk2NzA4": {
+      "url": "https://rentals.ca/vancouver/2019-east-45th-avenue",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 3000,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "2019 East 45th Avenue #3, Vancouver, BC, V5P 1N7",
+      "transit_minutes_to_ubc": 49
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjE3NTM4": {
+      "url": "https://rentals.ca/vancouver/roomies-1217538",
+      "title": "West 24th Avenue",
+      "source": "rentals_ca",
+      "price_cad": 1100,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "West 24th Avenue, Vancouver, BC, V6S 1L8",
+      "transit_minutes_to_ubc": 30
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTUyMzIz": {
+      "url": "https://rentals.ca/vancouver/kerrisdale-id1152323",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 1200,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "Kerrisdale, Vancouver, BC, V6N 1B1",
+      "transit_minutes_to_ubc": 30
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTU2NTQz": {
+      "url": "https://rentals.ca/vancouver/4xxx-28-avenue",
+      "title": "4xxx W 28 AVENUE",
+      "source": "rentals_ca",
+      "price_cad": 6500,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "4xxx 28 Avenue, Vancouver, BC, V6S 1S7",
+      "transit_minutes_to_ubc": 35
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTU4ODEx": {
+      "url": "https://rentals.ca/vancouver/roomies-1158811",
+      "title": "West 28th Avenue",
+      "source": "rentals_ca",
+      "price_cad": 920,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "Riley Park, Vancouver, BC, V5Y 2K7",
+      "transit_minutes_to_ubc": 50
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzo5OTYxMTk=": {
+      "url": "https://rentals.ca/vancouver/marpole-id996119",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 1300,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "Marpole, Vancouver, BC, V5X 2H8",
+      "transit_minutes_to_ubc": 54
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMDM2MDEy": {
+      "url": "https://rentals.ca/vancouver/west-point-grey-id1036012",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 1300,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "West Point Grey, Vancouver, BC, V6R 4L2",
+      "transit_minutes_to_ubc": 16
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTgxNzU1": {
+      "url": "https://rentals.ca/vancouver/roomies-1181755",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 790,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "Victoria - Fraserview, Vancouver, BC, V5P 2V5",
+      "transit_minutes_to_ubc": 48
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzo5MTM0NTM=": {
+      "url": "https://rentals.ca/vancouver/west-georgia-street-id913453",
+      "title": "West Georgia Street",
+      "source": "rentals_ca",
+      "price_cad": 1700,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "West Georgia Street, Vancouver, BC, V6G 3K4",
+      "transit_minutes_to_ubc": 41
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTU4NDk1": {
+      "url": "https://rentals.ca/vancouver/east-pender-street-id1158495",
+      "title": "East Pender Street",
+      "source": "rentals_ca",
+      "price_cad": 950,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "East Pender Street, Vancouver, BC, V6A 1T3",
+      "transit_minutes_to_ubc": 54
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTcyMTI5": {
+      "url": "https://rentals.ca/vancouver/roomies-1172129",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 950,
+      "bedrooms": 6.0,
+      "neighborhood": null,
+      "address_text": "Downtown, Vancouver, BC, V6A 1N4",
+      "transit_minutes_to_ubc": 53
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjE1MTAx": {
+      "url": "https://rentals.ca/vancouver/6423-main-street",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 945,
+      "bedrooms": 6.0,
+      "neighborhood": null,
+      "address_text": "6423 Main Street, Vancouver, BC, V5W 2V5",
+      "transit_minutes_to_ubc": 43
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzo5MzgyMjg=": {
+      "url": "https://rentals.ca/vancouver/west-hastings-street-id938228",
+      "title": "West Hastings Street",
+      "source": "rentals_ca",
+      "price_cad": 2150,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "West Hastings Street, Vancouver, BC, V6C 3N9",
+      "transit_minutes_to_ubc": 43
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjAwMzMy": {
+      "url": "https://rentals.ca/vancouver/3400-18th-avenue",
+      "title": "3400 W 18TH AVENUE",
+      "source": "rentals_ca",
+      "price_cad": 6250,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "3400 18TH Avenue, Vancouver, BC, V6S 1A7",
+      "transit_minutes_to_ubc": 29
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzo5MTQyMzg=": {
+      "url": "https://rentals.ca/vancouver/west-pender-street-id914238",
+      "title": "West Pender Street",
+      "source": "rentals_ca",
+      "price_cad": 1400,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "West Pender Street, Vancouver, BC, V6E 4S9",
+      "transit_minutes_to_ubc": 47
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTkxMTQ5": {
+      "url": "https://rentals.ca/vancouver/roomies-1191149",
+      "title": "University Boulevard",
+      "source": "rentals_ca",
+      "price_cad": 1025,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "University Boulevard, Vancouver, BC, V6T 1K4",
+      "transit_minutes_to_ubc": 9
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMDkwNzMw": {
+      "url": "https://rentals.ca/vancouver/east-61st-avenue-id1090730",
+      "title": "East 61st Avenue",
+      "source": "rentals_ca",
+      "price_cad": 820,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "East 61st Avenue, Vancouver, BC, V5X 2B7",
+      "transit_minutes_to_ubc": 55
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTIwMzMw": {
+      "url": "https://rentals.ca/vancouver/east-broadway-id1120330",
+      "title": "East Broadway",
+      "source": "rentals_ca",
+      "price_cad": 820,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "East Broadway, Vancouver, BC, V5N 1V6",
+      "transit_minutes_to_ubc": 49
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzo5NjczMTE=": {
+      "url": "https://rentals.ca/vancouver/east-21st-avenue-id967311",
+      "title": "East 21st Avenue",
+      "source": "rentals_ca",
+      "price_cad": 985,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "East 21st Avenue, Vancouver, BC",
+      "transit_minutes_to_ubc": 62
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTg1OTY3": {
+      "url": "https://rentals.ca/vancouver/roomies-1185967",
+      "title": "West 28th Avenue",
+      "source": "rentals_ca",
+      "price_cad": 1000,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "West 28th Avenue, Vancouver, BC, V5Y 2K6",
+      "transit_minutes_to_ubc": 51
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjE1ODcz": {
+      "url": "https://rentals.ca/vancouver/roomies-1215873",
+      "title": "Hornby Street",
+      "source": "rentals_ca",
+      "price_cad": 1400,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "Hornby Street, Vancouver, BC, V6Z 1X3",
+      "transit_minutes_to_ubc": 41
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTQ0NjE1": {
+      "url": "https://rentals.ca/vancouver/west-36th-avenue",
+      "title": "West 36th Avenue",
+      "source": "rentals_ca",
+      "price_cad": 1100,
+      "bedrooms": 6.0,
+      "neighborhood": null,
+      "address_text": "West 36th Avenue, Vancouver, BC, V6N 2S7",
+      "transit_minutes_to_ubc": 27
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTQxMzUy": {
+      "url": "https://rentals.ca/vancouver/arbutus-ridge-id1141352",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 1400,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "Arbutus - Ridge, Vancouver, BC, V6N 1B2",
+      "transit_minutes_to_ubc": 33
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjA2MjA5": {
+      "url": "https://rentals.ca/vancouver/roomies-1206209",
+      "title": "Nautilus Close",
+      "source": "rentals_ca",
+      "price_cad": 1100,
+      "bedrooms": 6.0,
+      "neighborhood": null,
+      "address_text": "Nautilus Close, Vancouver, BC, V6R 4L2",
+      "transit_minutes_to_ubc": 18
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMDMzMjEw": {
+      "url": "https://rentals.ca/vancouver/shaughnessy-id1033210",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 2700,
+      "bedrooms": 8.0,
+      "neighborhood": null,
+      "address_text": "Shaughnessy, Vancouver, BC, V6H 3K5",
+      "transit_minutes_to_ubc": 36
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjAxNzA0": {
+      "url": "https://rentals.ca/vancouver/roomies-1201704",
+      "title": "West 18th Avenue",
+      "source": "rentals_ca",
+      "price_cad": 1800,
+      "bedrooms": 6.0,
+      "neighborhood": null,
+      "address_text": "West 18th Avenue, Vancouver, BC, V6L 1B2",
+      "transit_minutes_to_ubc": 28
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTA4MjMy": {
+      "url": "https://rentals.ca/vancouver/east-61st-avenue-id1108232",
+      "title": "East 61st Avenue",
+      "source": "rentals_ca",
+      "price_cad": 820,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "East 61st Avenue, Vancouver, BC, V5P 2K3",
+      "transit_minutes_to_ubc": 61
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTUwOTkw": {
+      "url": "https://rentals.ca/vancouver/matapan-crescent-id1150990",
+      "title": "Matapan Crescent",
+      "source": "rentals_ca",
+      "price_cad": 930,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "Matapan Crescent, Vancouver, BC, V5M 4B1",
+      "transit_minutes_to_ubc": 69
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMDY2MTA2": {
+      "url": "https://rentals.ca/vancouver/marpole-id1066106",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 870,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "Marpole, Vancouver, BC, V6P 4B2",
+      "transit_minutes_to_ubc": 49
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjA4OTk5": {
+      "url": "https://rentals.ca/vancouver/roomies-1208999",
+      "title": "West 13th Avenue",
+      "source": "rentals_ca",
+      "price_cad": 1200,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "West 13th Avenue, Vancouver, BC, V6R 2S1",
+      "transit_minutes_to_ubc": 26
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMDg4MjEw": {
+      "url": "https://rentals.ca/vancouver/kensington-cedar-cottage-id1088210",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 850,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "Kensington - Cedar Cottage, Vancouver, BC, V5V 3B5",
+      "transit_minutes_to_ubc": 55
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMDU5Nzc2": {
+      "url": "https://rentals.ca/vancouver/walker-street-id1059776",
+      "title": "Walker Street",
+      "source": "rentals_ca",
+      "price_cad": 1200,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "Walker Street, Vancouver, BC, V5N 5A9",
+      "transit_minutes_to_ubc": 64
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMDE0MTg5": {
+      "url": "https://rentals.ca/vancouver/cambie-street-id1014189",
+      "title": "Cambie Street",
+      "source": "rentals_ca",
+      "price_cad": 2500,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "Cambie Street, Vancouver, BC, V6B 5X5",
+      "transit_minutes_to_ubc": 50
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTkyMjE3": {
+      "url": "https://rentals.ca/vancouver/roomies-1192217",
+      "title": "East 28th Avenue",
+      "source": "rentals_ca",
+      "price_cad": 850,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "East 28th Avenue, Vancouver, BC, V5R 1R4",
+      "transit_minutes_to_ubc": 61
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjA2Mzky": {
+      "url": "https://rentals.ca/vancouver/2236-vanness-avenue",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 850,
+      "bedrooms": 6.0,
+      "neighborhood": null,
+      "address_text": "2236 Vanness Avenue, Vancouver, BC, V5N 2M2",
+      "transit_minutes_to_ubc": 64
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTk4NDIy": {
+      "url": "https://rentals.ca/vancouver/2683-w-41st-ave",
+      "title": "2683 W 41ST AVE",
+      "source": "rentals_ca",
+      "price_cad": 6000,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "2683 W 41ST AVE, Vancouver, BC, V6N 3C3",
+      "transit_minutes_to_ubc": 30
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMzE1MzAz": {
+      "url": "https://rentals.ca/vancouver/roomies-1315303",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 1000,
+      "bedrooms": 6.0,
+      "neighborhood": null,
+      "address_text": "Dunbar - Southlands, Vancouver, BC, V6N 1J4",
+      "transit_minutes_to_ubc": 23
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjA1NDA1": {
+      "url": "https://rentals.ca/vancouver/roomies-1205405",
+      "title": "East 24th Avenue",
+      "source": "rentals_ca",
+      "price_cad": 900,
+      "bedrooms": 7.0,
+      "neighborhood": null,
+      "address_text": "East 24th Avenue, Vancouver, BC, V5R 1E8",
+      "transit_minutes_to_ubc": 70
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMjA0NjI4": {
+      "url": "https://rentals.ca/vancouver/roomies-1204628",
+      "title": "West King Edward Avenue",
+      "source": "rentals_ca",
+      "price_cad": 1250,
+      "bedrooms": 7.0,
+      "neighborhood": null,
+      "address_text": "West King Edward Avenue, Vancouver, BC, V5Z 2C7",
+      "transit_minutes_to_ubc": 41
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTg4Mzkx": {
+      "url": "https://rentals.ca/vancouver/136-east-55th-avenue",
+      "title": null,
+      "source": "rentals_ca",
+      "price_cad": 1000,
+      "bedrooms": 4.0,
+      "neighborhood": null,
+      "address_text": "136 East 55th Avenue, Vancouver, BC, V5X 1M8",
+      "transit_minutes_to_ubc": 51
     }
   },
-  "updated_at": "2026-05-10T00:49:23.408746+00:00"
+  "updated_at": "2026-05-10T12:26:14.040791+00:00"
 }
