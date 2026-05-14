@@ -15,10 +15,10 @@ Scrapes Vancouver rental listings matching your criteria from multiple sites, de
 ## Repo layout
 
 ```
-src/vhf/           Application code (scrapers, pipeline, notify, export, CLI)
+src/vhf/           Application code (scrapers, pipeline, notify, state_file, export, CLI)
 data/exports/      results.html + results.csv — updated each run, committed to repo
 data/processed/    transit_cache.json — committed; listings.jsonl — gitignored
-data/state/        last_seen.json — tracks known listing IDs for new-listing detection
+data/state/        last_seen.json — known listings as an `entries` map for new/removed detection
 data/raw/          Raw fetched pages — gitignored (ephemeral)
 .github/workflows/ scheduled_scrape.yml — GitHub Actions workflow
 ```
@@ -73,9 +73,19 @@ This fetches all sites, filters, deduplicates, enriches transit times, and write
 python -m vhf.notify
 ```
 
-Compares current listings against `data/state/last_seen.json`. Sends email if new or removed listings are detected. Updates the state file.
+Compares current listings against `data/state/last_seen.json`. Sends email if new or removed listings are detected (including a table of **removed** listings when summaries exist in state). Updates the state file.
 
 `EMAIL_TO` supports multiple recipients separated by comma, semicolon, or newline.
+
+### 5. Unit tests
+
+With the editable install from step 1:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+If imports fail (`No module named 'vhf'`), run the same command with `PYTHONPATH=src` set for that shell.
 
 ## Email Setup (Gmail recommended)
 

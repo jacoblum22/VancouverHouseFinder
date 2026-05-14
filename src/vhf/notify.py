@@ -17,15 +17,21 @@ import smtplib
 from datetime import UTC, datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from functools import lru_cache
 from typing import Any
-
-from rich.console import Console
 
 from .models import Listing
 from .paths import PROCESSED_DIR, STATE_DIR
+from .state_file import listing_summary_for_state, listings_map_by_key, write_canonical_state_file
 from .storage import read_jsonl
 
-console = Console()
+
+@lru_cache(maxsize=1)
+def _rich_console() -> Any:
+    from rich.console import Console
+
+    return Console()
+
 
 _STATE_FILE = STATE_DIR / "last_seen.json"
 _LISTINGS_FILE = PROCESSED_DIR / "listings.jsonl"
@@ -34,25 +40,6 @@ _LISTINGS_FILE = PROCESSED_DIR / "listings.jsonl"
 # ------------------------------------------------------------------ #
 # State helpers                                                        #
 # ------------------------------------------------------------------ #
-
-def _listing_key(listing: Listing) -> str:
-    """Stable identifier for a listing across runs."""
-    if listing.source_listing_id:
-        return f"{listing.source}:{listing.source_listing_id}"
-    return str(listing.url).lower().rstrip("/")
-
-
-def _listing_summary_for_state(listing: Listing) -> dict[str, Any]:
-    return {
-        "url": str(listing.url),
-        "title": listing.title,
-        "source": listing.source,
-        "price_cad": listing.price_cad,
-        "bedrooms": listing.bedrooms,
-        "neighborhood": listing.neighborhood,
-        "address_text": listing.address_text,
-        "transit_minutes_to_ubc": listing.transit_minutes_to_ubc,
-    }
 
 
 def _load_prior_state() -> tuple[set[str], dict[str, dict[str, Any]]]:
@@ -71,23 +58,12 @@ def _load_prior_state() -> tuple[set[str], dict[str, dict[str, Any]]]:
                 entries[str(k)] = v
         return set(entries.keys()), entries
 
-    keys_raw = data.get("keys")
-    if isinstance(keys_raw, list):
-        return {str(k) for k in keys_raw}, {}
-
     return set(), {}
 
 
 def _save_state(current_map: dict[str, Listing]) -> None:
-    STATE_DIR.mkdir(parents=True, exist_ok=True)
-    entries = {k: _listing_summary_for_state(v) for k, v in current_map.items()}
-    _STATE_FILE.write_text(
-        json.dumps(
-            {"entries": entries, "updated_at": datetime.now(UTC).isoformat()},
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
+    entries = {k: listing_summary_for_state(v) for k, v in current_map.items()}
+    write_canonical_state_file(_STATE_FILE, entries, updated_at=datetime.now(UTC))
 
 
 # ------------------------------------------------------------------ #
@@ -98,6 +74,64 @@ def _fmt_beds(beds: float | None) -> str:
     if beds is None:
         return "?"
     return str(int(beds)) if beds == int(beds) else str(beds)
+
+
+def _price_display_stored(price_cad: Any) -> str:
+    """Format price from last_seen *entries* JSON (int, float, or missing)."""
+    if price_cad is None or isinstance(price_cad, bool):
+        return "?"
+    if isinstance(price_cad, int):
+        return f"${price_cad:,}"
+    if isinstance(price_cad, float):
+        i = int(price_cad)
+        return f"${i:,}" if i == price_cad else f"${price_cad:,.0f}"
+    return "?"
+
+
+def _beds_from_stored(raw: Any) -> float | None:
+    if raw is None or isinstance(raw, bool):
+        return None
+    if isinstance(raw, (int, float)):
+        return float(raw)
+    return None
+
+
+def _table_rows_from_summaries(
+    summaries: list[dict[str, Any]],
+    cell_style: str,
+) -> list[str]:
+    rows_html: list[str] = []
+    for i, s in enumerate(summaries):
+        price = _price_display_stored(s.get("price_cad"))
+        beds = _fmt_beds(_beds_from_stored(s.get("bedrooms")))
+        tm = s.get("transit_minutes_to_ubc")
+        transit = f"{int(tm)} min" if isinstance(tm, int) and not isinstance(tm, bool) else "—"
+        raw_url = str(s.get("url") or "").strip()
+        url = _html.escape(raw_url)
+        neigh = _html.escape(str(s.get("neighborhood") or ""))
+        address = _html.escape(str(s.get("address_text") or ""))
+        title = _html.escape(str(s.get("title") or ""))
+        source = _html.escape(str(s.get("source") or ""))
+        key_hint = str(s.get("_key") or "")
+        if not title and key_hint:
+            title = _html.escape(f"(key: {key_hint})")
+        bg = "#ffffff" if i % 2 == 0 else "#fafafa"
+        link_cell = (
+            f'<a href="{url}" style="color:#1a73e8">link</a>' if raw_url else "—"
+        )
+        rows_html.append(
+            f'<tr style="background:{bg}">'
+            f'<td style="{cell_style}">{price}</td>'
+            f'<td style="{cell_style}">{beds}</td>'
+            f'<td style="{cell_style}">{transit}</td>'
+            f'<td style="{cell_style}">{neigh}</td>'
+            f'<td style="{cell_style}">{address}</td>'
+            f'<td style="{cell_style}">{source}</td>'
+            f'<td style="{cell_style}">{link_cell}</td>'
+            f'<td style="{cell_style}">{title}</td>'
+            "</tr>"
+        )
+    return rows_html
 
 
 def _table_rows_from_listings(
@@ -147,13 +181,13 @@ def _thead_html(head_cell: str) -> str:
 
 def _build_email(
     new_listings: list[Listing],
-    removed_count: int,
+    removed_summaries: list[dict[str, Any]],
     total_current: int,
     run_at: datetime,
 ) -> tuple[str, str]:
     """Return (plain_text, html_text) for the notification email."""
     n_new = len(new_listings)
-    n_rm = removed_count
+    n_rm = len(removed_summaries)
     ts = run_at.strftime("%Y-%m-%d %H:%M UTC")
 
     summary_bits: list[str] = []
@@ -183,11 +217,27 @@ def _build_email(
             f"  {lst.url}",
             "",
         ]
-    if n_rm:
+    if removed_summaries:
+        if new_listings:
+            lines.append("")
+        lines.append("REMOVED (no longer in filtered snapshot)")
+        lines.append("")
+    for s in removed_summaries:
+        pc = s.get("price_cad")
+        price = _price_display_stored(pc)
+        beds = _fmt_beds(_beds_from_stored(s.get("bedrooms")))
+        tm = s.get("transit_minutes_to_ubc")
+        transit = (
+            f"{int(tm)} min to UBC"
+            if isinstance(tm, (int, float)) and not isinstance(tm, bool)
+            else ""
+        )
+        url = s.get("url") or s.get("_key") or ""
         lines += [
-            "",
-            f"REMOVED: {n_rm} listing{'s' if n_rm != 1 else ''} "
-            "(no longer in filtered snapshot)",
+            f"  {price} | {beds} bed | {transit}",
+            f"  {s.get('neighborhood') or ''} — {s.get('address_text') or ''}",
+            f"  [{s.get('source') or ''}]  {s.get('title') or ''}",
+            f"  {url}",
             "",
         ]
     plain = "\n".join(lines)
@@ -208,12 +258,16 @@ def _build_email(
     </tbody>
   </table>"""
         )
-    if n_rm:
+    if removed_summaries:
+        rows = "".join(_table_rows_from_summaries(removed_summaries, cell))
         sections.append(
             f"""  <h3 style="margin-top:24px;color:#c5221f;">Removed ({n_rm})</h3>
-  <p style="margin-top:4px;font-size:14px;color:#555;">
-    {n_rm} listing{'s' if n_rm != 1 else ''} were removed from the filtered snapshot.
-  </p>"""
+  <table style="border-collapse:collapse;width:100%;font-size:14px;">
+{_thead_html(head_cell)}
+    <tbody>
+{rows}
+    </tbody>
+  </table>"""
         )
 
     html_body = f"""<!doctype html>
@@ -237,7 +291,7 @@ def _build_email(
 
 def _send_email(
     new_listings: list[Listing],
-    removed_count: int,
+    removed_summaries: list[dict[str, Any]],
     total_current: int,
 ) -> None:
     smtp_host = os.environ.get("SMTP_HOST", "")
@@ -249,11 +303,11 @@ def _send_email(
     recipients = _parse_recipients(email_to)
 
     if not all([smtp_host, smtp_user, smtp_pass, recipients]):
-        console.print("  [yellow]SKIP[/yellow] Email: SMTP env vars not configured")
+        _rich_console().print("  [yellow]SKIP[/yellow] Email: SMTP env vars not configured")
         return
 
     n_new = len(new_listings)
-    n_rm = removed_count
+    n_rm = len(removed_summaries)
     run_at = datetime.now(UTC)
     sub_parts: list[str] = []
     if n_new:
@@ -262,7 +316,7 @@ def _send_email(
         sub_parts.append(f"{n_rm} removed")
     subject = "VHF: " + ", ".join(sub_parts)
     plain, html_body = _build_email(
-        new_listings, removed_count, total_current, run_at
+        new_listings, removed_summaries, total_current, run_at
     )
 
     msg = MIMEMultipart("alternative")
@@ -278,7 +332,7 @@ def _send_email(
         smtp.login(smtp_user, smtp_pass)
         smtp.sendmail(email_from, recipients, msg.as_string())
 
-    console.print(
+    _rich_console().print(
         f"  [green]Email sent[/green] -> {', '.join(recipients)}  ({subject})"
     )
 
@@ -301,15 +355,15 @@ def _parse_recipients(raw: str) -> list[str]:
 
 def run_notify() -> None:
     """Compare current listings against prior snapshot; email on changes."""
-    console.print("[bold]Notify[/bold]")
+    _rich_console().print("[bold]Notify[/bold]")
 
     if not _LISTINGS_FILE.exists():
-        console.print("  [yellow]SKIP[/yellow] listings.jsonl not found — run 'vhf' first")
+        _rich_console().print("  [yellow]SKIP[/yellow] listings.jsonl not found — run 'vhf' first")
         return
 
     listings = read_jsonl(_LISTINGS_FILE, Listing)
-    current_map: dict[str, Listing] = {_listing_key(l): l for l in listings}
-    prior_keys, _prior_entries = _load_prior_state()
+    current_map: dict[str, Listing] = listings_map_by_key(listings)
+    prior_keys, prior_entries = _load_prior_state()
 
     is_first_run = len(prior_keys) == 0
     current_keys = set(current_map.keys())
@@ -317,26 +371,31 @@ def run_notify() -> None:
     removed_keys = prior_keys - current_keys
 
     new_listings = [current_map[k] for k in sorted(new_keys)]
-    removed_count = len(removed_keys)
+    removed_summaries: list[dict[str, Any]] = []
+    for k in sorted(removed_keys):
+        base = dict(prior_entries.get(k, {}))
+        if not base.get("url") and not base.get("title"):
+            base = {**base, "_key": k}
+        removed_summaries.append(base)
 
-    console.print(f"  Prior known:   {len(prior_keys)}")
-    console.print(f"  Current total: {len(current_map)}")
-    console.print(f"  New listings:  {len(new_listings)}")
-    console.print(f"  Removed:       {removed_count}")
+    _rich_console().print(f"  Prior known:   {len(prior_keys)}")
+    _rich_console().print(f"  Current total: {len(current_map)}")
+    _rich_console().print(f"  New listings:  {len(new_listings)}")
+    _rich_console().print(f"  Removed:       {len(removed_summaries)}")
 
     if is_first_run:
-        console.print(
+        _rich_console().print(
             "  [yellow]First run — seeding state snapshot.[/yellow] "
             "No email sent. Future runs will notify on new or removed listings."
         )
-    elif new_listings or removed_count:
-        _send_email(new_listings, removed_count, len(listings))
+    elif new_listings or removed_summaries:
+        _send_email(new_listings, removed_summaries, len(listings))
     else:
-        console.print("  No new or removed listings — nothing to send.")
+        _rich_console().print("  No new or removed listings — nothing to send.")
 
     # Always update state after a successful check
     _save_state(current_map)
-    console.print(f"  State saved -> {_STATE_FILE}")
+    _rich_console().print(f"  State saved -> {_STATE_FILE}")
 
 
 if __name__ == "__main__":
