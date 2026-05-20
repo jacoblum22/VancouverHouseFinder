@@ -63,7 +63,7 @@ $env:GOOGLE_MAPS_API_KEY = "your_key_here"
 ### 3. Run the scrape pipeline
 
 ```bash
-vhf
+vhf run
 ```
 
 This fetches all sites, filters, deduplicates, enriches transit times, and writes exports.

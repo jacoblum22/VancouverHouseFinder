@@ -40,7 +40,7 @@ jobs:
       - name: Run pipeline
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-        run: vhf
+        run: vhf run
 
       - name: Verify export HTML
         run: python -m vhf.verify_export_html
