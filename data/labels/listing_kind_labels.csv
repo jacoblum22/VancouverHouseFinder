@@ -1,0 +1,57 @@
+listing_key,label,labeled_at,notes
+craigslist_van:7929666902,room_or_partial,2026-05-14T03:41:28.107913+00:00,Example: 1000 CAD / 6br furnished room; title: A furnished room for rent in Vancouver
+craigslist_van:7926291709,room_or_partial,2026-05-14T12:00:00+00:00,$985/4br Room in 4 bed house near Trout Lake
+craigslist_van:7926896031,room_or_partial,2026-05-14T12:00:00+00:00,$1200/6br A Furnished Room for Rent in Vancouver
+craigslist_van:7926911474,room_or_partial,2026-05-14T12:00:00+00:00,$1000/4br basement bedroom to UBC
+craigslist_van:7933128698,room_or_partial,2026-05-14T12:00:00+00:00,$1000/4br Room for rent (export title; user also cited 250ft2 variant)
+craigslist_van:7927725239,room_or_partial,2026-05-14T12:00:00+00:00,$1000/4br one bedroom in basement near UBC
+craigslist_van:7933772240,whole_unit,2026-05-14T12:00:00+00:00,$2850/4br 3152ft2 4 Bed 4 Bath Available Now
+craigslist_van:7933211220,whole_unit,2026-05-14T12:00:00+00:00,$2999/4br 1250ft2 4 Bedroom East Vancouver
+craigslist_van:7932136418,whole_unit,2026-05-14T12:00:00+00:00,$3100/4br New Laneway 4 Bed 3.5 Bath E45 & Victoria Dr
+craigslist_van:7933668906,whole_unit,2026-05-14T12:00:00+00:00,$3200/5br House EAST VAN 5bd+2bth+yard+parking
+craigslist_van:7934172815,whole_unit,2026-05-14T05:03:33.510846+00:00,Body: full furnished 4BR/3BA house at 241 Renfrew; whole-home tenancy (export CSV description).
+craigslist_van:7934059479,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: East Van Entire House For Rent.
+craigslist_van:7932565625,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: Whole 4-Bedroom House with Backyard & Garage.
+craigslist_van:7930400210,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: 5BED/5BA Whole house in South Granville.
+craigslist_van:7932644110,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: Fully Furnished Arbutus Whole House.
+craigslist_van:7932671497,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: Entire House 6 Bedrooms By Canada Line Station.
+craigslist_van:7931101041,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: 4br & 2 bath single house close to UBC.
+craigslist_van:7932391841,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: Custom-Built Luxury Home (7 Bed / 6 Bath) — whole property.
+craigslist_van:7933487579,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: 4-bedroom 3-level townhouse on UBC campus — entire unit.
+craigslist_van:7928453208,whole_unit,2026-05-14T05:03:33.510846+00:00,Title: 6 bedroom/2.5 bathroom house for rent.
+craigslist_van:7929260796,room_or_partial,2026-05-14T05:03:33.510846+00:00,Title: Private Rooms for Rent (plural) — partial tenancy.
+craigslist_van:7927399279,room_or_partial,2026-05-14T05:03:33.510846+00:00,Title: student housing; price point consistent with shared housing.
+craigslist_van:7926826575,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: fully furnished 4BR/2BA character home (whole property tenancy).
+craigslist_van:7930015480,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: 5BR/3BA detached home ~2050 sqft; whole-house listing.
+craigslist_van:7929517213,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: main 5BR house; states basement suite is separate tenancy not included.
+craigslist_van:7928323538,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: two-level 4BR house rental (whole unit).
+craigslist_van:7933917309,whole_unit,2026-05-14T05:17:42.412642+00:00,"Body: property type House, 5BR/3BA single-family listing."
+craigslist_van:7932854567,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: single house 4BR+rec; one tenancy on Willow St.
+craigslist_van:7933960538,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: 4BR/2BA 2100sf 2-level character house at address; long-term unfurnished.
+craigslist_van:7933972358,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: new 4BR/3.5BA laneway (entire laneway unit).
+craigslist_van:7931841407,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: duplex upper level 4BR/3BA as one rental unit.
+craigslist_van:7932725808,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: private 4BR Hamptons-style home (entire house).
+craigslist_van:7932383707,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: half duplex 4BR/4BA (entire side).
+craigslist_van:7932151174,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: 4BR/4BA detached family home (whole house).
+craigslist_van:7929688454,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: 4BR/3.5BA townhouse (entire unit).
+craigslist_van:7929962128,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: new duplex 4BR/4BA side near UBC (entire unit).
+craigslist_van:7926009746,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: large 4BR apartment unit; shared laundry in building only.
+craigslist_van:7925067792,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: large 4BR apartment unit; shared laundry in building only.
+craigslist_van:7926506111,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: whole house 4BR/2BA + kitchen/family/laundry.
+craigslist_van:7933051506,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: 2-level 3BR+2.5BA townhouse (~1743 sf) as one tenancy.
+craigslist_van:7933004141,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: self-contained 4BR garden suite with own kitchen/laundry.
+craigslist_van:7926682125,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: self-contained 3BR+den basement suite (entire suite).
+craigslist_van:7932229301,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: 4BR/1BA upper unit with private W/D; self-contained upper half.
+craigslist_van:7927141037,whole_unit,2026-05-14T05:17:42.412642+00:00,"Body: ground-floor suite separate entry, kitchen, 4BR/2BA (self-contained suite)."
+craigslist_van:7925235248,whole_unit,2026-05-14T05:17:42.412642+00:00,"Body: basement suite separate entry, kitchen, 4BR/2BA (self-contained suite)."
+craigslist_van:7933390895,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: large 4BR/2B 2-living second-floor suite (~3000 sf) as one tenancy.
+craigslist_van:7934160673,whole_unit,2026-05-14T05:17:42.412642+00:00,"Body: upper-level suite with own kitchen/baths, private yard+garage (self-contained)."
+craigslist_van:7925535333,whole_unit,2026-05-14T05:17:42.412642+00:00,"Body: 4BR ground-floor suite in house, separate unit, utilities included."
+craigslist_van:7929875795,whole_unit,2026-05-14T05:17:42.412642+00:00,Body: 4BR family home with yard/office; whole-house framing.
+craigslist_van:7934019604,room_or_partial,2026-05-14T05:17:42.412642+00:00,"Body: furnished lower 5BR; per-room setup, max 5 occupants, shared living."
+craigslist_van:7931923778,room_or_partial,2026-05-14T05:17:42.412642+00:00,Body: coliving/mansion; share home with existing housemates; master suite context.
+craigslist_van:7925726147,room_or_partial,2026-05-14T05:17:42.412642+00:00,Body: upper floor only; states ground floor occupied separately (rubric partial).
+craigslist_van:7932896720,room_or_partial,2026-05-14T05:17:42.412642+00:00,Body: second-floor unit within a house (not entire structure).
+craigslist_van:7932368554,room_or_partial,2026-05-14T05:17:42.412642+00:00,Body: rent upper two floors only (not whole building).
+craigslist_van:7932442041,room_or_partial,2026-05-14T05:17:42.412642+00:00,Body: upper-level home only (82 W 45th); partial of house.
+craigslist_van:7930801532,room_or_partial,2026-05-14T05:17:42.412642+00:00,Body: upper-level home only (82 W 45th); partial of house.

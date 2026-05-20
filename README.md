@@ -19,6 +19,7 @@ src/vhf/           Application code (scrapers, pipeline, notify, state_file, exp
 data/exports/      results.html + results.csv — updated each run, committed to repo
 data/processed/    transit_cache.json — committed; listings.jsonl — gitignored
 data/state/        last_seen.json — known listings as an `entries` map for new/removed detection
+data/labels/       listing_kind_labels.csv — optional human labels for the listing-kind model (see README §6)
 data/raw/          Raw fetched pages — gitignored (ephemeral)
 .github/workflows/ scheduled_scrape.yml — GitHub Actions workflow
 ```
@@ -86,6 +87,15 @@ python -m unittest discover -s tests -v
 ```
 
 If imports fail (`No module named 'vhf'`), run the same command with `PYTHONPATH=src` set for that shell.
+
+### 6. Optional: listing kind (whole unit vs room) — labels + model
+
+1. Annotation rules (read once): [temp/listing-kind-rubric.md](temp/listing-kind-rubric.md) — this is the **definition of your target variable** for supervised learning so labels stay consistent.
+2. After a scrape, check **`data/exports/results.csv`**: columns **`listing_key`**, **`description`**, and a few rows you know by eye (room vs whole).
+3. **`data/labels/listing_kind_labels.csv`**: add one row per labeled listing; **`listing_key`** must match the export exactly; **`label`** is `whole_unit`, `room_or_partial`, or `unclear`.
+4. Install ML extra: `pip install -e ".[ml]"` then:
+   - `vhf listing-kind-train` — stratified CV accuracy / F1 (binary; skips `unclear`).
+   - `vhf listing-kind-suggest` — prints unlabeled rows the model is least sure about (label those next).
 
 ## Email Setup (Gmail recommended)
 

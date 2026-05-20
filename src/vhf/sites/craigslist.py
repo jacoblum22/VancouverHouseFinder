@@ -42,6 +42,9 @@ _USER_AGENT = (
 # How many hours before forcing a detail-page re-fetch even for unchanged listings
 _REFRESH_TTL_HOURS = 24
 
+# Cap for `#postingbody` text persisted on listings and written to CSV/HTML exports.
+_MAX_DESCRIPTION_CHARS = 80_000
+
 _DETAIL_STATE_FILE = STATE_DIR / "craigslist_detail_state.json"
 
 console = Console()
@@ -175,6 +178,8 @@ class CraigslistVancouverScraper(SiteScraper):
           - key present in craigslist_detail_state.json
           - fingerprint (price/title/url hash) unchanged
           - last_enriched_at within _REFRESH_TTL_HOURS
+          - saved ``detail_fields`` includes a non-empty ``description`` (otherwise we
+            re-fetch once to backfill legacy state or parse misses)
         """
         self._detail_state = _load_detail_state()
         now = datetime.now(UTC)
@@ -199,7 +204,14 @@ class CraigslistVancouverScraper(SiteScraper):
             if entry.get("fingerprint") != fp or age_h > _REFRESH_TTL_HOURS:
                 pending.append(listing)  # changed or stale
             else:
-                n_state_reused += 1   # fresh + unchanged → reuse state
+                detail_fields = entry.get("detail_fields") or {}
+                desc = (detail_fields.get("description") or "").strip()
+                if not desc:
+                    # Legacy state (or a bad HTML snapshot) often has coords/title fields
+                    # but no posting body — re-fetch so exports and ML can use `#postingbody`.
+                    pending.append(listing)
+                else:
+                    n_state_reused += 1  # fresh + unchanged → reuse state
 
         # ---- Fetch / disk-cache for pending ----
         results: dict[str, RawDocument] = {}
@@ -324,7 +336,13 @@ class CraigslistVancouverScraper(SiteScraper):
                 state_entry = self._detail_state.setdefault(lid, {})
                 state_entry["detail_fields"] = {
                     k: detail.get(k)
-                    for k in ("bedrooms", "address_text", "latitude", "longitude")
+                    for k in (
+                        "bedrooms",
+                        "address_text",
+                        "latitude",
+                        "longitude",
+                        "description",
+                    )
                     if detail.get(k) is not None
                 }
 
@@ -403,10 +421,17 @@ def _resolve_updates(listing: Listing, detail: dict[str, Any]) -> dict[str, Any]
     if listing.bedrooms is None and detail.get("bedrooms") is not None:
         updates["bedrooms"] = detail["bedrooms"]
 
+    lat = detail.get("latitude")
+    lon = detail.get("longitude")
+    if lat is not None and lon is not None:
+        try:
+            updates["latitude"] = float(lat)
+            updates["longitude"] = float(lon)
+        except (TypeError, ValueError):
+            pass
+
     if listing.address_text is None:
         detail_addr = detail.get("address_text")
-        lat = detail.get("latitude")
-        lon = detail.get("longitude")
         has_coords = lat is not None and lon is not None
         addr_is_neighborhood = _addr_equals_neighborhood(detail_addr, listing.neighborhood)
 
@@ -416,6 +441,9 @@ def _resolve_updates(listing: Listing, detail: dict[str, Any]) -> dict[str, Any]
             updates["address_text"] = f"Approx map: {lat:.6f}, {lon:.6f}"
         elif detail_addr is not None:
             updates["address_text"] = detail_addr
+
+    if listing.description is None and detail.get("description"):
+        updates["description"] = detail["description"]
 
     return updates
 
@@ -467,7 +495,7 @@ def _parse_baths(text: str) -> float | None:
 
 
 def _parse_detail_page(html: str) -> dict[str, Any]:
-    """Extract bedrooms and address from a Craigslist detail-page HTML.
+    """Extract bedrooms, address, map coords, and posting body from Craigslist HTML.
 
     Bedroom priority:
       1. span.housing          e.g. "/ 7br -"
@@ -529,4 +557,25 @@ def _parse_detail_page(html: str) -> dict[str, Any]:
         except (KeyError, ValueError, TypeError):
             pass
 
+    desc = _extract_posting_body_text(soup)
+    if desc:
+        result["description"] = desc
+
     return result
+
+
+def _extract_posting_body_text(soup: BeautifulSoup) -> str | None:
+    """Plain text from Craigslist `#postingbody` (QR / print-only blocks removed)."""
+    body = soup.select_one("#postingbody")
+    if not body:
+        return None
+    for noise in body.select(".print-information"):
+        noise.decompose()
+    text = body.get_text("\n", strip=True)
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    joined = "\n".join(lines)
+    if not joined:
+        return None
+    if len(joined) > _MAX_DESCRIPTION_CHARS:
+        return joined[:_MAX_DESCRIPTION_CHARS]
+    return joined

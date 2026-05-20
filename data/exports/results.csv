@@ -1,100 +1,1491 @@
-price_cad,bedrooms,bathrooms,availability_date,transit_min_to_ubc,neighborhood,address_or_postal,address_text,source,source_listing_id,url,title
-4500,4.0,,,43,Vancouver,"Approx map: 49.249200, -123.110400","Approx map: 49.249200, -123.110400",craigslist_van,7935289379,https://vancouver.craigslist.org/van/apa/d/vancouver-month-free-for-12-months/7935289379.html,1 month free for 12 months lease 4 bedroom house in Oakridge area
-4500,4.0,,,50,Vancouver,"ontario, Vancouver, BC V5Y2V9","ontario, Vancouver, BC V5Y2V9",craigslist_van,7932442041,https://vancouver.craigslist.org/van/apa/d/vancouver-move-in-ready-bedroom-house/7932442041.html,MOVE IN READY 4 bedroom house for rent in Oakridge Area
-4850,4.0,,,17,city of vancouver,"3719 W11th ave, vancouver, BC V6R2K7","3719 W11th ave, vancouver, BC V6R2K7",craigslist_van,7935288598,https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-beautiful-vancouver/7935288598.html,"Furnished Beautiful Vancouver West Single House for Rent – $4,850/mont"
-6000,4.0,,,75,hastings sunrise,"Approx map: 49.280700, -123.039700","Approx map: 49.280700, -123.039700",craigslist_van,7934172815,https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-for-rent/7934172815.html,Brand new house for rent Beside the PNE LONG OR SHORT TERM RENTAL
-3600,4.0,2.0,,69,Fraserview,"Approx map: 49.209044, -123.059235","Approx map: 49.209044, -123.059235",craigslist_van,7926865173,https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-house-upper-suite/7926865173.html,4 Bed 2 Bath House Upper Suite Fraserview Vancouver East
-4500,4.0,2.0,,33,Vancouver,"5998 Larch Street, Vancouver, BC V6M4E4","5998 Larch Street, Vancouver, BC V6M4E4",craigslist_van,7933960538,https://vancouver.craigslist.org/van/apa/d/vancouver-kerrisdale-bed-bath-character/7933960538.html,Kerrisdale 4 Bed 2 Bath Character House w/ Fenced Backyard
-4200,4.0,3.0,,62,Vancouver,"2723 Turner St, Vancouver, BC V5K2G8","2723 Turner St, Vancouver, BC V5K2G8",craigslist_van,7934651062,https://vancouver.craigslist.org/van/apa/d/vancouver-upper-level-bed-bath-house/7934651062.html,Upper Level 4 Bed / 3 Bath House with A/C in East Vancouver Hastings
-4800,4.0,,,18,city of vancouver,"Dunbar Street, Vancouver, BC V6R2G3","Dunbar Street, Vancouver, BC V6R2G3",craigslist_van,7932157524,https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-kitsilano-4br/7932157524.html,"Furnished Kitsilano 4BR Laneway w/utilities, near #99 UBC Express Bus"
-4800,4.0,2.0,,26,city of vancouver,"Dunbar St, Vancouver, BC V6S1W5","Dunbar St, Vancouver, BC V6S1W5",craigslist_van,7928626280,https://vancouver.craigslist.org/van/apa/d/cranbrook-dunbar-house-upstairs-4bd-2ba/7928626280.html,Dunbar House Upstairs 4bd 2ba For Rent
-3100,4.0,3.5,,63,Vancouver,"Approx map: 49.223200, -123.043400","Approx map: 49.223200, -123.043400",craigslist_van,7933972358,https://vancouver.craigslist.org/van/apa/d/vancouver-new-built-bed-35-bath-laneway/7933972358.html,New Built 4 Bed 3.5 Bath Laneway at E45th
-4800,4.0,,,67,city of vancouver,"2442 East 19th Avenue, Vancouver, BC V5M2R9","2442 East 19th Avenue, Vancouver, BC V5M2R9",craigslist_van,7932565625,https://vancouver.craigslist.org/van/apa/d/vancouver-plhref2442charming-whole/7932565625.html,(PLH_REF#2442)***Charming Whole 4-Bedroom House with Backyard & Garage
-4800,4.0,,,50,Marpole,"7989 Cambie Street, Vancouver, BC V6P3J4","7989 Cambie Street, Vancouver, BC V6P3J4",craigslist_van,7929875795,https://vancouver.craigslist.org/van/apa/d/vancouver-plhref7969spacious-bedroom/7929875795.html,(PLH_REF#7969)***Spacious 4-Bedroom Family Home in Desirable Marpole —
-3200,4.0,2.0,,68,Vancouver,"East 1st Avenue, vancouver, BC V5M1A3","East 1st Avenue, vancouver, BC V5M1A3",craigslist_van,7931966065,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-ground-floor/7931966065.html,*** 4 BEDROOM 2 BATHROOM GROUND FLOOR SUITE NANAIMO AND 1ST AVENUE ***
-3800,4.0,3.5,,122,South Surrey,"Approx map: 49.043016, -122.769599","Approx map: 49.043016, -122.769599",craigslist_van,7934253594,https://vancouver.craigslist.org/van/apa/d/surrey-offer-soho-rare-furnished-br-35/7934253594.html,🏢 Offer: SOHO // RARE furnished 4 BR + 3.5 Bath Townhouse (1932 sqf)
-2700,8.0,,,32,Shaughnessy,"Approx map: 49.257500, -123.138800","Approx map: 49.257500, -123.138800",craigslist_van,7931923778,https://vancouver.craigslist.org/van/apa/d/vancouver-master-suite-in-mansion-live/7931923778.html,Master Suite in Mansion - Live with Like-Minded People!
-3200,4.0,2.0,,44,vancouver,"Approx map: 49.215100, -123.139600","Approx map: 49.215100, -123.139600",craigslist_van,7928204395,https://vancouver.craigslist.org/van/apa/d/vancouver-prime-oakridge-location/7928204395.html,Prime Oakridge location 4 bedrooms plus 2 baths separated level rental
-6000,4.0,4.0,,46,Vancouver,"7688 Cartier Street, Vancouver, BC V3N","7688 Cartier Street, Vancouver, BC V3N",craigslist_van,7935146798,https://vancouver.craigslist.org/van/apa/d/burnaby-latest-bedrooms-bathrooms-in/7935146798.html,Latest 4 bedrooms 4 bathrooms in Marpole !!
-3800,4.0,2.0,,49,Mount Pleasant,"E 12th Ave, Vancouver, BC V5T2H8","E 12th Ave, Vancouver, BC V5T2H8",craigslist_van,7935132467,https://vancouver.craigslist.org/van/apa/d/vancouver-fairly-new-4bed-2bath-big-yard/7935132467.html,Fairly New 4bed 2bath Big Yard
-6250,4.0,,,28,"Vancouver, Dunbar, Point Grey, Kitsilano, UBC, Westside","w 18th ave, Vancouver, BC V6S1A7","w 18th ave, Vancouver, BC V6S1A7",craigslist_van,7926826575,https://vancouver.craigslist.org/van/apa/d/vancouver-unique-year-rental/7926826575.html,Unique 1 year rental opportunity:  4 bdrm View house in Dunbar
-3800,4.0,,,136,"Surrey, BC","57 Ave, Surrey, BC, BC V3S8W3","57 Ave, Surrey, BC, BC V3S8W3",craigslist_van,7934043714,https://vancouver.craigslist.org/van/apa/d/surrey-east-large-home-with-separate/7934043714.html,"Large Home with Separate Suite Near Schools, Parks & Shopping!"
-4600,4.0,,,73,Vancouver,"Seaforth Dr, Vancouver, BC V5M4C5","Seaforth Dr, Vancouver, BC V5M4C5",craigslist_van,7934273760,https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-bed-home-in-renfrew/7934273760.html,Spacious 4 Bed Home in Renfrew Heights – City & Mountain Views!
-5700,4.0,,,30,vancouver,"Carnarvon St, Vancouver, BC V6L1L1","Carnarvon St, Vancouver, BC V6L1L1",craigslist_van,7931841407,https://vancouver.craigslist.org/van/apa/d/vancouver-bedrooms-duplex-in-arbutus/7931841407.html,4 bedrooms Duplex in Arbutus (Dunbar UBC Point Grey)
-4199,5.0,2.0,,67,Rupert SkyTrain,"E 14th Ave, Vancouver, BC V5M2J5","E 14th Ave, Vancouver, BC V5M2J5",craigslist_van,7935062627,https://vancouver.craigslist.org/van/apa/d/vancouver-bright-renovated-5br2bathdeck/7935062627.html,Bright Renovated 5br+2bath+Deck Upper Floor $500 for your choice
-1150,4.0,2.0,,21,Vancouver West,"Approx map: 49.234727, -123.194675","Approx map: 49.234727, -123.194675",craigslist_van,7927399279,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-student/7927399279.html,4-bedroom 2-bathroom student housing
-1200,4.0,,,43,Vancouver West,"SW Marine Drive, Vancouver, BC V6N1Y4","SW Marine Drive, Vancouver, BC V6N1Y4",craigslist_van,7927399350,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-suite-near-ubc/7927399350.html,4-bedroom suite near UBC
-5199,5.0,,,48,Vancouver West –Marpole Oakridge,"W62 Ave, Vancouver, BC V6X2E4","W62 Ave, Vancouver, BC V6X2E4",craigslist_van,7929517213,https://vancouver.craigslist.org/van/apa/d/vancouver-executive-spacious-family/7929517213.html,Executive & Spacious Family Home Vancouver West Side
-3900,4.0,2.0,,30,34xxxx W 19th Ave Vancouver,"Approx map: 49.255297, -123.180707","Approx map: 49.255297, -123.180707",craigslist_van,7927141037,https://vancouver.craigslist.org/van/apa/d/vancouver-ground-floor-bedroom-bathroom/7927141037.html,Ground floor 4 bedroom 2 bathroom Vancouver 19th Ave near UBC LordByng
-4900,4.0,2.0,,17,w 16th Ave Vancouver,"Approx map: 49.258521, -123.201950","Approx map: 49.258521, -123.201950",craigslist_van,7931101041,https://vancouver.craigslist.org/van/apa/d/vancouver-4900-4br-bath-single-house/7931101041.html,$4900 /m 4br & 2 bath single house close to UBC
-5300,4.0,,,10,UBC Campus,"Kings Rd, Vancouver, BC V6T1K8","Kings Rd, Vancouver, BC V6T1K8",craigslist_van,7935044114,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-level-townhouse-on/7935044114.html,"4-bedroom, 3-level townhouse on UBC campus available June 1st"
-4800,5.0,,,62,city of vancouver,"E 55 Ave, Vancouver, BC V5P1Z4","E 55 Ave, Vancouver, BC V5P1Z4",craigslist_van,7934059479,https://vancouver.craigslist.org/van/apa/d/vancouver-east-van-entire-house-for-rent/7934059479.html,East Van Entire House For Rent
-2900,4.0,1.0,,60,Rupert Station,"Rupert, Vancouver, BC V5M2M5","Rupert, Vancouver, BC V5M2M5",craigslist_van,7932327305,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-ground-floor/7932327305.html,"☀ 4 Bedroom, 1 Bathroom Ground Floor Rupert Skytrain Available June 1☀"
-3300,4.0,,,72,Hastings Sunrise,"Nanaimo, Vancouver, BC V5K2Y4","Nanaimo, Vancouver, BC V5K2Y4",craigslist_van,7928323538,https://vancouver.craigslist.org/van/apa/d/vancouver-br-house-east-vancouver-great/7928323538.html,4 BR HOUSE-East Vancouver Great Location
-5000,4.0,,,48,Oak St and W.59 Ave,"985 Westbury Walk, Vancouver, BC V6P6Z5","985 Westbury Walk, Vancouver, BC V6P6Z5",craigslist_van,7934959247,https://vancouver.craigslist.org/van/apa/d/vancouver-level-renovated-townhouse-in/7934959247.html,3 level Renovated townhouse in Marpole area
-6500,7.0,6.0,,58,"Fraserview, Vancouver","Approx map: 49.222000, -123.068300","Approx map: 49.222000, -123.068300",craigslist_van,7928560245,https://vancouver.craigslist.org/van/apa/d/vancouver-rare-fraserview-rental-custom/7928560245.html,Rare Fraserview Rental – Custom-Built Luxury Home (7 Bed / 6 Bath)
-4200,5.0,,,63,Grandview,"E 14 Ave, Rupert, BC V5M2J5","E 14 Ave, Rupert, BC V5M2J5",craigslist_van,7934928794,https://vancouver.craigslist.org/van/apa/d/vancouver-big-sundeck-tier-oven-save/7934928794.html,"Big Sundeck 2-Tier Oven Save time,energy"
-2500,4.0,,,55,Vancouver,"2262 nanaimo street, Vancouver, BC V5N5C9","2262 nanaimo street, Vancouver, BC V5N5C9",craigslist_van,7925726147,https://vancouver.craigslist.org/van/apa/d/vancouver-bedrooms-upper-floor-house/7925726147.html,4 Bedrooms Upper Floor House for Rent 2262 Nanaimo Street & E 7th Ave
-600,5.0,,,37,Vancouver,"Main st, Vancouver, BC V5W2W4","Main st, Vancouver, BC V5W2W4",craigslist_van,7934912073,https://vancouver.craigslist.org/van/apa/d/vancouver-beautiful-house-in-vancouver/7934912073.html,Beautiful House in Vancouver - World Cup 2026
-4495,4.0,,,82,Ladner,"4982 57 A street, Delta Central, BC V4K3G5","4982 57 A street, Delta Central, BC V4K3G5",craigslist_van,7934356069,https://vancouver.craigslist.org/van/apa/d/delta-central-bedroom-entire-home-for/7934356069.html,4 bedroom entire home for rent
-5000,4.0,,,21,city of vancouver,"Approx map: 49.266600, -123.197600","Approx map: 49.266600, -123.197600",craigslist_van,7933480451,https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-spacious-4bd/7933480451.html,Fully-furnished spacious 4BD upper-level house next to UBC for 4-5
-5500,7.0,,,35,"Burnaby, BC, UBC","2429 McBain Ave, Vancouver, BC, BC V6L2C5","2429 McBain Ave, Vancouver, BC, BC V6L2C5",craigslist_van,7932644110,https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-arbutus-whole/7932644110.html,Fully Furnished Arbutus Whole House
-1000,4.0,,,31,Alma st and W 10th AVE,"10th AVE, VANCOUVER, BC V6X0C3","10th AVE, VANCOUVER, BC V6X0C3",craigslist_van,7926911474,https://vancouver.craigslist.org/van/apa/d/richmond-10-minutes-to-ubc-basement/7926911474.html,8-10 Minutes to UBC 1 basement bedroom for rent
-900,6.0,,,44,Vancouver,"1842 W 63rd Ave, Vancouver, BC V6P2J1","1842 W 63rd Ave, Vancouver, BC V6P2J1",craigslist_van,7934784292,https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934784292.html,A Furnished Room for Rent in Vancouver
-1000,6.0,,,20,Vancouver,"3550 W. 39th Ave, Vancouver, BC V6N3A5","3550 W. 39th Ave, Vancouver, BC V6N3A5",craigslist_van,7934782565,https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934782565.html,A Furnished Room for Rent in Vancouver
-1000,6.0,,,23,Vancouver,"3853 W 15th Ave, Vancouver, BC V6R3A1","3853 W 15th Ave, Vancouver, BC V6R3A1",craigslist_van,7929666902,https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7929666902.html,A furnished room for rent in Vancouver
-6000,4.0,3.0,,21,Point Grey,"41st Ave, Vancouver, BC V6N1Z1","41st Ave, Vancouver, BC V6N1Z1",craigslist_van,7931563746,https://vancouver.craigslist.org/van/apa/d/vancouver-newly-crafted-vancouver-west/7931563746.html,Newly Crafted Vancouver West 1500SF 4bed 3bath Laneway available NOW!
-2999,4.0,,,55,East Vancouver,"6th Avenue, Vancouver, BC V5N5C7","6th Avenue, Vancouver, BC V5N5C7",craigslist_van,7934720914,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-east-vancouver/7934720914.html,4 Bedroom East Vancouver
-3950,5.0,,,27,Dunbar near Crown/41st,"Approx map: 49.230200, -123.189000","Approx map: 49.230200, -123.189000",craigslist_van,7934709701,https://vancouver.craigslist.org/van/apa/d/vancouver-avail-june-1st-lrg-lwr-level/7934709701.html,Avail June 1st lrg lwr. level furn.. suite clse to UBC/Dunbar
-4500,4.0,,,88,Coquitlam,"101 - 914 Rochester Ave, V3K 2W6, BC V3K2W6","101 - 914 Rochester Ave, V3K 2W6, BC V3K2W6",craigslist_van,7934660646,https://vancouver.craigslist.org/van/apa/d/coquitlam-spacious-bedroom-den-home/7934660646.html,Spacious 4 Bedroom + Den Home – Coquitlam
-5500,7.0,,,86,North Burnaby (Near SFU),"Approx map: 49.264000, -122.936900","Approx map: 49.264000, -122.936900",craigslist_van,7932674659,https://vancouver.craigslist.org/van/apa/d/burnaby-entire-bedroom-house-for-rent/7932674659.html,🏡 Entire 7 Bedroom House for Rent
-1000,4.0,,,30,Alma st and W 10th AVE,"Alma st, VANCOUVER, BC V6X0C3","Alma st, VANCOUVER, BC V6X0C3",craigslist_van,7927725239,https://vancouver.craigslist.org/van/apa/d/vancouver-one-bedroom-available-now-in/7927725239.html,one bedroom available now in basement CLOSE TO UBC
-3200,5.0,,,23,Vancouver,"Approx map: 49.249700, -123.166000","Approx map: 49.249700, -123.166000",craigslist_van,7934622616,https://vancouver.craigslist.org/van/apa/d/vancouver-rooms-suite-in-vancouver-west/7934622616.html,5 rooms Suite in Vancouver West (Macdonald Street)
-4000,5.0,3.0,,106,city of vancouver,"Approx map: 49.155100, -122.912400","Approx map: 49.155100, -122.912400",craigslist_van,7930015480,https://vancouver.craigslist.org/van/apa/d/delta-northeast-bedroom-bathroom-home/7930015480.html,"5-bedroom, 3-bathroom home located Delta"
-4990,4.0,,,37,Vancouver,"Arbutus, Vancouver, BC V6L2B2","Arbutus, Vancouver, BC V6L2B2",craigslist_van,7934529779,https://vancouver.craigslist.org/van/apa/d/vancouver-4br-upper-suite-with-mountain/7934529779.html,4BR Upper Suite with Mountain View
-4900,4.0,2.0,,52,Vancouver,"Approx map: 49.248000, -123.091300","Approx map: 49.248000, -123.091300",craigslist_van,7925998985,https://vancouver.craigslist.org/van/apa/d/vancouver-two-storeys-bed-bath-unit-in/7925998985.html,TWO STOREYS 4 BED & 2 BATH UNIT IN DESIRABLE MAIN
-4800,5.0,,,58,Vancouver,"3015 E 59th Ave,, Vancouver, BC V5S2B2","3015 E 59th Ave,, Vancouver, BC V5S2B2",craigslist_van,7934514811,https://vancouver.craigslist.org/van/apa/d/vancouver-luxury-family-home-for-rent/7934514811.html,Luxury Family Home for Rent – Vancouver
-5800,4.0,2.5,,56,Vancouver,"Approx map: 49.215600, -123.097900","Approx map: 49.215600, -123.097900",craigslist_van,7934383313,https://vancouver.craigslist.org/van/apa/d/vancouver-marpole-oakridge-townhouse/7934383313.html,Marpole Oakridge Townhouse 4 bdr 2.5 baths plus 1 den available now
-3800,4.0,,,43,city of vancouver,"Approx map: 49.241026, -123.123361","Approx map: 49.241026, -123.123361",craigslist_van,7932854567,https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-lot-single-house-at/7932854567.html,Spacious Lot Single House at Cambie Van
-5995,5.0,5.0,,41,Vancouver/Downtown Vancouver,"1383 Howe Street, Vancouver, BC V6Z2R5","1383 Howe Street, Vancouver, BC V6Z2R5",craigslist_van,7934339012,https://vancouver.craigslist.org/van/apa/d/vancouver-semi-furnished-bed-bath/7934339012.html,"Semi-Furnished 5 Bed, 5 Bath PENTHOUSE @ PORTOFINO  in Downtown!"
-4500,4.0,,,48,city of vancouver,"Approx map: 49.229270, -123.107933","Approx map: 49.229270, -123.107933",craigslist_van,7934277287,https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-bedroom-home-in/7934277287.html,Spacious 4-Bedroom Home in Prime Oakridge (One Month Free Rent)
-6500,5.0,3.0,,35,Vancouver,"w 28, Vancouver, BC V6S1S7","w 28, Vancouver, BC V6S1S7",craigslist_van,7933740455,https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-br-ba-ac-laneway/7933740455.html,Brand New 5-BR 3-BA w AC laneway house | St George | UBC
-2650,4.0,,,39,Vancouver,"28th ave, Vancouver, BC V6S1S8","28th ave, Vancouver, BC V6S1S8",craigslist_van,7930035584,https://vancouver.craigslist.org/van/apa/d/vancouver-close-to-ubc-spacious-single/7930035584.html,Close to UBC spacious single house 4Bdrm Basement
-3980,4.0,,,118,Fleetwood,"Approx map: 49.155559, -122.769470","Approx map: 49.155559, -122.769470",craigslist_van,7934160673,https://vancouver.craigslist.org/van/apa/d/surrey-spacious-or-5bedroom-upper-level/7934160673.html,"Spacious 3 (or 5)Bedroom Upper-Level Home in Fleetwood, Surrey"
-3800,4.0,2.0,,61,Vancouver,"Approx map: 49.260000, -123.039800","Approx map: 49.260000, -123.039800",craigslist_van,7933390895,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-living-room/7933390895.html,4 bedroom 2 bathroom 2 living room
-4300,6.0,2.5,,95,Burnaby,"7765 Allman Street, Burnaby, BC V5E2A9","7765 Allman Street, Burnaby, BC V5E2A9",craigslist_van,7928453208,https://vancouver.craigslist.org/van/apa/d/burnaby-bedroom-25-bathroom-house-for/7928453208.html,6 bedroom/2.5 bathroom house for rent
-6200,5.0,,,35,Mackenzie Heights,"3259 W35 Avenue, Vancouver, BC V6N2M9","3259 W35 Avenue, Vancouver, BC V6N2M9",craigslist_van,7932996775,https://vancouver.craigslist.org/van/apa/d/vancouver-cozy-family-bedrooms-home/7932996775.html,Cozy Family 5 Bedrooms Home
-985,4.0,,,64,Commercial Drive,"Approx map: 49.255100, -123.066700","Approx map: 49.255100, -123.066700",craigslist_van,7926291709,https://vancouver.craigslist.org/van/apa/d/vancouver-viewings-tonight-thursday-may/7926291709.html,Viewings tonight! Thursday May 14 - House near Trout Lake/CommercialDr
-6000,4.0,,,73,Vancouver,"renfrew, vancouver, BC V5K4A7","renfrew, vancouver, BC V5K4A7",craigslist_van,7933847250,https://vancouver.craigslist.org/van/apa/d/vancouver-warning-brand-new-house-for/7933847250.html,WARNING! Brand new house for rent Beside PNE LONG/SHORT TERM RENTAL
-120,4.0,,,43,Vancouver,"Knight Street, Vancouver, BC V5W3N3","Knight Street, Vancouver, BC V5W3N3",craigslist_van,7932891790,https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-in-vancouver/7932891790.html,Brand New House in Vancouver / Vacation & Short-Term Rental Options
-3200,5.0,,,76,city of vancouver,"1st Avenue, Vancouver, BC V5M1A2","1st Avenue, Vancouver, BC V5M1A2",craigslist_van,7933668906,https://vancouver.craigslist.org/van/apa/d/vancouver-house-east-vancouver-great/7933668906.html,House EAST VANCOUVER Great Location 5bd+2bth+yard+parking NOW/JUNE 1
-3500,5.0,,,61,VANCOUVER,"1257 E 18TH AVE, Vancouver, BC V5V1H3","1257 E 18TH AVE, Vancouver, BC V5V1H3",craigslist_van,7925953279,https://vancouver.craigslist.org/van/apa/d/vancouver-bargain/7925953279.html,**BARGAIN**
-3895,4.0,,,24,Vancouver,"4150 W 8th Ave, Vancouver, BC V6R1Z6","4150 W 8th Ave, Vancouver, BC V6R1Z6",craigslist_van,7933564248,https://vancouver.craigslist.org/van/apa/d/vancouver-coastal-luxury-with-zen/7933564248.html,Coastal Luxury with Zen Tranquility
-1050,5.0,,,21,"UBC, Dunbar, Southlands, Kerrisdale","Holland Street, Vancouver, BC V6N2A7","Holland Street, Vancouver, BC V6N2A7",craigslist_van,7929260796,https://vancouver.craigslist.org/van/apa/d/vancouver-private-rooms-for-rent-ubc/7929260796.html,"Private Rooms for Rent UBC, Dunbar"
-5800,5.0,5.0,,35,South Granville,"W 48th Ave, Vancouver, BC V6M2N5","W 48th Ave, Vancouver, BC V6M2N5",craigslist_van,7930400210,https://vancouver.craigslist.org/van/apa/d/vancouver-5bed-5ba-whole-house-in-south/7930400210.html,5BED/5BA Whole house in South Granville
-3200,4.0,2.0,,60,VANCOUVER,"EAST 63 AVE, VANCOUVER, BC V5X2K7","EAST 63 AVE, VANCOUVER, BC V5X2K7",craigslist_van,7933128677,https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-south-bedroom-bath/7933128677.html,VANCOUVER SOUTH 4 BEDROOM 2 BATH SUITE
-3913,4.0,,,38,Vancouver,"122 Walter Hardwick Ave, vancouver, BC V5Y0C9","122 Walter Hardwick Ave, vancouver, BC V5Y0C9",craigslist_van,7930518372,https://vancouver.craigslist.org/van/apa/d/vancouver-br-unit-for-rent/7930518372.html,$3913.00 / 4BR Unit for Rent
-5300,4.0,2.5,,39,Oakridge,"Ash Street, Vancouver, BC V5Z3G9","Ash Street, Vancouver, BC V5Z3G9",craigslist_van,7933051506,https://vancouver.craigslist.org/van/apa/d/vancouver-4br-25ba-vancouver-west/7933051506.html,4BR / 2.5BA Vancouver West Townhouse Near Oakridge
-4190,4.0,,,28,"Dunbar, Vancouver","Highbury St., Vancouver, BC V6L2V9","Highbury St., Vancouver, BC V6L2V9",craigslist_van,7933004141,https://vancouver.craigslist.org/van/apa/d/vancouver-sept1-bright-newer-br-garden/7933004141.html,Sept.1 - Bright Newer 4 Br. Garden Suite in Prime Dunbar
-3600,4.0,,,58,vancouver,"5274 Taunton Street, Vancouver, BC V5R4B3","5274 Taunton Street, Vancouver, BC V5R4B3",craigslist_van,7932896720,https://vancouver.craigslist.org/van/apa/d/vancouver-br-brand-new-renovation/7932896720.html,"$3,600 4 br BRAND NEW RENOVATION VANCOUVER 2nd floor with a big Patio"
-3850,4.0,,,27,Vancouver,"3233 SW Marine Dr, Vancouver, BC V6N3Y7","3233 SW Marine Dr, Vancouver, BC V6N3Y7",craigslist_van,7932725808,https://vancouver.craigslist.org/van/apa/d/vancouver-featuring-private-gym-theater/7932725808.html,"Featuring Private Gym, Theater & Golf Training Facility"
-4550,6.0,,,44,"Vancouver,Canada Line, Cambie","Approx map: 49.247500, -123.121000","Approx map: 49.247500, -123.121000",craigslist_van,7932671497,https://vancouver.craigslist.org/van/apa/d/vancouver-entire-house-bedrooms-by/7932671497.html,Entire House 6 Bedrooms By Canada Line Station
-4500,4.0,,,29,Vancouver,"W48th Avenue, Vancouver, BC V5Y2V9","W48th Avenue, Vancouver, BC V5Y2V9",craigslist_van,7930801532,https://vancouver.craigslist.org/van/apa/d/vancouver-available-now-bedrooms-house/7930801532.html,Available NOW 4 bedrooms house for rent in Oakridge Area
-4400,5.0,,,65,Vancouver,"Approx map: 49.226423, -123.042412","Approx map: 49.226423, -123.042412",craigslist_van,7932368554,https://vancouver.craigslist.org/van/apa/d/vancouver-van-east-house-for-rent/7932368554.html,Van East House for Rent
-5800,4.0,4.0,,41,Main/Fraser,"Approx map: 49.232700, -123.091700","Approx map: 49.232700, -123.091700",craigslist_van,7932151174,https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-family-home-for-rent/7932151174.html,4 Bed / 4 Bath Family Home for Rent – East Vancouver
-3800,4.0,3.5,,127,Willoughby,"80 Avenue, Langley, BC V2Y0J4","80 Avenue, Langley, BC V2Y0J4",craigslist_van,7929688454,https://vancouver.craigslist.org/van/apa/d/langley-township-northwest-bed-35-bath/7929688454.html,🏡 4 Bed + 3.5 Bath Townhouse for Rent – Willoughby area Langley
-5200,4.0,,,40,Vancouver,"Approx map: 49.257274, -123.123436","Approx map: 49.257274, -123.123436",craigslist_van,7931993631,https://vancouver.craigslist.org/van/apa/d/vancouver-bright-bedroom-character/7931993631.html,Bright 4-bedroom character duplex near VGH with sunny gardens
-3000,5.0,,,,West Vancouver,"Approx map: 49.461400, -123.329400","Approx map: 49.461400, -123.329400",craigslist_van,7931993532,https://vancouver.craigslist.org/van/apa/d/west-vancouver-luxury-mega-mansion/7931993532.html,Luxury mega mansion
-6500,4.0,,,21,Vancouver Dunbar,"Approx map: 49.254027, -123.190019","Approx map: 49.254027, -123.190019",craigslist_van,7931942058,https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-west-side/7931942058.html,Fully Furnished West Side Home in Dunbar – July - Aug
-5500,4.0,4.0,,35,Vancouver west,"Approx map: 49.249100, -123.208800","Approx map: 49.249100, -123.208800",craigslist_van,7929962128,https://vancouver.craigslist.org/van/apa/d/vancouver-new-built-duplex-house-bed/7929962128.html,New built Duplex house 4 bed room4 bathroom for rent
-4500,4.0,,2026-04-29,49,Oakridge,"82 West 45th Avenue, Vancouver, BC, V5Y 2V9","82 West 45th Avenue, Vancouver, BC, V5Y 2V9",padmapper,64223378,https://www.padmapper.com/rentals/28423702p/4-bedroom-2-bath-apartment-at-82-west-45th-avenue-vancouver-bc-v5y-2v9,
-5800,4.0,,2026-05-14,52,Marpole,"7545 Yukon Street, Vancouver, BC, V5X 2Y4","7545 Yukon Street, Vancouver, BC, V5X 2Y4",padmapper,64355402,https://www.padmapper.com/rentals/28499481p/4-bedroom-2-bath-apartment-at-7545-yukon-street-vancouver-bc-v5x-2y4,
-4900,4.0,,2026-06-01,50,Riley Park - Little Mountain,"4359 Main Street, Vancouver, BC, V5V 3R1","4359 Main Street, Vancouver, BC, V5V 3R1",padmapper,59887444,https://www.padmapper.com/rentals/28177301p/4-bedroom-2-bath-apartment-at-4359-main-street-vancouver-bc-v5v-3r1,
-2999,4.0,,2026-06-01,55,Grandview-Woodland,"E 6th Ave & Nanaimo St, Vancouver, BC, V5N 5C7","E 6th Ave & Nanaimo St, Vancouver, BC, V5N 5C7",padmapper,63622948,https://www.padmapper.com/rentals/28514222p/4-bedroom-1-bath-apartment-at-e-6th-ave-nanaimo-st-vancouver-bc-v5n-5c7,
-4200,4.0,,2026-06-01,62,Hastings-Sunrise,"2723 Turner Street, Vancouver, BC, V5K 2G3","2723 Turner Street, Vancouver, BC, V5K 2G3",padmapper,64366068,https://www.padmapper.com/rentals/64366068/4-bedroom-3-bath-apartment-at-2723-turner-street-vancouver-bc-v5k-2g3,
-5995,5.0,,2026-05-14,41,Downtown Vancouver,"1383 Howe Street #PH, Vancouver, BC, V6Z 2R5","1383 Howe Street #PH, Vancouver, BC, V6Z 2R5",padmapper,64354760,https://www.padmapper.com/rentals/64354760/5-bedroom-5-bath-apartment-at-1383-howe-street-vancouver-bc-v6z-2r5,
-5000,4.0,,2026-09-01,13,West Point Grey,"W 8th Ave & Tolmie St, Vancouver, BC, V6R 2A4","W 8th Ave & Tolmie St, Vancouver, BC, V6R 2A4",padmapper,64319285,https://www.padmapper.com/rentals/64319285/4-bedroom-1-bath-apartment-at-w-8th-ave-tolmie-st-vancouver-bc-v6r-2a4,
-5400,4.0,,2026-09-01,52,Riley Park - Little Mountain,"4285 St George St, Vancouver, BC, V5V 4A3","4285 St George St, Vancouver, BC, V5V 4A3",padmapper,64310024,https://www.padmapper.com/rentals/64310024/4-bedroom-2-bath-apartment-at-4285-st-george-st-vancouver-bc-v5v-4a3,
-6500,5.0,,2026-05-01,34,Dunbar,"Camosun St & W 28th Ave, Vancouver, BC, V6S 1S8","Camosun St & W 28th Ave, Vancouver, BC, V6S 1S8",padmapper,62284509,https://www.padmapper.com/rentals/62284509/5-bedroom-3-bath-apartment-at-camosun-st-w-28th-ave-vancouver-bc-v6s-1s8,
-3800,4.0,,2026-05-16,68,Victoria-Fraserview,"2300 Harrison Drive, Vancouver, BC, V5P 2P8","2300 Harrison Drive, Vancouver, BC, V5P 2P8",padmapper,64087176,https://www.padmapper.com/rentals/64087176/4-bedroom-2-bath-apartment-at-2300-harrison-drive-vancouver-bc-v5p-2p8,
-1125,5.0,,2026-05-01,15,West Point Grey,"4615 West 4th Avenue, Vancouver, BC, V6R 1R6","4615 West 4th Avenue, Vancouver, BC, V6R 1R6",padmapper,64039717,https://www.padmapper.com/rentals/64039717/5-bedroom-2-bath-apartment-at-4615-west-4th-avenue-vancouver-bc-v6r-1r6,
+price_cad,bedrooms,bathrooms,availability_date,transit_min_to_ubc,neighborhood,address_or_postal,address_text,latitude,longitude,source,source_listing_id,listing_key,url,title,description
+6250,4.0,,,28,"Vancouver, Dunbar, Point Grey, Kitsilano, UBC, Westside","w 18th ave, Vancouver, BC V6S1A7","w 18th ave, Vancouver, BC V6S1A7",49.256447,-123.181136,craigslist_van,7926826575,craigslist_van:7926826575,https://vancouver.craigslist.org/van/apa/d/vancouver-unique-year-rental/7926826575.html,Unique 1 year rental opportunity:  4 bdrm View house in Dunbar,"Beautiful, family-friendly, FULLY FURNISHED 4-bedroom, 2-bathroom home located in the highly sought-after Dunbar/Point Grey/Kitsilano neighborhood on Vancouver’s Westside, just minutes from UBC.
+This charming character home offers breathtaking views of the water, downtown skyline, and North Shore mountains. The main floor features an open-concept layout with a bright living room, dining area, and a spacious, fully equipped kitchen. French doors open onto a sunny, south-facing back balcony—perfect for relaxing or entertaining. This level also includes a bedroom with a pull-out sofa bed and a full bathroom.
+Upstairs, you’ll find three additional bedrooms, including a primary bedroom with a private balcony and stunning views. The upper level also features a newly renovated bathroom with a modern walk-in shower.
+Additional highlights include a fully fenced backyard and convenient access to public transit (bus stop just one block away). Ideally situated close to beaches, UBC, downtown Vancouver, and the airport.  School catchments: Lord Byng High school and Kitchener elementary.
+Rental Details:
+•	$6,250 per month plus utilities
+•	Fully furnished
+•	No pets
+•	No smoking of any kind
+•	Fixed-term lease: September 1, 2026 to June, July, or August 2027
+•	Start date is firm; tenancy must end no later than August 31, 2027 (owners returning from sabbatical)
+For inquiries, please text or call DN at
+show contact info
+."
+4900,4.0,2.0,,17,w 16th Ave Vancouver,"Approx map: 49.258521, -123.201950","Approx map: 49.258521, -123.201950",49.258521,-123.20195,craigslist_van,7931101041,craigslist_van:7931101041,https://vancouver.craigslist.org/van/apa/d/vancouver-4900-4br-bath-single-house/7931101041.html,$4900 /m 4br & 2 bath single house close to UBC,"4 bedrooms +2 bathrooms house for rent.
+This house is located in a beautiful area close to UBC.
+Available: 01 June 2026
+Offered at: $4,900/month
+Total Level: 3 levels
+Bedrooms: 4 (3 bedrooms upstairs, 1 bedroom basement).
+Bathrooms:2
+Kitchen: 1
+Fuel/Heating: forced air, natural gas
+Grand total: 2230 sq. ft
+This bright house close to UBC.
+Requirements: No Smoking, and No Sub-renting.
+Rent: $4,900/month, 1 year minimum, reference and credit check required.
+If you are interested, please contact Frank at
+show contact info
+for more information or making an appointment."
+6000,4.0,,,75,hastings sunrise,"Approx map: 49.280700, -123.039700","Approx map: 49.280700, -123.039700",49.2807,-123.0397,craigslist_van,7934172815,craigslist_van:7934172815,https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-for-rent/7934172815.html,Brand new house for rent Beside the PNE LONG OR SHORT TERM RENTAL,"Furnished 4 BR / 3 BA Luxury Home w/ 4 Balconies – Near Transit & Schools – 241 Renfrew
+Move into this beautifully designed 4-bedroom, 3-bathroom home at 241 Renfrew, Burnaby. Perfect for families or professionals, this fully furnished house is brand new, modern, and thoughtfully laid out with a reverse floor plan—bedrooms below, and a bright open living space above.
+Features you’ll love:
+- Reverse floor plan: Spacious living, dining & kitchen upstairs, bedrooms downstairs for privacy
+- 4 private balconies to enjoy fresh air & sunshine
+- Fully furnished with modern, comfortable décor—just bring your suitcase!
+- Air conditioning + hydronic baseboard heating = year-round comfort
+- Endless hot water with new high-efficiency system
+Transit & Location Highlights:
+- Steps to major bus routes (Renfrew St. & Hastings) and quick access to Gilmore SkyTrain Station
+- Easy commute to Downtown Vancouver & Metrotown
+- Close to Hwy 1 for quick access across the Lower Mainland
+Nearby Schools & Community:
+- Confederation Park Elementary & Alpha Secondary within walking distance
+- Close to Burnaby North Secondary and SFU Burnaby Campus
+- Family-friendly neighborhood with parks, playgrounds, and community centers nearby
+Amenities:
+- Minutes to Brentwood Town Centre (shopping, dining, entertainment)
+- Close to local shops, cafes, and grocery stores along Hastings Street
+- Parks and recreation: Confederation Park, Eileen Dailly Pool, Burnaby Mountain Trails
+Rent: C$6000 per month                and higher rates are avaialble for short term rentals, we have a short term business license as well
+pets considered for a higher rate
+Contact: to schedule a private showing.
+This home combines modern comfort with unbeatable convenience. Don’t miss this opportunity—contact today before it’s gone!"
+3000,4.0,1.0,,60,Rupert Station,"Rupert, Vancouver, BC V5M2M5","Rupert, Vancouver, BC V5M2M5",49.262223,-123.033837,craigslist_van,7932327305,craigslist_van:7932327305,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-ground-floor/7932327305.html,"☀ 4 Bedroom, 1 Bathroom Ground Floor Rupert Skytrain Available June 1☀","Available now, still available if ad is up. Please inquire with answers to questions at end of the ad
+Features:
+-4 bedrooms, 1 bathroom
+-Unfurnished
+-In-suite laundry (washer / dryer)
+-1-year lease to start
+-Half-month damage deposit required
+-Utilities split based on household occupancy
+Terms:
+-Seeking clean, responsible, and quiet tenants (no parties)
+-No smoking and no pets
+-Credit check, references, and income verification required
+Location:
+-5 minute walk to Rupert Station and 10 minute walk to Superstore
+-Closest intersection: E 8th Avenue and Rupert
+To Apply: To be considered, please reply with a brief introduction including:
+-Number of occupants
+-Occupation/employment status
+-Intended length of stay
+-Desired move-in date
+-Any pets"
+2500,4.0,,,93,Vancouver,"Approx map: 49.256144, -122.899287","Approx map: 49.256144, -122.899287",49.256144,-122.899287,craigslist_van,7932229301,craigslist_van:7932229301,https://vancouver.craigslist.org/van/apa/d/burnaby-bed-upper-unit-close-to/7932229301.html,4 BED UPPER UNIT CLOSE TO LOUGHEED MALL AND SKYTRAIN STATION,"PLEASE TEXT ME AT
+show contact info
+TO BOOK A SHOWING THANK YOU!
+-4 Bedrooms 1 Bathrooms Upper unit
+-Large living room space
+-Huge backyard
+-Short drive to richmond centre
+-Private washer, and dryer
+-Utilities not included
+-Minimum one year lease
+-No pets, no smoking or vaping
+-Reference and credit check are required
+-Tenant insurance is required
+-Square footage is an estimation
+Royal Pacific Realty Corp. /
+Green Team Realty Inc.
+Professionally Managed By:
+Janet Lu PREC*
+show contact info
+Alex Shen PREC*
+show contact info"
+3980,4.0,,,118,Fleetwood,"Approx map: 49.155559, -122.769470","Approx map: 49.155559, -122.769470",49.155559,-122.76947,craigslist_van,7934160673,craigslist_van:7934160673,https://vancouver.craigslist.org/van/apa/d/surrey-spacious-or-5bedroom-upper-level/7934160673.html,"Spacious 3 (or 5)Bedroom Upper-Level Home in Fleetwood, Surrey","Bright and beautifully maintained 4-bedroom,potential 5 bedroom, 3-bathroom upper-level suite located in the desirable Fleetwood neighborhood. This home offers plenty of natural light, a private fenced yard, and a garage for your convenience.
+Features:
+Large and open living & dining area
+Modern kitchen with ample storage
+3+ Den spacious bedrooms and 2.5 bathrooms
+Private yard – perfect for family and kids
+In-suite laundry
+Garage parking included
+Quiet and family-friendly neighborhood
+Location Highlights:
+Close to schools, parks, shopping, and transit – easy access to Fraser Hwy and Hwy 1.
+Rent: [3989] per month
+Utilities: [shared]
+Availability:
+Lease term: Minimum 1 year
+Requirements: References and credit check required"
+3900,4.0,2.0,,30,34xxxx W 19th Ave Vancouver,"Approx map: 49.255297, -123.180707","Approx map: 49.255297, -123.180707",49.255297,-123.180707,craigslist_van,7927141037,craigslist_van:7927141037,https://vancouver.craigslist.org/van/apa/d/vancouver-ground-floor-bedroom-bathroom/7927141037.html,Ground floor 4 bedroom 2 bathroom Vancouver 19th Ave near UBC LordByng,"REF#V19gr)
+Aesthetic Ground floor suite 34xxx W 19th Ave Vancouver, near UBC. Dunbar area
+Ground floor 4 Bedroom 2 Bathroom 1 living with kitchen, 1600sqft, Simple furnished, Separate Entry, has fridge, oven, laundry machines, stove, dishwasher.
+No smoking, No Pets.
+rent $4,300.00 monthly, Water, gas, internet, electricity included,
+Street Parking.
+Available June 1st, 2026; 1 year lease.
+Aesthetic Ground floor 4 bedroom 2 bathroom suite which is located at 34xxx W 19th Ave Ave, Vancouver. This home overlooks a beautiful a gorgeous tree lined street. Suite include new kitchen cabinets, stainless steel appliances and granite countertops, as well as new baths with granite counter tops. The functional layout allows for a family to live in the enjoyable home. Great school catchments, 13 Minutes driving to UBC. Shopping and dining near by. Live the Vancouver dream!
+Kindly no pets no smoking.
+School Catchment:
+Elementary
+K - 7 Lord Kitchener Elementary
+Secondary
+8 - 12 Lord Byng Secondary
+- electricity, gas, internet, heating cost are included,
+- References and credit check required, tenant insurance required
+- No subleasing/short term rentals
+- Most recent landlord contact information required
+- Strictly no pet no smoking
+Please LEAVE YOUR CONTACT INFO and brief self introduction
+text message to:
+show contact info
+(Text Only, No Call)
+- Reply code ""REF#V19gr)""
+-contact information
+-Number of people who will move in
+-Expected move-in date
+-Reason for moving
+- do you have a guarantor
+Keywords: Vancouver single home rental, Vancouver house rentals, home rental, point grey rental homes, point grey house rentals, home rentals Vancouver, Vancouver luxury homes, west house west Vancouver, home west Vancouver, British properties homes for rent, Vancouver west homes for rent, UBC home rental Unfurnished house Vancouver, unfurnished house in Vancouver, unfurnished house, Downtown rental, rent home in Vancouver west, easy rent homes Vancouver, easy rent homes , easy rent homes in Vancouver, easy rent homes in UBC, luxury house for unfurnished house in Vancouver, unfurnished house in UBC, furnish Vancouver house, rental rent in Vancouver, luxury house for rent UBC, Point grey luxury homes for rent, house for sale Vancouver"
+5200,4.0,2.0,,15,43xxx W 11th Ave Vancouver,"Approx map: 49.262590, -123.203773","Approx map: 49.262590, -123.203773",49.26259,-123.203773,craigslist_van,7925235248,craigslist_van:7925235248,https://vancouver.craigslist.org/van/apa/d/vancouver-basement-big-bedroom-bathroom/7925235248.html,Basement big 4 bedroom 2 bathroom near UBC 11th Ave Vancouver West,"Basement suite separate entry, 4 bedroom 2 bathroom with simple basic furniture 1000sqft available to rent, 9 minutes driving to UBC, 20 minutes taking Bus to UBC.
+rent period: 1 year lease term
+house basement suite
+Laundry separate, electric stove, microwave,
+Simple basic furniture
+street parking
+no smoking
+REF#Vbsm11)
+Large suite basement 43xxx W 11th Ave Vancouver, near UBC,
+No smoking, No Pets.
+rent $5,200.00 monthly. water, gas, electricity, heat included in the rent, Maximum for 4 people to live.
+Available Sep 1st, 2026 to Apr 31st, 2027 8 months lease term, 1 year lease time.
+Kindly no pets no smoking.
+School Catchment
+Elementary
+K - 7 Queen Mary Elementary
+Secondary
+8 - 12 Lord Byng Secondary
+- water, gas, electricity, heating included in the rent
+- Internet not included, Tenant will arrange own separate Internet service
+- References and credit check required, tenant insurance required
+- No subleasing/short term rentals
+- Most recent landlord contact information required
+- Strictly no pet no smoking
+Please LEAVE YOUR CONTACT INFO and brief self introduction
+text message to:
+show contact info
+. (Text Only)
+- Reply code ""REF#Vbsm11)""
+-contact information name phone number
+-Number of people who will move in
+-Expected move-in date
+-Reason for moving
+- do you have any pets
+- occupation
+- do you have a guarantor
+Keywords: Vancouver single home rental, Vancouver house rentals, home rental, point grey rental homes, point grey house rentals, home rentals Vancouver, Vancouver luxury homes, west house west Vancouver, home west Vancouver, British properties homes for rent, Vancouver west homes for rent, UBC home rental Unfurnished house Vancouver, unfurnished house in Vancouver, unfurnished house, Downtown rental, rent home in Vancouver west, easy rent homes Vancouver, easy rent homes , easy rent homes in Vancouver, easy rent homes in UBC, luxury house for unfurnished house in Vancouver, unfurnished house in UBC, furnish Vancouver house, rental rent in Vancouver, luxury house for rent UBC, Point grey luxury homes for rent, house for sale Vancouver"
+2700,8.0,,,32,Shaughnessy,"Approx map: 49.257500, -123.138800","Approx map: 49.257500, -123.138800",49.2575,-123.1388,craigslist_van,7931923778,craigslist_van:7931923778,https://vancouver.craigslist.org/van/apa/d/vancouver-master-suite-in-mansion-live/7931923778.html,Master Suite in Mansion - Live with Like-Minded People!,"If you’re a positive person who wants to share a beautiful space with like-minded people... keep reading!
+We're a group of career-focused professionals with diverse backgrounds. Our home consists of business owners, software engineers, and a little bit of everything else! We’re a relatively quiet household and do not host parties. Everyone here values cleanliness, positive energy, and mutual respect - we’d love to find someone who can relate!
+Available July 1st is the 600 sq ft furnished master bedroom, featuring a private ensuite bathroom with heated floors, a jacuzzi, and a walk-in closet!
+The mansion itself is 9,500 sq ft, with 8 bedrooms and 8 bathrooms, sitting on a 1-acre property in Shaughnessy.
+It’s a vibrant home with plenty of amenities. The home is large enough that you'll always be able to find empty rooms if you want alone time, or you can head to the kitchen where there's usually someone hanging out. The property also has a full-size gym, sauna, and a cold plunge!
+We’re within walking distance to shops, groceries, and cafés, with a Granville Street bus stop right outside the house.
+Rent is $2700/month, and it includes everything: utilities, weekly cleaners, and high-speed Wi-Fi.
+If this sounds like the right fit, I’d love to hear from you!"
+4800,4.0,,,67,city of vancouver,"2442 East 19th Avenue, Vancouver, BC V5M2R9","2442 East 19th Avenue, Vancouver, BC V5M2R9",49.253357,-123.05558,craigslist_van,7932565625,craigslist_van:7932565625,https://vancouver.craigslist.org/van/apa/d/vancouver-plhref2442charming-whole/7932565625.html,(PLH_REF#2442)***Charming Whole 4-Bedroom House with Backyard & Garage,"(PLH_REF#2442)***Charming Whole 4-Bedroom House with Backyard & Garage in Renfrew Heights* $4,800.00 -CAD per month
+Address: 2442 East 19th Avenue, Vancouver, BC V5M 2R9
+FEATURES
+Bedrooms: 4
+Bathrooms: 2
+Square footage:1746sqft
+School DIstrict: Elementary: Lord Beaconsfield Elementary | Secondary: Gladstone Secondary
+Parking space: 1 car garage
+Availability: May 16, 2026
+Pets : Upon owners' approval
+Agent Name: Jane
+City Neighborhood: Renfrew Heights
+Thank you for contacting Panda Luxury Homes!
+TO SET UP A VIEWING OR FOR INQUIRIES CONTACT:
+Jane Zhang via janezhang @pandaluxuryhomes.com
+TO VIEW THIS PROPERTY:TEXT OR CALL
+show contact info
+DESCRIPTION
+Bright and well-located 4 bed, 2 bath home available in the Renfrew Heights area, situated on a quiet, family-oriented, tree-lined street. The home offers a functional layout with comfortable living space, wood flooring, a spacious kitchen, and convenient laundry access.
+Enjoy a south-facing backyard, garage, and an excellent location within walking distance to SkyTrain, Trout Lake, Beaconsfield Park, the Community Centre, and the Italian Cultural Centre. This is a great option for tenants looking for a practical home in a peaceful residential neighbourhood with easy access to parks, transit, and daily amenities.
+HOME FEATURES & PROXIMITY TO CONVENIENCES
+Functional layout
+Spacious kitchen
+Wood flooring
+Laundry included
+Garage included
+South-facing backyard
+NEIGHBOURHOOD FEATURES & PROXIMITY TO CONVENIENCES
+Quiet residential neighbourhood
+SkyTrain nearby
+Trout Lake nearby
+Convenient East Vancouver location
+Renfrew Heights
+To see other available Panda Luxury homes please click;
+https pandaluxuryhomes com"
+4800,4.0,,,50,Marpole,"7989 Cambie Street, Vancouver, BC V6P3J4","7989 Cambie Street, Vancouver, BC V6P3J4",49.210237,-123.117225,craigslist_van,7929875795,craigslist_van:7929875795,https://vancouver.craigslist.org/van/apa/d/vancouver-plhref7969spacious-bedroom/7929875795.html,(PLH_REF#7969)***Spacious 4-Bedroom Family Home in Desirable Marpole —,"(PLH_REF#7969)***Spacious 4-Bedroom Family Home in Desirable Marpole — Private Backyard + Office*** $4,800.00 -CAD per month
+Address: 7989 Cambie Street, Vancouver, BC V6P 3J4
+FEATURES
+Bathrooms: 4
+Bathroom 3
+Square footage: 2966sqft
+School District:  Elementary: Dr. Annie B. Jamieson Elementary School | Secondary: Sir Winston Churchill Secondary School
+Parking space: 1 car parking
+Pets Allowed: Pets upon approval
+Availability: 	April 1, 2026
+Agent Name: Jane
+City Neighborhood: Marpole
+Thank you for contacting Panda Luxury Homes!
+TO SET UP A VIEWING OR FOR INQUIRIES CONTACT:
+Jane Zhang via janezhang @pandaluxuryhomes.com
+TO VIEW THIS PROPERTY:TEXT OR CALL
+show contact info
+DESCRIPTION
+Welcome to this beautiful family home located in the most Desirable Marpole neighbourhood with excellent school catchments! This home offers approximately 2966 sq ft of living space with 4 bedrooms, 3 bathrooms, an office and a large private backyard. This home features a nice and spacious living room, a beautiful kitchen with an Eating Area & a lot of storage space throughout. Close to shopping, recreation, parks & golf courses etc. Book your private showings now!
+The tenant is responsible for the electricity, natural gas and internet fees. The tenant is responsible for gardening and ensuring snow removal.
+Pets need approval
+HOME FEATURES & AMENITIES
+Car Garage
+BRIGHT INSIDE
+INSUITE LAUNDRY
+FUNCTIONING LAYOUT
+NEIGHBORHOOD FEATURES & PROXIMITY TO CONVENIENCES
+CLOSE TO RESTAURANTS
+SKYTRAIN STATION NEARBY
+ENTERTAINMENT BY AS CINEMA
+GROCERY STORE NEARBY
+To see other available Panda Luxury homes please click;
+https pandaluxuryhomes com"
+6500,7.0,6.0,,58,city of vancouver,"Approx map: 49.222000, -123.068300","Approx map: 49.222000, -123.068300",49.222,-123.0683,craigslist_van,7932391841,craigslist_van:7932391841,https://vancouver.craigslist.org/van/apa/d/vancouver-rare-fraserview-rental-custom/7932391841.html,Rare Fraserview Rental – Custom-Built Luxury Home (7 Bed / 6 Bath),"Rarely available in the highly sought-after Fraserview neighbourhood! This stunning custom-built home offers exceptional craftsmanship and a spacious 7-bedroom, 6-bathroom layout—perfect for growing families and multigenerational living.
+Step into a dramatic 25-ft vaulted foyer and enjoy a bright, open-concept design filled with natural light from expansive windows and skylights. The home features a gourmet main kitchen plus a separate wok kitchen, a large entertainment room, and a seamless flow ideal for both everyday living and hosting guests.
+Additional features include:
+-Radiant in-floor heating + air conditioning for year-round comfort
+-Private upstairs balcony with breathtaking 180° views toward Richmond
+-Quiet, family-friendly neighbourhood
+-Close to transit, parks, and excellent school catchments
+-Minutes to Bobolink Park
+Address: 2085 Qualicum Drive, Vancouver
+Rent: $6,500/month (entire house)
+Available: May 15 or June 1, 2026
+Showings: Available starting May 1
+If you’re interested in booking a viewing, please email to arrange a showing."
+1000,6.0,,,23,Vancouver,"3853 W 15th Ave, Vancouver, BC V6R3A1","3853 W 15th Ave, Vancouver, BC V6R3A1",49.258983,-123.189572,craigslist_van,7929666902,craigslist_van:7929666902,https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7929666902.html,A furnished room for rent in Vancouver,"A furnished room for rent in Vancouver
+This is a great place for a student or a working professional who is looking for the right accommodation. This house is located in Point Grey, near Kitsilano, one of the most prestigious and safest neighbourhoods in Vancouver. It has an easy access to downtown and UBC, just one minute walk from a bus stop. It's 15 minutes to UBC by bus.
+The house is fully furnished. The room is bright and is located on the Second floor and the bathroom is shared between three roommates.
+Restaurants and cafes are a short walk away. All the special cuisines are available in the area.
+No Pets
+No Smoking"
+1200,6.0,,,25,Vancouver,"3550 W 39th Ave, Vancouver, BC V6N3A5","3550 W 39th Ave, Vancouver, BC V6N3A5",49.236497,-123.159861,craigslist_van,7926896031,craigslist_van:7926896031,https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7926896031.html,A Furnished Room for Rent in Vancouver,"A Furnished Room for Rent in Vancouver
+This is a great place for a student or a working professional who is looking for the right accommodation. This house is located near Dunbar St, at South Granville, one of the most prestigious and safest neighbourhoods in Vancouver. It has an easy access to downtown and UBC, just one minute walk from a bus stop. It's 20 minutes to UBC by bus.
+The 6 beds 2 baths unit is fully furnished. The room is bright, located on the Second floor and the bathroom is shared between three roommates.
+Restaurants and cafes are a short walk away. All the special cuisines are available in the area.
+No Pets
+No Smoking"
+3400,4.0,2.0,,68,Vancouver,"East 1st Avenue, vancouver, BC V5M1A3","East 1st Avenue, vancouver, BC V5M1A3",49.269374,-123.044221,craigslist_van,7931966065,craigslist_van:7931966065,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-ground-floor/7931966065.html,*** 4 BEDROOM 2 BATHROOM GROUND FLOOR SUITE NANAIMO AND 1ST AVENUE ***,"4 BEDROOM GROUND FLOOR SUITE NANAIMO AND 1ST AVENUE
+Rent is $3600 per month. Utilities are shared 50%. Available on June 1st, 2026.
+Ground floor Suite is move in ready.
+1 block away from bus stop on Nanaimo and 1st avenue, 15 minutes from downtown.
+Ground floor suite in a house, 4 bedrooms and very spacious. Has a new dryer and washer, stove and fridge in suite and 2 full washrooms. Private parking in driveway behind house and street parking is also available. No pets and no smoking inside house are allowed.
+For inquiries, please call
+show contact info
+directly, no text messages thanks."
+4000,5.0,3.0,,106,city of vancouver,"Approx map: 49.155100, -122.912400","Approx map: 49.155100, -122.912400",49.1551,-122.9124,craigslist_van,7930015480,craigslist_van:7930015480,https://vancouver.craigslist.org/van/apa/d/delta-northeast-bedroom-bathroom-home/7930015480.html,"5-bedroom, 3-bathroom home located Delta","Welcome to this spacious and well-maintained 5-bedroom, 3-bathroom home located in a quiet, family-friendly neighborhood of North Delta. Offering approximately 2,050 sqft of living space, this home is ideal for a growing family seeking comfort and convenience.
+Property Features:
+5 Bedrooms
+3 Full Bathrooms
+Approx. 2,050 Sqft
+Bright and spacious living & dining areas
+Functional kitchen with ample cabinet space
+Large windows with plenty of natural light
+Private yard
+Parking available
+Rental Terms:
+$4,000 per month
+Security Deposit: Half month rent
+Minimum 1-year lease
+No Pets
+No Smoking
+Credit Check Required
+Reference Check Required
+Tenant Insurance Required
+Conveniently located close to schools, parks, shopping, and transit with easy access to major routes.
+Interested applicants, please provide:
+Number of occupants
+Employment information
+Desired move-in date"
+4800,5.0,,,62,city of vancouver,"E 55 Ave, Vancouver, BC V5P1Z4","E 55 Ave, Vancouver, BC V5P1Z4",49.220189,-123.072882,craigslist_van,7934059479,craigslist_van:7934059479,https://vancouver.craigslist.org/van/apa/d/vancouver-east-van-entire-house-for-rent/7934059479.html,East Van Entire House For Rent,"Hello there,
+Available from July 1 2026.
+**Please note, current tenants still living in, so don’t have more photos. Viewings can be
+arranged. Current tenants moving out by end of June.
+**Photos don’t show well of the home.
+Spacious 5 bedrooms 2 full baths, entire house for rent, on E 55 Ave, steps away from David
+Thompson Secondary. About 2100 sqft.
+Sir Sandford Fleming Elementary, 3 mins drive, 15 mins walk.
+David Thompson Secondary, 5 mins walk.
+Langara College, 8 mins drive.
+$4800/month, with in-suite washer and dryer. Tenants to pay for utilities, and tenants
+insurance and credit check mandatory. Unfurnished.
+Looking for clean, respectful, responsible, quiet, no smok ing of any kind please.
+Listed and managed by Remax City Realty, office located at #101 - 2806 Kingsway
+Vancouver, BC V5R 5T5
+Vancouver, East Van, E 49, David Thompson, Sir Sandford Fleming, Langara, UBC, SFU,"
+3800,4.0,2.0,,61,Vancouver,"Approx map: 49.260000, -123.039800","Approx map: 49.260000, -123.039800",49.26,-123.0398,craigslist_van,7933390895,craigslist_van:7933390895,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-living-room/7933390895.html,4 bedroom 2 bathroom 2 living room,"4Bedroom 2Bath 2 living room Suite (Vancouver East)
+3000Sq Ft , second floor
+Location:
+-10Minute walk to Save on Foods, Walmart, and Superstore
+-5 Minute walk to Renfrew Skytrain Station
+-8 Minute Drive to BCIT
+-20 Minute Drive to SFU
+-30 Minute Drive to UBC
+-25 Minute Drive to Downtown Vancouver
+School Catchment:
+-Renfrew Elementary School
+-Windermere Secondary School
+-Van Tech Secondary School
+-Vancouver Christian School
+Gated House
+No Pets
+No Smoking
+Laundry included within unit
+Wi-Fi NotIncluded
+UTILITIES NOT INCLUDED"
+3800,4.0,,,136,"Surrey, BC","57 Ave, Surrey, BC, BC V3S8W3","57 Ave, Surrey, BC, BC V3S8W3",49.0791,-122.7553,craigslist_van,7934043714,craigslist_van:7934043714,https://vancouver.craigslist.org/van/apa/d/surrey-east-large-home-with-separate/7934043714.html,"Large Home with Separate Suite Near Schools, Parks & Shopping!","Welcome to this stunning 2-story home with a walkout basement, ideally located across from Panorama Village Park. This bright and spacious residence offers 4 bedrooms, 4 bathrooms, and 2 laundries, perfect for families seeking comfort and convenience.
+The main level boasts an inviting living room with a cozy gas fireplace, a generous dining area, and a modern kitchen with a sitting nook that opens to a private deck—ideal for morning coffee or evening gatherings. Upstairs, you’ll find 3 spacious bedrooms, 2 full baths, and a convenient laundry area.
+The fully finished walkout basement features a self-contained 1-bedroom suite complete with a living area, kitchen, full bathroom, and separate laundry—perfect as a mortgage helper or in-law suite.
+Enjoy mountain views, ample parking with a covered garage and extra spaces, and a location that truly has it all—steps to Panorama Shopping Centre, YMCA, schools, restaurants, and transit. Nearby parks include Goldstone Park and Sullivan Heights Park.
+Don’t miss this opportunity to rent a well-maintained home in one of Surrey’s most desirable communities!
+Schools Nearby:
+– Cambridge Elementary School (0.8 km)
+– Sullivan Heights Secondary School (1.4 km)
+Book your Showing Today!
+For more information or to schedule a viewing, please contact:
+Lease-Up Agent Natalia Garbuzova –
+show contact info
+(text only please)
+Real Estate Licensee Oksana Hardash:
+show contact info
+/
+show contact info
+(Call/text)
+First Stay Realty Inc.
+*******
+Disclaimer: Although we endeavor to maintain accurate information, we cannot guarantee its completeness or suitability for specific purposes. Your reliance on such information is entirely at your discretion and risk. It is advisable to independently verify crucial details and conduct thorough due diligence before finalizing any rental agreement."
+3950,5.0,,,31,Dunbar near Crown/41st,"Approx map: 49.230200, -123.189000","Approx map: 49.230200, -123.189000",49.2302,-123.189,craigslist_van,7934019604,craigslist_van:7934019604,https://vancouver.craigslist.org/van/apa/d/vancouver-avail-may-15th-june-1st-lrg/7934019604.html,Avail May 15th-June 1st lrg lwr. level furn.. suite clse to UBC/Dunbar,"Available May 15th-June 1st for 1-3 or 12 months only-UBC area-We are offering a rental on spacious full height lower level fully furnished 5 bedroom suite *(so 5 occupants only please). Each room comes complete with double beds *(includes linens) desk chairs, dressers, night stands, lights,close or armoire etc) The livingroom is very spacious with 3 couches and a breakfast bar pass through from the kitchen, lots of windows, coin operated laundry and *(limited) street parking. There is a covered patio area and a separate stand alone bike shed.
+All pots and pans and plateware can be provided. Maximum four to  five occupants please. No pets and not smoking. Must provide good references.
+Approximately 25-30 minutes to Ubc. Close to Dunbar and 41st area which has a Save on Foods and other shops and the two neighborhoods of Dunbar and Kerrisdale. NOT a party house, renter must be tidy and follow a weekly chore list, quiet safe, neighborhood.
+Please tell us more about yourself and your group.
+Rent is $3950 per month plus a share of utilities but includes shared broadband 1000 internet and all furnishings.
+Thanks :) No pets, prefer non smokers)"
+5700,4.0,,,30,vancouver,"Carnarvon St, Vancouver, BC V6L1L1","Carnarvon St, Vancouver, BC V6L1L1",49.259648,-123.172215,craigslist_van,7931841407,craigslist_van:7931841407,https://vancouver.craigslist.org/van/apa/d/vancouver-bedrooms-duplex-in-arbutus/7931841407.html,4 bedrooms Duplex in Arbutus (Dunbar UBC Point Grey),"Duplex built in 2020, upper level in Dunbar community 21st Ave and Carnarvon
+4 bedrooms, 3 full bathrooms
+• Close to Dunbar community centre, library, cinema, TD, BMO, Scotiabank, restaurants, starbucks
+• Grocery store Safeway, Stong’s、Save on food、H-Mart、Shoppers、London drug convenient location
+• Carnarvon Elementary, PW secondary, private school St .George's, Lord Byng, UBC
+• 25, 7, 33, 10min to UBC and connect to Skystrain
+No smoking, no pet, no party
+Appointment for viewing."
+5199,5.0,,,48,Vancouver West –Marpole Oakridge,"W62 Ave, Vancouver, BC V6X2E4","W62 Ave, Vancouver, BC V6X2E4",49.213985,-123.11567,craigslist_van,7929517213,craigslist_van:7929517213,https://vancouver.craigslist.org/van/apa/d/vancouver-executive-spacious-family/7929517213.html,Executive & Spacious Family Home Vancouver West Side,"Unfurnished. Furniture on PHOTOS STAGE ONLY!
+There is a self-contained basement suite not included; it has been rented to a tenant separately.
+Immaculate, well-built spacious house in Marpole Oakridge Community. This spacious 5 bed home is bathed in natural light and perfect for entertaining w/ very large room sizes, 3 full baths. Fresh painting newer hardwood floors. Sunny backyard and patio.
+* Executive & Immaculate kept Family House, 3,044 sqt living area, 6,637sqt lot size
+* 5 Spacious Bedrooms and 1 big office, 3 Full Bathrooms, all in great conditions.
+(There is a self-contained basement suite not included; it has been rented to a tenant separately)
+* A Fully Fenced Lovely Private Back Yard ;
+*Monthly Rent: $5,199
+*Contract: At Least One Year Lease
+*Features: ClthWsh/Dryr/Frdg/Stve/DW, Drapes/Window Coverings, Microwave
+*No Pet; No Smoking
+*Parking: Double garage
+*Available: Immediately
+*Location: W 62 cross Cambie St, Vancouver West
+**CREDIT CHECK WILL BE DONE**
+If Interested Please Contact Macdonald Commercial RES Ltd. Licensed Property Manager Lily Tang at
+show contact info
+with SPECIFIC PROPERTY INFO(like location information shown above) or email for View.
+Disclaimer: This advertisement is for informational purposes only and does not constitute a binding offer. All details, including rent, utilities, furnishings, and availability, are subject to verification and may change without prior notice. Any tenancy will be governed solely by the terms and conditions of a written Residential Tenancy Agreement in accordance with the Residential Tenancy Act of British Columbia."
+3300,4.0,,,72,"Vancouver, Hastings Sunrise","William Street, Vancouver, BC V5K2Y4","William Street, Vancouver, BC V5K2Y4",49.27413,-123.033626,craigslist_van,7928323538,craigslist_van:7928323538,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-two-level-house-for/7928323538.html,4 BEDROOM TWO-LEVEL HOUSE FOR RENT,"Spacious two-level 4 bedroom available in a great desirable neighbourhood located just blocks away from The East Village on Hastings Street. One block west of Nanaimo Street is Grandview-Woodland so you have the best of both worlds.
+-Large front deck facing north
+-Can also be a 3 bedroom plus den
+-Hasting and Nanaimo is only a 10 min walk to groceries, cafes, bakeries, restaurants, London drugs, etc.
+-Adanac bike route three blocks away
+-Walk to Templeton Pool, Britannia Pool and New Brighton Pool (outdoors)
+-Hastings Community Centre nearby
+-Tennis courts, basketball courts, track, parks and the Empire Fields are close by
+-City centre is 15 minutes by car
+-Easy access to the north shore
+-Transit #7 bus 1.5 blocks away on Nanaimo Street (to skytrain or downtown)
+-Transit buses R5, N35 night bus, #14, #16 are a 10 min walk
+-Ground level suite not available
+-NO PETS
+-NO Smoking of any kind and no vaping
+-Four people max please
+-References required
+-Call or text
+show contact info"
+4300,6.0,2.5,,95,Burnaby,"7765 Allman Street, Burnaby, BC V5E2A9","7765 Allman Street, Burnaby, BC V5E2A9",49.234442,-122.951171,craigslist_van,7928453208,craigslist_van:7928453208,https://vancouver.craigslist.org/van/apa/d/burnaby-bedroom-25-bathroom-house-for/7928453208.html,6 bedroom/2.5 bathroom house for rent,"Prime South Burnaby location! Well-cared-for 6 bed, 2.5 bath home offering spacious 2,550 sq ft of living on a 11000 sq ft lot. Updates were done 5 years ago. Great for growing family that look for space. School catchments are lakeview elementary school and Burnaby Central High School. No smoking/ no pets.  Credit check, reference check and tenant insurance are required"
+3199,4.0,3.5,,63,Vancouver,"Approx map: 49.223200, -123.043400","Approx map: 49.223200, -123.043400",49.2232,-123.0434,craigslist_van,7933972358,craigslist_van:7933972358,https://vancouver.craigslist.org/van/apa/d/vancouver-new-built-bed-35-bath-laneway/7933972358.html,New Built 4 Bed 3.5 Bath Laneway at E45th & Victoria Dr,"New built air conditioning 4 Bed 3.5 bath laneway at E45 and Victoria Dr.., 3 bed 2 bath upstairs, a 1 bed 1.5 bath and kitchen / Living room downstairs. Come with EV charger.
+Rent: $3199/4 people, , tenant insurance is required, tenants to pay the electricity and wifi. share water fee
+Steps to Victoria Dr shopping and cafe and no 20，R4, 430 or 49 bus to downtown, Metrotown or Richmond. Super convenient location. No pet no smoking. Max 4 people
+1 year lease minimum"
+4500,4.0,2.0,,33,Vancouver,"5998 Larch Street, Vancouver, BC V6M4E4","5998 Larch Street, Vancouver, BC V6M4E4",49.231919,-123.16251,craigslist_van,7933960538,craigslist_van:7933960538,https://vancouver.craigslist.org/van/apa/d/vancouver-kerrisdale-bed-bath-character/7933960538.html,Kerrisdale 4 Bed 2 Bath Character House w/ Fenced Backyard,"Address: 5998 Larch Street, Vancouver
+Available: May 1, 2026 - long term unfurnished
+Bedrooms: 4
+Bathrooms: 2
+Finished area: 2100 sf
+Levels: 2
+Fireplaces: 1; wood burning
+Flooring: hardwood, tiles mixed
+Outdoor: landscaped front yard, fenced backyard
+Parking: street
+Deposits: half-month security deposit + fob deposits.
+Lease term: minimum 1 year lease.
+Pets: sorry not this one.
+No Bidet.
+Absolutely no smoking please.
+Included items:
+fridge, stove, microwave, dishwasher, and washer & dryer.
+Not included:
+natural gas, electricity, telephone, cable, internet
+____________________________________________________________________________
+LOCATION:
+Very desirable Kerrisdale neighborhood in Vancouver's Westside. Just few blocks away from Kerrisdale Village for a galore of businesses and restaurants along Boulevard and W.41st Ave for all your dining, shopping and entertainment needs. Elm Park is steps away up the street, Kerrisdale arena, and community centre are also very close. Maple Grove Elementary and Magee Secondary are the schools in this catchment area. 15 minutes to UBC and 10 minutes to Oakridge Shopping Centre.
+FEATURES:
+Very well maintained character home in Kerrisdale. Home features 3 bedrooms on the main floor, with a self contained 1 bedroom ground floor suite below. Newer roofing, piping, and electrical system are some of the upgrades that have been done in recent years. Some additional features include double glazed thermo windows, beautiful hardwood flooring, a fenced backyard with planters (making it ideal for gardening), and a nicely landscaped front yard. Skylights allow in ample light, and the large open kitchen is bright and spacious with white appliances and cabinetry.
+____________________________________________________________________________
+For viewing appointments, please contact:
+Patrick Leung
+at
+show contact info
+Photo tours here https://www.mybcrental.com/listings/larch5998/
+____________________________________________________________________________
+Property represented and posted by:
+Sunstar Realty Ltd.
+#6- 3003 Kingsway
+Vancouver, BC. V5R 5J6.
+- We do not charge prospective tenants any handling fees, application fees or processing fees.
+- This property is not offered on a first come first serve basis; all applications will be carefully screened before presentation to owners for selection.
+- It takes 2 to 3 business days to process each completed application.
+- Payments from all major credit cards and direct debit accepted (subject to transaction fees charged by Rentmoola, and only applicable to fully managed properties).
+- All measurements are approximate and all information presented herein obtained from sources believed to be reliable; user to verify and be aware that Sunstar does not assume any responsibility and/or liability for the accuracy of such."
+6200,5.0,,,35,Mackenzie Heights,"3259 W35 Avenue, Vancouver, BC V6N2M9","3259 W35 Avenue, Vancouver, BC V6N2M9",49.2302,-123.189,craigslist_van,7932996775,craigslist_van:7932996775,https://vancouver.craigslist.org/van/apa/d/vancouver-cozy-family-bedrooms-home/7932996775.html,Cozy Family 5 Bedrooms Home,"Situated on a lovely quiet street,  The  house has 5 bdrms on the main floor and 2 bathrooms. Basement has entertainment room and is  for storage purpose only.
+No pet and no smoke.
+Credit check and tenant insurance is required.
+Please introduce yourself and other roommate"
+985,4.0,,,64,Commercial Drive,"Approx map: 49.255100, -123.066700","Approx map: 49.255100, -123.066700",49.2551,-123.0667,craigslist_van,7926291709,craigslist_van:7926291709,https://vancouver.craigslist.org/van/apa/d/vancouver-room-in-bed-house-available/7926291709.html,Room in 4 bed house available starting June 1st near Trout Lake!,"- Unfurnished room in a large 4 bedroom 2 level, 2 bath house available June 1st! All bills included in rent.
+- A few steps to Trout Lake and a short walk Commercial Drive. The room is unfurnished, however the rest of the house is fully furnished. The house backs on to Trout Lake -- Unreal location!
+- Living with 2 other guys from Ireland in their 30's-40's. Friendly, chilled living environment.
+- The room that is up for rent is on the downstairs level beside the rec room and will be freshly painted for move in.
+- $985 rent, all bills included.
+- Laundry in the house.
+- 420 Friendly.
+Give us a shout with a little info about yourself to set up a viewing and see if you are a good fit.
+The info we would like to know:
+- Name.
+- Age.
+- Occupation.
+- Interests (What do you do for fun).
+- Length of tenancy you prefer.
+We look forward to hearing from you!!
+Cheers."
+4800,5.0,3.0,,86,Burnaby,"Approx map: 49.264000, -122.936900","Approx map: 49.264000, -122.936900",49.264,-122.9369,craigslist_van,7933917309,craigslist_van:7933917309,https://vancouver.craigslist.org/van/apa/d/burnaby-burnaby-government-road-large/7933917309.html,Burnaby Government Road Large 5Bd/3Ba Single Family House,"More Listing Available at
+: https://sincerealty.ca/en/offers/for-rent/
+Address:
+3xx9 Lynndale Cres, Burnaby, BC V5A 3S4
+PROPERTY DETAILS:
+- Status: Available Now! Unfurnished!
+- Rent: $ 4800 + Utility
+- Property Type: House
+- Floor Area: 2478 sq.ft.
+- Bedroom(s): 5
+- Bathroom(s): 3
+- Parking: 2
+- Appliances: ClthWsh/Dryr/Frdg/Stve/
+PROPERTY DESCRIPTION:
+3xx9 Lynndale Cres boasts a spacious 2,468 square feet of living space nestled on a generous 0.31-acre lot.  This well-appointed residence features 5 bedrooms and 3 bathrooms, providing ample space for comfortable living.
+One of its most noteworthy attributes is its exceptional location.  Situated just minutes away from reputable schools, a scenic golf course, the convenience of a nearby Costco, and the natural beauty of local parks, this home offers a harmonious blend of convenience and leisure for your daily life.
+Make this property your ideal haven, where space, comfort, and prime location converge to create the perfect setting for your family's lifestyle.
+RENTAL TERMS:
+-References and credit/EMPLOYMENT check are required.
+- Minimum 1-year lease term required
+- 1/2 month's rent for security deposit
+- Tenant Insurance required
+- No Smoking
+- Pet ok
+Sincere Real Estate Services Ltd. -- Professional property management company!
+Don't be a victim, always make sure the person who is renting the property is an Owner or the Owners Agent.
+All or any measurements contained in any advertising have been obtained by a third party. All information contained within is subject to change, removal, or error and does not constitute an agreement. All advertised information must be verified by the renting party prior to entering into an agreement.
+Contact Sincere Real Estate Services Ltd. to book a showing!
+Dial
+show contact info
+Text
+show contact info"
+3800,4.0,,,43,city of vancouver,"Approx map: 49.241026, -123.123361","Approx map: 49.241026, -123.123361",49.241026,-123.123361,craigslist_van,7932854567,craigslist_van:7932854567,https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-lot-single-house-at/7932854567.html,Spacious Lot Single House at Cambie Van,"4910 willow street Van
+Single House
+AVAILABLE NOW
+Just minutes away from all that Oakridge Centre, Queen Elizabeth Park, close to Skytrain Canada Line, BC Children's and Women's Hospital, Eric Hamber Secondary.
+Bedrooms: Four (4) + Rec room
+Bathrooms: Two (2)
+Level: Main Floors + Basement
+Square Footage: 2500 sqft
+Washer and Dryer: in Suite
+Parking: Included
+Appliances: Washer/Dryer, Fridge, Range, oven
+Flooring: Hardwood & Carpet in basement
+PET ALLOW
+**** REQUIREMENT ****
+1 year fixed term lease ONLY
+NO subletting & NO ROOMMATES
+Tenant pays Internet and BC Hydro
+Credit, employment and landlord reference checks are required.
+Tenant insurance required
+Video tours and facetime are not available, only in-person showings.
+**** CONTACT INFO ****
+Please contact our Property Manager Benny by email:
+Benny. wong @ ranchogroup. com
+Please let us know:
+1. Who are the occupants?
+2. Occupation of the adult occupants?
+3. Desired tenancy start date?
+4. Your contact email address and phone number
+5. When is your availability to view the showing?
+Rancho Management Services (B.C.) Ltd."
+1000,4.0,,,31,Alma st and W 10th AVE,"10th AVE, VANCOUVER, BC V6X0C3","10th AVE, VANCOUVER, BC V6X0C3",49.1836,-123.1168,craigslist_van,7926911474,craigslist_van:7926911474,https://vancouver.craigslist.org/van/apa/d/richmond-10-minutes-to-ubc-basement/7926911474.html,8-10 Minutes to UBC 1 basement bedroom for rent,"The location is perfect for UBC students. 7–10 minutes TO UBC, The 99,9,14Bus stops are just 2 MINUTES away,
+offering direct and frequent service to UBC.
+PROPERTY FEATURES:
+1000-1200/month for ONE Bedroom Suite
+- All Utilities Included(utilities anf wifi)
+- available NOW.
+- 12-month lease required.
+（ One year lease minimum, credit check and reference required.
+No pets and non-smoker, No drugs.
+Could you please introduce yourself）
+- Living Space: 1,500 sqft
+Kitchen Appliances: Fridge / Stove Top / Oven / Microwave / Dishwasher
+- Laundry: In-Suite Washer & Dryer
+- covers water, electricity, gas, and internet
+– Unfurnished"
+6000,4.0,,,73,Vancouver,"renfrew, vancouver, BC V5K4A7","renfrew, vancouver, BC V5K4A7",49.282449,-123.044246,craigslist_van,7933847250,craigslist_van:7933847250,https://vancouver.craigslist.org/van/apa/d/vancouver-warning-brand-new-house-for/7933847250.html,WARNING! Brand new house for rent Beside PNE LONG/SHORT TERM RENTAL,"This is a warning to non-locals about the house at 241 Renfrew St. advertised at:
+https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-for-rent/7926557314.html
+https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-for-rent/7924435469.html
+https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-for-rent/7924856183.html
+https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-for-rent/7925307129.html
+I don't know what kind of confusion is the owner trying to pull here on non-locals by claiming the house is in Burnaby when in fact the house is in the city of Vancouver (not in the neighbouring town of Burnaby), it's nowhere close to Gilmore Skytrain Station or Metrotown or SFU (Simon Fraser University) Burnaby campus or Brentwood Town Center. Each of these destinations is at least 30 minutes away on public transit ACROSS FARE ZONE BOUNDARY.
+$6,000/month is insane and a reason why it's been listed here for months in a market with a severe housing shortage.
+Do your own research."
+2999,4.0,,,55,East Vancouver,"6th Avenue, Vancouver, BC V5N5C7","6th Avenue, Vancouver, BC V5N5C7",49.2551,-123.0667,craigslist_van,7933211220,craigslist_van:7933211220,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-east-vancouver/7933211220.html,4 Bedroom East Vancouver,"Four bedroom in East Vancouver. Transit and amenities all very close.  Four person maximum occupancy.
+NO PETS. NO SMOKING."
+4700,4.0,,,44,city of vancouver,"Approx map: 49.215100, -123.139600","Approx map: 49.215100, -123.139600",49.2151,-123.1396,craigslist_van,7930221460,craigslist_van:7930221460,https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-west-oak-street/7930221460.html,Vancouver West Oak Street 4 Bedrooms Townhouse,"Vancouver West Oak Street 4BR Townhome
+4 bedroom + den townhome for rent near Oak Street and West 59th Avenue in Vancouver.
+This multi-level home offers approximately 1,327 sq ft of living space with a private entrance. The layout is suitable for families or those needing extra rooms for work or study.
+Home features:
+4 bedrooms
+2 bathrooms
+1 den
+Approx. 1,327 sq ft
+Private entrance
+Modern kitchen with quartz countertops
+Stainless steel appliances
+Laminate flooring
+In-suite laundry
+Convenient location close to parks, grocery stores, restaurants, and public transit.
+Nearby schools include:
+Sir Wilfred Laurier Elementary School
+Sir Winston Churchill Secondary School
+Rental details:
+Available: May 31, 2026
+Rent: $5,000 per month
+Gas and water included
+Electricity and internet not included
+Unfurnished
+Pets considered
+No smoking
+If interested, please reply with:
+Contact phone number
+Number of occupants
+Desired move-in date
+Expected length of stay
+Preferred viewing time
+Brief description of your work or situation
+Thank you."
+4800,4.0,2.0,,26,city of vancouver,"Dunbar St, Vancouver, BC V6S1W5","Dunbar St, Vancouver, BC V6S1W5",49.244913,-123.184923,craigslist_van,7928626280,craigslist_van:7928626280,https://vancouver.craigslist.org/van/apa/d/cranbrook-dunbar-house-upstairs-4bd-2ba/7928626280.html,Dunbar House Upstairs 4bd 2ba For Rent,"Hello there,
+Available from May 1 2026.
+**Please note: some photos are edited to have clusters removed, but layout unchanged.
+Very well maintained and spacious 4 rooms 2 full baths, upstairs of a house for rent, in the
+Dunbar neighborhood. Functional layout with open-concept kitchen. 1578 sqft, and with a
+bonus deck.
+Lord Kitchener Elementary, 2 mins drive, 10 mins walk.
+Lord Byng Secondary, 5 mins drive.
+St. Georgie’s Senior School, 3 mins drive, 18 mins walk.
+St. Georgie’s Junior School, 2 mins drive, 9 mins walk.
+Crofton House School, 3 mins drive.
+UBC, about 7 mins drive.
+Downtown Vancouver, about 15 mins drive.
+Memorial West Park, 5 mins walk.
+Pacific Spirit Park, about 8 mins drive.
+$4800/month, with in-suite washer and dryer. Tenants to pay for split electricity, and
+tenants insurance and credit check mandatory. Unfurnished.
+Looking for clean, respectful, responsible, quiet, no smok ing of any kind please. Sorry no
+pets.
+Listed and managed by Remax City Realty, office located at #101 - 2806 Kingsway
+Vancouver, BC V5R 5T5
+Vancouver, Dunbar, Lord Kitchener, Lord Byng, St. Georgie, Crofton, UBC, West side,"
+3100,4.0,3.5,,53,Vancouver,"Approx map: 49.229700, -123.061300","Approx map: 49.229700, -123.061300",49.2297,-123.0613,craigslist_van,7932136418,craigslist_van:7932136418,https://vancouver.craigslist.org/van/apa/d/vancouver-new-laneway-bed-35-bath-e45/7932136418.html,New Laneway 4 Bed 3.5 Bath (E45 & Victoria Dr),"New built air conditioning 4 Bed 3.5 bath laneway house at E45 and Victoria Dr.., 3 bed 2 bath upstairs, a 1 bed 1.5 bath and kitchen / Living room downstairs.
+Come with EV charger.
+Rent: $3000/3 people, small family, extra people $100. tenant insurance is required, tenants to pay the electricity and wifi. share water fee
+Steps to Victoria Dr shopping and cafe and no 20，R4, 430 or 49 bus to downtown, Metrotown or Richmond. Super convenient location. No pet no smoking.
+1.5 years lease minimum"
+2850,4.0,4.0,,44,Vancouver,"635 E 49th Ave, Vancouver, BC V6P","635 E 49th Ave, Vancouver, BC V6P",49.225473,-123.091784,craigslist_van,7933772240,craigslist_van:7933772240,https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-available-now/7933772240.html,4 Bed 4 Bath Available Now,"located in Vancouver's Sunset neighborhood. The property offers a spacious 3,152 sq. ft. layout. , it features a classic gabled roof and a raised garden bed. The interior is optimized for multi-generational living, with 2 bedrooms and 2 bathrooms on the main floor, plus 2 bedrooms and 2 bathrooms upstairs. . Rated as a ""pedestrian's dream,"" it is within walking distance of shops and parks. Interior & Living Spaces Flexible Layout: Divided into two main living areas, with 2 bedrooms and 2 bathrooms on the main floor and 2 bedrooms and 2 bathrooms on the upper floor. Spacious Rooms: The interior is noted for being particularly spacious and bright. Mountain Views: The upper levels offer scenic views of the mountains."
+6500,5.0,3.0,,35,Vancouver,"w 28, Vancouver, BC V6S1S7","w 28, Vancouver, BC V6S1S7",49.247022,-123.195105,craigslist_van,7933740455,craigslist_van:7933740455,https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-br-ba-ac-laneway/7933740455.html,Brand New 5-BR 3-BA w AC laneway house | St George | UBC,"Highlights:
+Property #: PP231C
+Location: 4*** w 28th Av, Vancouver
+Rent: $6,500/month, utility not included
+Available: now
+Furnishing: unfurnished
+Property Type: Laneway House
+Bedrooms : 5
+Bathrooms: 3
+Living Space: 1,500 SF
+Utilities and Internet: Not Included
+Viewing Request:
+https://princesspan.com/tenant-viewing-request.html
+_____________________________________________________________________________
+Features:
+Prime Location: Vancouver West – Dunbar
+Brand New Laneway House
+5 Bedrooms | 3 Bathrooms | Modern Design
+Spacious layout with quality finishes, perfect for families
+Steps to **St. George’s Private School**
+Within **Lord Byng Secondary catchment**
+Quiet, tree-lined neighborhood
+Close to shops, parks, transit & UBC
+_____________________________________________________________________________
+Requirements:
+Minimum 1-year lease
+No pets, no smoking
+Tenant insurance required
+Credit reference check is required
+_____________________________________________________________________________
+Listing agent:
+Princess Pan
+PREC | Residential & Commercial | Re/Max Crest Realty
+_____________________________________________________________________________
+Follow us on IG, Facebook and Twitter: PrincessPanRealEstate"
+4900,4.0,2.0,,52,Vancouver,"Approx map: 49.248000, -123.091300","Approx map: 49.248000, -123.091300",49.248,-123.0913,craigslist_van,7925998985,craigslist_van:7925998985,https://vancouver.craigslist.org/van/apa/d/vancouver-two-storeys-bed-bath-unit-in/7925998985.html,TWO STOREYS 4 BED & 2 BATH UNIT IN DESIRABLE MAIN,"Address: 4359 Main St, Vancouver, BC
+Bedrooms: 4
+Bathrooms: 2
+Finished Area: 1,600 sq ft
+Deposits: half-month rent
+Lease term: minimum 1-year lease
+Pets: Not Allowed
+No smoking
+Included items: Stove, Oven, Refrigerator, Dishwasher, Washer and Dryer
+Not included: Utilities
+Please text Morgan at
+show contact info
+to book a time to view.
+__________________________________________________________________
+Location:
+This trendy Main St location offers the convenience of having many fabulous eateries and shopping nearby! From the always popular chain restaurants to more unique cuisines such as sushi, Thai, or even food trucks, eating out in this area is always a good choice! Once you are done with your meal, take a stroll through the idyllic Queen Elizabeth Park. This 130-acre park is filled with stunning trees and flowers, taking you from the city into nature. If shopping is more your style one of the many unique shops along the main will intrigue you. Transit options are close by so you can go all over the lower mainland with complete ease.
+Features:
+Spacious four-bedroom apartment, kitchen with all appliances. This 4 bedroom on two two-level walk-up building is right on 27th Main Street, which is perfectly located by some of the best shopping, restaurants, and cafes. Steps away from Queen Elizabeth Park and a few minute's drive to Downtown. One of the best locations in Vancouver! Very central! The unit itself has been renovated recently including laminate flooring throughout and large tiles in the kitchen and bathroom. The bath is nice and deep for a relaxing soak after work! The bedrooms are on opposite sides of the living room so there are no shared walls between them! The kitchen has ample space for cooking and prepping as well. The unit self-backs onto the alley so the noise of Main St won't interfere with the daily life of work. This is a must see to truly appreciate how awesome of a location and place it is!
+Seva Roberts
+Vancouver Rental Group
+Re/Max Crest Realty"
+120,4.0,,,43,Vancouver,"Knight Street, Vancouver, BC V5W3N3","Knight Street, Vancouver, BC V5W3N3",49.232645,-123.077066,craigslist_van,7932891790,craigslist_van:7932891790,https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-in-vancouver/7932891790.html,Brand New House in Vancouver / Vacation & Short-Term Rental Options,"Brand New House in Vancouver / Vacation & Short-Term Rental Options
+Prime Location Near Knight St & 49th Ave
+For some reasons, so far only short term rental is available for these months, from May to August. Price is negotiable.
+Looking for a comfortable and convenient place to stay in Vancouver? We offer two cozy rental options in a quiet, family-friendly neighborhood with easy access to transit, restaurants, parks, and shopping.
+Perfect for vacation stays, business trips, students, or temporary relocation.
+━━━━━━━━━━━━━━
+Option 1: Private Entire Laneway House
+Enjoy a cozy and private two-story laneway home featuring:
+• 2 bedrooms
+• Upstairs master bedroom with private balcony
+• 1 full bathroom
+• Fully equipped kitchen & laundry
+• Quiet and clean living environment
+• Ideal for couples, small families, friends, or professionals
+━━━━━━━━━━━━━━
+Option 2: Fully Furnished 2-Bedroom Second Suite
+A comfortable and move-in-ready suite with everything you need:
+• 2 spacious furnished bedrooms
+• 1 full bathroom
+• Fully equipped kitchen
+• Cozy furnished living room
+• In-suite washer & dryer
+• Fast and convenient access to transit and major routes
+Perfect for families, students, working professionals, or visitors to Vancouver.
+Available now – flexible move-in dates available
+Video Tour:
+https://youtu.be/kwGnAx7UqbM
+Neighborhood Highlights:
+• Safe and quiet residential area
+• Close to Fraser Street cafes, restaurants & grocery stores
+• Near Langara College, Oakridge & Downtown Vancouver
+• Easy public transit access
+Contact for Viewing & Booking"
+3200,5.0,,,76,city of vancouver,"1st Avenue, Vancouver, BC V5M1A2","1st Avenue, Vancouver, BC V5M1A2",49.26,-123.0398,craigslist_van,7933668906,craigslist_van:7933668906,https://vancouver.craigslist.org/van/apa/d/vancouver-house-east-vancouver-great/7933668906.html,House EAST VANCOUVER Great Location 5bd+2bth+yard+parking NOW/JUNE 1,"Nice family home at 1st Avenue just off Nanaimo Street.  Located on a fantastic corner lot in a super desirable East Van neighbourhood!
+Well kept and vintage 1944, this beauty has a huge park like yard and awesome views of the North Shore Mountains!  Lovely and perfect for a growing family with lots of room to spread out.  In catchment for Lord Nelson Elementary, Chief Maquinna Elementary and Garibaldi Annex.  Notre Dame Secondary, Thompson Secondary and Vancouver Technical Secondary and a short distance to many parks including the Clinton Park, Garden Park, Kaslo Park, Sunrise Park, The PNE, Pacific Coliseum and Hastings Racecourse.
+Whole house & yard!  Two bedrooms on the main floor, two more bedrooms in the basement and a big romantic top floor attic master bedroom!  One full bathroom on the main floor and one full bathroom in the basement too!  Spacious living rooms both upstairs & downstairs... this place is an absolute dream!
+Close to everything at just a quick hop away!!  7-11, Chevron Gas, T&T, Superstore, Save-On Foods, London Drugs, MacDonalds, Vancity, RBC, TD Bank, Starbucks, Mr. Sub, Canadian Tire, Wal-Mart, Staples, Superstore and much more more more. A five minute drive to Hastings & Nanaimo with delis, bakeries, Donald’s Market, a dozen craft beer microbreweries, independent coffee shops and specialty restaurants of any cuisine you fancy.  Great location for the short 15 minute commute Downtown, to Burnaby, SFU, North Vancouver and beyond!  Must see this place - do not miss!
+1st Avenue at Nanaimo Street in Vancouver
+Available:  Right Now! or June 1st!
+Rent Unfurnished:  $3200 per month
+Covered Area:  1680 sqft
+Bedrooms:  Five
+Baths:  Two
+Appliances:  Fridge, Stove/Oven, Dishwasher, Washer/Dryer
+Parking:  Outdoor Parking Pad & Plenty More On the Street
+Sorry, absolutely no smoking of any kind.  Sorry, zero pets.
+Utilities (BC Hydro + Fortis BC Natural Gas), cable, telephone & internet are all extra tenant costs - not included.
+No short term.  Zero subletting.  Zero subtenancies. Zero commercial use.  No extra or no un-approved occupants.
+Minimum one year lease with a fully qualified tenancy application and approval required.  Tenant insurance is mandatory.
+Book a viewing - call or text
+show contact info
+.  Please provide your name/number and/or email address and a short bio for a response!  Thanks to all interested, only those suitable will be contacted back.
+Posted & managed by Centre Pacific for owner.  Prospective tenants are not charged any application or processing fees.
+All wordings & format in this ad are original.  Please do not copy or plagiarize."
+1200,4.0,,,43,Vancouver West,"SW Marine Drive, Vancouver, BC V6N1Y4","SW Marine Drive, Vancouver, BC V6N1Y4",49.23475,-123.194332,craigslist_van,7927399350,craigslist_van:7927399350,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-suite-near-ubc/7927399350.html,4-bedroom suite near UBC,"Vancouver west 4-bedroom 3-bathroom student housing. Renovated. Furnished. $1200/month/room. Utilities WIFI included. Please WhatsApp
+show contact info"
+1150,4.0,2.0,,21,Vancouver West,"Approx map: 49.234727, -123.194675","Approx map: 49.234727, -123.194675",49.234727,-123.194675,craigslist_van,7927399279,craigslist_van:7927399279,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-student/7927399279.html,4-bedroom 2-bathroom student housing,"4-bedroom 2-bathroom student housing, close to UBC, V6N1Y4, furnished. $1150/room/month, Utilities WIFI included. UBC student welcome. Please WhatsApp ‪
+show contact info"
+3750,4.0,3.5,,120,South Surrey,"Approx map: 49.050653, -122.782720","Approx map: 49.050653, -122.782720",49.050653,-122.78272,craigslist_van,7933652997,craigslist_van:7933652997,https://vancouver.craigslist.org/van/apa/d/surrey-offer-kitchener-rare-spacious/7933652997.html,🏢 Offer: KITCHENER //RARE spacious and modern 4 BR+3.5 Bath Townhouse,"---------------------------------------------------------------------------------------------------------
+PLEASE READ:
+📲 CALL/TEXT/EMAIL TO SCHEDULE A VIEWING
+📲 PLEASE SEND A SELF INTRODUCTION (OR THERE WON’T BE A REPLY)
+📲 PLEASE INCLUDE YOUR CONTACT DETAILS
+🐾PETS: NOT ALLOWED
+🌿SMOKING: NO
+---------------------------------------------------------------------------------------------------------
+📆Available May 21st, 2026 | Min. 1 Year Lease
+🏢 Offer: KITCHENER // RARE spacious and modern 4 BR + 3.5 Bath Townhouse (1809 sqf)
+📐 size: 1809 sqf + LARGE balcony
+🪑 unfurnished (photos incl. staging)
+🛏 4 bedrooms (2 ensuite) + 3.5 Baths
+🛁1 bathroom
+🍜 gourmet kitchen with high-end appliances
+✅ washer + dryer in-suite
+✅ heating
+📍 side-by-side double garage
+---------------------------------------------------------------------------------------------------------
+🏢 Amenities:
+-	Club House,
+-	Exercise Centre
+-	Garden
+-	Green House
+-	Playground
+-	Recreation Center
+---------------------------------------------------------------------------------------------------------
+💵Rent: $3750/month
+✅Internet: NOT included
+✅Utilities
+BC HYDRO (electrity): NOT included
+FORTIS BC (gas): -
+WATER: included
+💵Security deposit: ½ month rent"
+4900,4.0,,,32,3569 W.32nd Avenue,"Approx map: 49.243483, -123.183888","Approx map: 49.243483, -123.183888",49.243483,-123.183888,craigslist_van,7932222732,craigslist_van:7932222732,https://vancouver.craigslist.org/van/apa/d/vancouver-cozy-4br-family-home-top/7932222732.html,🏡 Cozy 4BR Family Home | Top School Catchment | Dunbar,"📍 3569 W 32nd Ave, Vancouver
+Well-maintained and spacious family home in the heart of Dunbar—located in one of Vancouver’s most sought-after school catchments.
+✨ What you get:
+• ~2400 sq ft of comfortable living space
+• 4 bedrooms (ideal family layout: 1 main, 2 upstairs, 1 basement)
+• Bright living areas with plenty of room to spread out
+• Updated kitchen with modern appliances
+• Large open deck – perfect for family time & entertaining
+• In-suite laundry
+• Carport parking included
+🎓 Perfect for families:
+• Located in a top-tier school catchment
+• Quiet, safe, tree-lined neighbourhood
+• Close to parks, community centres & green space
+📍 Prime West Side location:
+• Minutes to UBC
+• Walkable to Dunbar shops, cafés & daily essentials
+• Easy access to transit
+🐾 Pets considered
+🚭 No smoking
+📄 Lease terms: Minimum one year
+⚡ Homes in this area (especially in top school catchments) go quickly — message now with a short intro + move-in date to book a viewing!"
+4500,4.0,,,48,city of vancouver,"Approx map: 49.229270, -123.107933","Approx map: 49.229270, -123.107933",49.22927,-123.107933,craigslist_van,7933588406,craigslist_van:7933588406,https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-bedroom-home-in/7933588406.html,Spacious 4-Bedroom Home in Prime Oakridge (One Month Free Rent),"Spacious 4-Bedroom Home in Prime Oakridge (Upper Unit)
+(1 month free rent applied to the 12th month)
+Address: Upper –  W 45th Avenue, Vancouver
+Discover the perfect blend of comfort and convenience in this well-appointed 4-bedroom, 2-bathroom home located in the heart of the desirable Oakridge neighborhood. This property offers an exceptional lifestyle with easy access to major city amenities.
+Key Features:
+- Spacious Living: Large layout featuring 4 comfortable bedrooms and 2 full bathrooms
+- Updated Appliances: Featuring a newly installed stove and washer/dryer
+- Prime Location: Situated in the prestigious Oakridge area, just steps from the upcoming Oakridge Park redevelopment
+- Unmatched Connectivity: Minutes to Oakridge–41st Avenue SkyTrain Station, providing quick (approx. 15-minute) access to Downtown Vancouver and YVR Airport
+- School Catchments: Sir William Van Horne Elementary, Eric Hamber Secondary, Sir Winston Churchill Secondary
+- Convenient Living: Shared laundry facilities included
+- Utilities: Tenant responsible for hydro, gas, and internet (shared with ground-level tenants based on number of occupants)
+- Parking: 1 carport space included
+Requirements:
+- Credit check, employment verification, and current landlord references required
+* Tenant insurance required prior to move-in
+Terms:
+- 1-year fixed-term lease
+- No smoking, no vaping, no pets
+- No subletting or Airbnb
+Availability: Now
+For more details or to schedule a viewing, please visit:
+https://www.noblehomes.ca/en/listing_detail/d07bd0b4-9e3a-f111-88b4-000d3a994c1d
+For inquiries, please call Noble & Associates Property Management at
+show contact info
+(voicemail). Kindly specify the rental address when leaving a message. Thank you.
+Disclaimer: The above information, while deemed to be correct, is not guaranteed. Asking rent and availability are subject to change without notice. Noble & Associates Property Management provides professional property management services on behalf of the owner. Prospective tenants are not required to pay any fees to rent this property."
+3500,5.0,,,61,VANCOUVER,"1257 E 18TH AVE, Vancouver, BC V5V1H3","1257 E 18TH AVE, Vancouver, BC V5V1H3",49.254445,-123.078746,craigslist_van,7925953279,craigslist_van:7925953279,https://vancouver.craigslist.org/van/apa/d/vancouver-bargain/7925953279.html,**BARGAIN**,"LARGE 3 BEDROOMS UPSTAIRS AND 2 BEDROOMS DOWNSTAIRS. NO PETS. NON-SMOKING. LAUNDRY. CONVENIENT TO TRANSIT. CLOSE TO KINGSWAY. 1257 E 18TH AVE, VANCOUVER. FOR $3500.00/ MONTH.
+CONTACT:
+show contact info"
+6000,4.0,3.0,,21,Point Grey,"41st Ave, Vancouver, BC V6N1Z1","41st Ave, Vancouver, BC V6N1Z1",49.234455,-123.188152,craigslist_van,7931563746,craigslist_van:7931563746,https://vancouver.craigslist.org/van/apa/d/vancouver-newly-crafted-vancouver-west/7931563746.html,Newly Crafted Vancouver West 1500SF 4bed 3bath Laneway available NOW!,"Charming BRAND NEW detached Laneway House located in the prime area of Vancouver West - POINT GREY! Features 4 bedrooms and 3 full bathrooms. Hardwood floors throughout the home, including all bedrooms, with heated floors in the bathrooms. The spacious living room comes with vaulted ceilings, providing an elevated living experience and comfort. The master bedroom has a walk-in closet. The first floor also includes an additional flexible space, which can be used as a bedroom, studio, children's study area, or family entertainment space. The location is incredibly convenient, just steps away from the supermarket and the shops and restaurants on W 41st Ave. Situated in the Point Grey Secondary School district, with the 41 bus route directly to UBC. Don't miss out—schedule a viewing now at
+show contact info
+!"
+3895,4.0,,,24,Vancouver,"4150 W 8th Ave, Vancouver, BC V6R1Z6","4150 W 8th Ave, Vancouver, BC V6R1Z6",49.265396,-123.198448,craigslist_van,7933564248,craigslist_van:7933564248,https://vancouver.craigslist.org/van/apa/d/vancouver-coastal-luxury-with-zen/7933564248.html,Coastal Luxury with Zen Tranquility,"Exquisite, custom-designed contemporary residence boasting breathtaking, unobstructed views, just moments from the pristine beach. This sanctuary of modern elegance features a meticulously crafted Japanese-inspired zen garden, thoughtfully designed to evoke a profound sense of serenity and mindful relaxation. The property is ideally positioned within close proximity to a championship golf course, powdery beaches, and expansive provincial parks, offering the perfect balance of leisure, recreation, and natural beauty. Every detail of this home reflects sophisticated craftsmanship, from its seamless integration with the surrounding landscape to its refined architectural elements, creating an unparalleled retreat for those who appreciate tranquility, style, and coastal living at its finest."
+4000,4.0,,,65,Boundary/Collingwood,"Approx map: 49.239700, -123.040700","Approx map: 49.239700, -123.040700",49.2397,-123.0407,craigslist_van,7933503143,craigslist_van:7933503143,https://vancouver.craigslist.org/van/apa/d/vancouver-house-for-rent/7933503143.html,House for Rent,"Entire house for rent in the Collingwood area. 2 bedrooms upstairs and 2 bedrooms downstairs. 1 bathroom. Large living room and dining room. Kitchen is equipped with a stove, fridge, dishwasher. Downstairs has a large rec room and laundry. Very big yard with a large shed. Location is excellent and close to an elementary school and high-school. Very close to central park. Joyce skytrain station is within walking distance. Safeway is also within walking distance. Available on July 1 2026"
+5500,6.0,,,41,"Vancouver, BC","Selkirk Street, Vancouver, BC V6P4H2","Selkirk Street, Vancouver, BC V6P4H2",49.224866,-123.133372,craigslist_van,7932420299,craigslist_van:7932420299,https://vancouver.craigslist.org/van/apa/d/vancouver-luxury-bedroom-home-for-rent/7932420299.html,Luxury 6-Bedroom Home for Rent – Prime Vancouver Location | 5150,"Welcome to this exceptional upper-level residence at 6888 Selkirk Street, offering over 5,000 sq ft of spacious living in one of Vancouver’s most convenient and desirable neighborhoods.
+This beautifully designed home features 6 generously sized bedrooms, perfect for large families or those seeking extra space for home offices, guests, or entertainment.
+✨ Property Highlights:
+Expansive 5,000+ sq ft of living space (upper two levels)
+6 spacious bedrooms with abundant natural light
+Elegant layout with large living and dining areas
+Triple garage – rare and highly desirable
+Well-maintained home with quality finishes throughout
+Quiet, family-friendly neighborhood
+📍 Prime Location:
+Centrally located with easy access to Richmond, Downtown Vancouver, and YVR
+Close to top-rated schools, parks, shopping, and transit
+This home offers the perfect blend of space, comfort, and convenience—ideal for those looking for upscale living in a central location.
+📩 Contact now to schedule a private viewing."
+5300,4.0,,,10,UBC Campus,"Kings Rd, Vancouver, BC V6T1K8","Kings Rd, Vancouver, BC V6T1K8",49.4635,-122.822,craigslist_van,7933487579,craigslist_van:7933487579,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-level-townhouse-on/7933487579.html,"4-bedroom, 3-level townhouse on UBC campus available June 1st","4-bedroom, 3-level townhouse on UBC campus near the Village, suitable for UBC students or family. 1 secured underground parking stall. Close to U-Hill Secondary and Elementary Schools. Available for rent from June 1st. Rent is $5300. One year lease required. No pet and no smoking."
+4800,4.0,3.0,,55,city of vancouver,"4870 Ross, Vancouver, BC V5V4V2","4870 Ross, Vancouver, BC V5V4V2",49.240402,-123.08154,craigslist_van,7933480889,craigslist_van:7933480889,https://vancouver.craigslist.org/van/apa/d/vancouver-fairly-new-bed-bath-vancouver/7933480889.html,"Fairly new 4 bed, 3 bath Vancouver family home for Rent","Beautiful and fairly new 4 bed, 3 bath Vancouver family home for Rent.
+Square Footage of Property:   1800
+Number of Bedrooms:   4 with closets.
+Number of Bathrooms:   3
+FEATURES:
+Chefs Kitchen stainless steel appliances
+Wood floors
+Fireplace
+Covered deck
+LIVING ROOM
+Gas Fireplace
+Wood Floors
+BEDROOMS
+Bedroom 1 – fits King size bed + Closet – en-suite bathroom, walk in shower head, twin sinks deck with views of North Shore
+Bedroom 2 – fits queen size bed  + closet.
+Bedroom 3- fit queen size bed + closet
+Bedroom 4 – fits double bed + closet, basement level
+LAUNDRY
+Washer Dryer, front-loading new in-suite.
+This fairly new family home is perfect for a modern family who love the latest design and appli-ances, with  large size rooms, large bathrooms and a chefs kitchen. Close to Knight Street and 33rd walking distance to shops and restaurants Kensington Park is just a few blocks away. Sir Richard McBride Elementary School Sir Charles Tupper Secondary School. Cross Steet is 33rd with easy access across the city by road or transit. Skytrain station at King Edward."
+5000,4.0,,,21,city of vancouver,"Approx map: 49.266600, -123.197600","Approx map: 49.266600, -123.197600",49.2666,-123.1976,craigslist_van,7933480451,craigslist_van:7933480451,https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-spacious-4bd/7933480451.html,Fully-furnished spacious 4BD upper-level house next to UBC for 4-5,"A spacious 4-bedroom upper level unit in a cozy house in dreaming community West Point Grey, is looking for a group of quiet, clean, and organized people for rent. 1 block away from UBC main campus. It has 4 bedrooms and 1 full bathroom, fully furnished with 1 king bed, and 3 queen size beds. A comfy sofa bed (queen size) can be taken by 5th people at small adder in living room. Internet and water are included. Electricity and LNG are shared between all renters. It can be available from as early as Aug 15. Min 1 year leasing term. Open to consider 8 months term. Parking on street. Translink bus routes 99, 14, 9, 4 are nearby."
+6000,7.0,,,35,"Burnaby, BC, UBC","2429 McBain Ave, Vancouver, BC, BC V6L2C5","2429 McBain Ave, Vancouver, BC, BC V6L2C5",49.248262,-123.160115,craigslist_van,7932644110,craigslist_van:7932644110,https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-arbutus-whole/7932644110.html,Fully Furnished Arbutus Whole House,"Address: 2429 McBain Ave, Vancouver, BC V6L 2C5
+Available: May 21, 2026
+$6,000 per month
+Bedrooms: 7
+Bathrooms: 2
+Finished area: 2,433sf
+Lot size: 6,600
+Levels: 3
+Fireplaces: available
+Flooring: hardwood, carpets, tiles mixed
+Outdoor: yard and deck
+Parking: carport
+Newly Renovated open kitchen to a large family room.  Newer bathroom and newer wall painting.
+Fuylly furnished is optional.
+Deposits: half a month security deposit.
+Lease term: one year minimum
+No Pets, No Smoking, please
+LOCATION: Heart of Arbutus/Dunbar on Vancouver's sought after Westside. Close to everything including Downtown Vancouver, Starbucks, Safeway Arbutus.  Steps away from Prince of Wales Secondary and walking distance to Trafalgar Elementary school.  Easy access to bus to UBC.
+Easy to show.
+Please contact Tracy Yuen at
+show contact info
+."
+1050,5.0,,,21,"UBC, Dunbar, Southlands, Kerrisdale","Holland Street, Vancouver, BC V6N2A7","Holland Street, Vancouver, BC V6N2A7",49.236438,-123.192274,craigslist_van,7929260796,craigslist_van:7929260796,https://vancouver.craigslist.org/van/apa/d/vancouver-private-rooms-for-rent-ubc/7929260796.html,"Private Rooms for Rent UBC, Dunbar","Newly Renovated Garden Suite – 4 Private Rooms Available May 1st
+Looking for a quiet, comfortable place to call home?
+This newly renovated garden suite in the desirable Dunbar neighborhood offers bright, fully furnished private rooms in a charming character home.
+The suite is spacious (1,200 sq. ft.) and features five bedrooms, two bathrooms, and a large, mature backyard — perfect for relaxing or studying in peace.
+Location: Holland Street & 41st Avenue, Vancouver
+What’s Included:
+Rent $1050/ Month
+Fully furnished rooms
+Utilities included
+Half-month deposit
+Single occupancy only
+Looking for Long-Term Lease
+Super convenient location – bus stop just a block away
+Easy access to UBC via routes R4, 41, and 49 (15 Mins to UBC)
+Close to Pacific Spirit Park, Dunbar bus loop, Save-On-Foods, and H-Mart
+A Few House Rules:
+No parties, smoking, or pets  — we like to keep things peaceful and tidy
+Looking for quiet, mature, and responsible tenants who’ll enjoy this lovely home and community.
+Message me if you’re interested or want to schedule a viewing!"
+5800,5.0,5.0,,35,South Granville,"W 48th Ave, Vancouver, BC V6M2N5","W 48th Ave, Vancouver, BC V6M2N5",49.227718,-123.135062,craigslist_van,7930400210,craigslist_van:7930400210,https://vancouver.craigslist.org/van/apa/d/vancouver-5bed-5ba-whole-house-in-south/7930400210.html,5BED/5BA Whole house in South Granville,"$ 5800 a month
+Available July 1, 2026, unfurnished
+Well maintained entire house in South Granville with easy access to multiple schools.  Located near Oak and 49th Ave, on a quiet side street.
+Secure 2 car garage
+Main floor, 1860 sq ft:
+Living room, dining room, kitchen with eating nook, laundry room, family room, master bedroom, 1.5 bathrooms
+Upper floor, 1295 sq ft:
+3 bedrooms, 1.5 bathrooms
+Finished basement, 1446 sq ft:
+recreation room, bedroom, bathroom
+REQUIREMENTS
+Minimum 1 year lease
+NO SMOKING
+NO PETS
+Single family unit preferred
+Strong references, deposits, tenant insurance required
+Income proof before showing
+Included: water, property tax, landscaping
+Excluded: electricity, gas, internet, cable, phone
+$5800/mo"
+5500,4.0,,,32,vancouver,"Approx map: 49.226869, -123.139701","Approx map: 49.226869, -123.139701",49.226869,-123.139701,craigslist_van,7930650882,craigslist_van:7930650882,https://vancouver.craigslist.org/van/apa/d/vancouver-south-granville-4bed-corner/7930650882.html,South Granville 4Bed Corner Townhome w/ AC + Double Garage,"Vancouver South Granville – Rare Corner Townhome for Rent
+Welcome to this exceptional corner townhouse in the highly sought-after South Granville area. Quietly tucked away in a well-maintained complex, this home offers privacy, comfort, and a rare sense of space surrounded by greenery.
+• 4 bedrooms + 4 bathrooms
+• Approx. 2,000 sqft of bright, well-designed living space
+• Air conditioning (rare feature)
+• Double garage with additional storage
+• Entry-level ensuite bedroom – ideal for guests or home office
+• Southeast-facing garden with treetop views
+This home is ideal for families seeking a peaceful yet central location, close to top-rated schools, parks, and shopping.
+Rent: $5,900/month
+Available: June 1
+Lease: Long-term preferred
+Viewing available upon request. Please email if interested."
+4200,5.0,,,55,Vancouver,"43rd ave, Vancouver, BC V5R2Z8","43rd ave, Vancouver, BC V5R2Z8",49.2308,-123.0388,craigslist_van,7931594367,craigslist_van:7931594367,https://vancouver.craigslist.org/van/apa/d/vancouver-east-van-house-for-rent/7931594367.html,East Van House for Rent,"East Van centrally located, house, upper two floors for rent. 5 rooms, 3 full baths. Over 2000 sqft. Can walk to skytrain station, bus is 3 minutes walk. Around 41st Ave and Joyce street. Close to all the shops, banks, restaurants, schools, and Killarney community center. Asking $4400 plus utilities."
+3800,4.0,,,49,Mount Pleasant,"E 12th Ave, Vancouver, BC V5T2H8","E 12th Ave, Vancouver, BC V5T2H8",49.259744,-123.090486,craigslist_van,7933327831,craigslist_van:7933327831,https://vancouver.craigslist.org/van/apa/d/vancouver-near-transit-endless-hot/7933327831.html,Near Transit Endless hot water high-efficient system Downtown 13 minut,"* Dishwasher
+* Private entry
+* Heated floor
+* No smoking
+1-min walk to Downtown Bus 20
+7-min walk to Bus 19
+7-min walk to Express Bus 99
+* 1 block to Robson Park"
+4509,5.0,,,67,SkyTrain,"E 14th Ave, Vancouver, BC V5M2J5","E 14th Ave, Vancouver, BC V5M2J5",49.257234,-123.034784,craigslist_van,7933308368,craigslist_van:7933308368,https://vancouver.craigslist.org/van/apa/d/vancouver-long-term-or-short-term-near/7933308368.html,LONG term OR SHORT Term near SkyTrain Furnished or Unfurnished #9,"( 1 block to SkyTrain station
+( Big Sundeck to enjoy fresh air & sunshine
++ Front + Back Yard
+( Furnished or Unfurnished
+( Kitchen: full set of appliances
+( Laundry room
+( Spacious living, dining room
+( No smoking
+( Parking: 1 spot + street parking
+( 1 block to Shops, Restaurants, Bank"
+3600,4.0,2.0,,69,Fraserview,"Approx map: 49.209044, -123.059235","Approx map: 49.209044, -123.059235",49.209044,-123.059235,craigslist_van,7926865173,craigslist_van:7926865173,https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-house-upper-suite/7926865173.html,4 Bed 2 Bath House Upper Suite Fraserview Vancouver East,"Please Text “Harrison” to
+show contact info
+for more info
+FOR RENT: 23xx Harrison Drive, Vancouver
+$3600 / 4br - 1600 sf - 4 Bed 2 Bath House Upper Suite
+***DO NOT CALL*** Please Text me for communication.
+Rental residence
+Type of Residence: House Upper Suite
+Room situation: 4 Bedroom, 2 Bathroom, 1 Living Room, Full-Function Kitchen, Huge Deck
+Equipment and facilities: Separate Laundry, Dishwasher, Stove, Fridge, Microwave
+Rent includes: Water
+Utilities: Tenant responsible for 60% of electricity and 60% of gas
+Tenant conditions: No Smoking, small dog or cat may be considered upon owner discretion, no large dogs, no drugs indoors, no sublets
+Requirements: Reference, income, and credit check required.
+Tenant Insurance: minimum $2 million third-party liability coverage is mandatory
+Available time: May 16, 2026
+Description:
+Spacious and well-kept upper suite in Fraserview with approx. 1600 sf of living space. Features 3 bedrooms upstairs, plus 1 additional bedroom and 1 bathroom below. Private entrance, separate laundry, and a huge deck perfect for BBQ and outdoor enjoyment with open rear view. Located in a quiet family-friendly neighborhood on a large lot.
+Excellent Location:
+Quiet Fraserview setting with good school catchment and convenient access to parks, schools, and daily amenities.
+School Catchment:
+David Oppenheimer Elementary
+David Thompson Secondary
+Sir Winston Churchill Secondary, French Immersion Secondary
+Contact me with a brief intro about yourself to arrange a viewing.
+Please answer the following:
+1. Can you commit to a 1 year lease?
+2. What's your name?
+3. How many people is this for?
+4. What kind of work do you do?
+5. When do you wish to start?
+6. How long do you wish to stay?
+7. Reason for moving?
+8. When do you wish to view?
+9. What questions do you have for me?
+10. Do you have any pets, and if so what size, weight and breed
+Michael Lin PREC
+Luxmore Group Realty Ltd.
+11111 Horseshoe Way Richmond, BC V7A 4Y1
+show contact info
+Only selected applicants will be contacted."
+6000,5.0,,,41,Oakridge,"1339 West 53rd Ave, Vancouver, BC V6P1K8","1339 West 53rd Ave, Vancouver, BC V6P1K8",49.222554,-123.136074,craigslist_van,7925509096,craigslist_van:7925509096,https://vancouver.craigslist.org/van/apa/d/vancouver-special-offer-6000-month-for/7925509096.html,Special offer: $6000 /Month for 5 Bedroom  Luxury House  in Vancouver,"Spacious 5 Bed Luxury Home in Vancouver, Special offer ! Available Now !
+Furnished: basic furniture
+Rent: $6500 / Month
+Property Type: Single House ( 2 floors)
+Bedrooms: 5
+Bathrooms: 5
+Finished Area: Over 3000 Sqft
+Flooring: Mixed
+Heating: Floor heating system + air conditioning system
+Deposits: Half a month security deposit
+Lease Term: Minimum one year lease
+Utilities Included: No
+Credit / reference check required. Tenant insurance required.
+Description:
+This spacious 5-bedroom, 5-bathroom home offers generous living space in a quiet and desirable Vancouver neighborhood. The home features a bright and functional layout with large living and dining areas, making it ideal for families who need both space and comfort. The property includes 1 living room, 1 family room and 1 study ( guest room) on the 1st floor; 4 ensuites upstairs;  providing cozy and privacy for all occupants.
+Experience the perfect blend of luxury and comfort in this single-family home nestled in the vibrant heart of Vancouver. Designed for those who appreciate modern amenities and spacious living,  advanced floor heating and air conditioning systems to ensure year-round comfort.
+Located close to top-rated schools, diverse restaurants, scenic parks, and convenient transportation options, this property is ideally suited for families seeking a safe, community-oriented environment, professionals desiring a peaceful retreat with easy city access, or anyone looking for a sophisticated lifestyle in a thriving neighborhood.
+Whether you're enjoying quiet evenings at home or exploring Vancouver’s dynamic cityscape, this home offers the perfect setting for a balanced and enriching living experience."
+2650,4.0,,,39,Vancouver,"28th ave, Vancouver, BC V6S1S8","28th ave, Vancouver, BC V6S1S8",49.246481,-123.194435,craigslist_van,7930035584,craigslist_van:7930035584,https://vancouver.craigslist.org/van/apa/d/vancouver-close-to-ubc-spacious-single/7930035584.html,Close to UBC spacious single house 4Bdrm Basement,"Features:
+▸Property Type: Single House
+▸Utilities: Not Included
+▸Available: Now
+▸Furnishing: Partly furnished
+▸Bedrooms: 4
+▸Bathrooms: 2
+▸Living Space: 1300sqft
+▸Basement unit Rent: $2650/month, Separate Entrance
+▸Lot Size: 6825sqft
+▸Laundry: Washer and Dryer
+▸Parking: Garage and Street Parking
+▸School catchment: Lord Byng Secondary and Queen Elizabeth Elementary
+_____________________________________________________________________________
+Requirements:
+• Minimum 1-year lease
+• No Pets, No smoking
+• Tenant insurance required
+• Credit reference check is required
+Please Email to book the showing, thanks.
+Please include the following information in the Email:
+1. your contact number or email
+2. your reason for moving
+3. number of people and the relationships between them
+4. expected move in date
+5. your preferred viewing time.
+6. your occupation."
+6200,5.0,6.0,,40,Vancouver,"1188 W 45th Ave, Vancouver, BC V6M2G7","1188 W 45th Ave, Vancouver, BC V6M2G7",49.230252,-123.132792,craigslist_van,7932436284,craigslist_van:7932436284,https://vancouver.craigslist.org/van/apa/d/vancouver-magnificent-bed-bath-main/7932436284.html,Magnificent 5 BED 6 BATH Main House in South Granville Vancouver,"Address: 1188 W 45th Ave, Vancouver, BC V6M 2G7
+Available Immediately
+Virtual Tour:
+https://youtu.be/t0uKyfuOqNk
+This grand property nestles in lush green surrounds. Merge yourself in the country overlooking your own oasis of a tranquil community park while just a few blocks away to Oakridge Mall, QE Park, VanDusen Botanical Garden, Kerrisdale Shopping Circle and short distance to UBC & Well known famous private/public schools. With this fabulous location, it is a rare opportunity to live at West side of Vancouver.
+This unique house is boasting it’s a big lot about 60X125 sqft and 3200 sqft interior with 2 levels. It comes with 5 bedrooms and 6 full sized washrooms where 4 bedrooms on the second floor all with its ensuite washroom while the master ensuite comes with bathtub and shower. One bedroom is located on the main level with ensuite bathroom. Comfy radiant floor heating system. Well known private school closed by: YORK HOUSE, CROFTON & ST.GEORGE'S; Public school catchment-- Eric Hamber Secondary School & French Immersion Sir Winston Churchill Secondary School;  Sir William Osler Elementary School.
+Great features are awaiting you discover.
+Must SEE!
+Property Features:
+Bedroom: 5 all with ensuite bathroom
+Bathroom: 6 all full size
+Living Room: 1
+Dinning Room: 1
+Family Room 1
+Furnished: Yes
+Kitchen: full set of appliances
+Laundry room: Yes
+Parking: 3 spots garage with remotes
+Location:
+The home sits on sought after South Granville Community, the West side of Vancouver
+Top private schools: Crofton House, York House, and St. George’s school near by.
+Public school catchment: Eric Hamber Secondary School & French Immersion Sir Winston Churchill Secondary School; Sir William Osler Elementary School.
+Close proximity to Kerrisdale and Oakridge Mall, community centre, various cuisine restaurants
+Close to bus stop –#10 # 41 #49 are direct route buses to UBC and to SkyTrain station, 15 minutes drive to Downtown, UBC, Airport and Richmond
+Lease Terms:
+One Year Lease Required
+No pets, No subletting, No smoking (cigarette, vape, cigar, marijuana, cannabis etc.). NO Grow-ops, NO commercial activities
+Utilities: Tenant is responsible for home internet as well as 70% of the gas and electricity.
+Furnished
+Rent: $6200/month
+Available Immediately
+Credit and Reference checks will be considered upon application received
+Basement was rented separately and has it own entry and fully contained.
+Please text me for all Inquiries and arrangement of a private viewing at:
+show contact info
+Please briefly explain you including your name, job/study, and how many people will be living in, preferred date to move in and the reason you move out from your current home.
+Thanks
+Donny
+Interlink Realty
+Licensed Property Manager
+Disclaimer: All information provided above is subject to change without notice and does not represent a guarantee or commitment. Please verified if deemed important by tenant."
+1000,4.0,,,72,Vancouver,"2690 trinity street, Vancouver, BC V5K1H2","2690 trinity street, Vancouver, BC V5K1H2",49.2894,-123.0498,craigslist_van,7933128698,craigslist_van:7933128698,https://vancouver.craigslist.org/van/apa/d/vancouver-room-for-rent/7933128698.html,Room for rent,"Best location
+Good area . Calm place"
+3200,4.0,2.0,,60,VANCOUVER,"EAST 63 AVE, VANCOUVER, BC V5X2K7","EAST 63 AVE, VANCOUVER, BC V5X2K7",49.2156,-123.0979,craigslist_van,7933128677,craigslist_van:7933128677,https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-south-bedroom-bath/7933128677.html,VANCOUVER SOUTH 4 BEDROOM 2 BATH SUITE,"Features of Unit
+Sunny and bright 4 bedroom suite
+Nicely renovated unit with radiant heat
+Consist of 4 bedrooms, kitchen and 2 washrooms
+Living area of  approximately 1500 sq feet
+In suite washer and dryer
+Recommended for a family max of 6
+Location
+5 mins walk to Marine Drive and Fraser Street
+15 mins bus 3 to Langara College
+11 mins bus 100 to Marine Gateway
+5 mins walk to elementary school
+25 mins walk to high school
+5 mins drive to Richmond
+Rental
+Monthly rental $3200
+60% share of utilities
+Cable and internet not included
+Security Deposit : 50% of rental
+No indoor smoking, big parties and pets allowed
+Ready move-In date : Immediate
+Reference check will be made
+For inquiries, please contact me by text or email."
+4800,4.0,,,18,city of vancouver,"Dunbar Street, Vancouver, BC V6R2G3","Dunbar Street, Vancouver, BC V6R2G3",49.257989,-123.184013,craigslist_van,7932157524,craigslist_van:7932157524,https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-kitsilano-4br/7932157524.html,"Furnished Kitsilano 4BR Laneway w/utilities, near #99 UBC Express Bus","Furnished 4-bedroom, 2-level laneway house available with insuite laundry, a patio, and a deck.
+Utilities included: heat, hot water, electricity, wifi
+Central kitsilano location: 1 block to express buses to downtown, ubc, and canada line skytrain station
+Location is approximate
+If interested in a viewing, please email me. Thanks for reading."
+5000,4.0,,,46,Oak St and W.59 Ave,"985 Westbury Walk, Vancouver, BC V6P6Z5","985 Westbury Walk, Vancouver, BC V6P6Z5",49.217938,-123.12789,craigslist_van,7924980326,craigslist_van:7924980326,https://vancouver.craigslist.org/van/apa/d/vancouver-level-renovated-townhouse-in/7924980326.html,3 level Renovated townhouse in Marpole area,"985 Westbury Walk., Vancouver West
+22 year old townhouse
+3 levels townhouse
+4 bedrooms, 4 baths
+1920 sf
+Wood floor on main, carpet on bedrooms
+Insuite laundry
+Double garage
+Close to Churchill Secondary School
+No pet, non-smoking
+1 year lease required
+Available immediately
+Please call Victor
+show contact info
+for showing
+Green Team Realty"
+3800,4.0,,,32,Vancouver,"Approx map: 49.249700, -123.166000","Approx map: 49.249700, -123.166000",49.2497,-123.166,craigslist_van,7933089018,craigslist_van:7933089018,https://vancouver.craigslist.org/van/apa/d/vancouver-4br-house-sq-ft-plus-huge/7933089018.html,4BR House | 1800 Sq Ft plus huge terrace with view | Minutes to UBC,"Prime Location: W King Edward Ave & Macdonald St
+Experience spacious living in one of Vancouver West's most convenient neighborhoods. This 1800 sq. ft. main suite offers the perfect layout for a growing family or students looking for easy campus access.
+Size: Generous 1800 sq. ft. floor plan.
+Bedrooms: 4 spacious rooms with ample natural light.
+Bathrooms: 2 full bathrooms.
+Upgrades: Brand new refrigerator and in-suite washer/dryer unit.
+Views: Beautiful neighborhood and city outlooks.
+Privacy: Dedicated private entrance.
+Location & Transit
+Direct to UBC: Steps away from the #22 and #25 bus loops, making commutes to campus or Downtown effortless.
+Neighborhood: Quiet, prestigious Arbutus area close to parks, grocery stores, and cafes.
+Lease Details
+Availability: Immediately"
+3913,4.0,,,38,Vancouver,"122 Walter Hardwick Ave, vancouver, BC V5Y0C9","122 Walter Hardwick Ave, vancouver, BC V5Y0C9",49.270989,-123.105881,craigslist_van,7930518372,craigslist_van:7930518372,https://vancouver.craigslist.org/van/apa/d/vancouver-br-unit-for-rent/7930518372.html,$3913.00 / 4BR Unit for Rent,"We have a 4 Bedroom Suite available in S.U.C.C.E.S.S. Affordable Housing Society (SAHS) in ""The Village"" (formerly the Olympic Village) on False Creek.
+Rent is $3913.00 per month, in addition to the rent - you are responsible for your costs of monthly metered consumption of heat, hot and cold water usage, billed monthly via meter consumption.
+This unit includes:
+- Common area pay per use laundry room with washers and dryers
+- With a pet deposit tenants can have one cat or one dog (with breed restrictions)
+-Laundry and access to a shared laundry room
+-A dishwasher
+-Parking stall assigned for $75
+A bit about our tenancies at this property:
+• 100% non-smoking suites
+• Pet friendly, family-oriented building
+• Each application is required to meet eligibility standards that will require disclosure of household income and assets and include a credit check. Please note: if you own a home or a condo, or have significant assets/investments, you would be excluded from eligibility.
+• We abide by The Canadian Occupancy Standards.
+• Environmentally and sustainably designed building: all toilets are on a cistern rainwater harvesting system
+• Amenity spaces: we have a community room that tenants can book -- free of charge -- and a roof top, food producing garden patio to enjoy
+• This is a LEED certified building where the design of the building is to reduce global climate change, protect water resources, build a green and sustainable community.
+**** ROOMMATES ARE NOT ELIGIBLE. ****
+We show suites by appointment only, Monday-Friday between 9:00 AM and 3:30 PM. Please respond to this advertisement by email and include a bit about you and how you would fit in with the community in Olympic Village. We would like to thank you in advance for your interest. Respectfully, we receive a large volume of applicants and are unable to respond to all emails. Please note that we do not receive phone calls. We receive applicants on a first come first serve basis for all of our Rental Units.
+Located along the seawall, which connects you to TELUS World of Science and into the Chinatown/ Stadium areas, our thriving neighborhood features many nearby conveniences and amenities, including shopping on Cambie, Creekside Community Center, Save on Foods Grocery, London Drugs, Medical/Dental Office, all major Banks, Liquor Store, The Village (Dry) Cleaners, Water Ferry to Rogers Arena, B.C. Place and Granville Island, and numerous coffee shops and fabulous eateries. Sky train and bus routes are within a 5-minute walk. Please refer to Walkscore https://www.walkscore.com/score/122-walter-hardwick-ave-vancouver-bc-canada
+post id:
+show contact info
+posted: 3 months ago updated: abou"
+5300,4.0,2.5,,39,Oakridge,"Ash Street, Vancouver, BC V5Z3G9","Ash Street, Vancouver, BC V5Z3G9",49.209453,-123.118961,craigslist_van,7933051506,craigslist_van:7933051506,https://vancouver.craigslist.org/van/apa/d/vancouver-4br-25ba-vancouver-west/7933051506.html,4BR / 2.5BA Vancouver West Townhouse Near Oakridge,"Prime Vancouver West location beside the Oakridge commercial hub. This bright and spacious 2-level townhouse offers 1,743 sq ft of comfortable living space and a true house-like feel. Just a 3-minute walk to Oakridge Centre and SkyTrain.
+Featuring 3 bedrooms and 2.5 bathrooms, plus a large main-floor office/flex room that can be used for work, guests, or use it as a 4th living room. The home faces a quiet inner courtyard park and offers direct access to green space, perfect for walks and morning runs.
+Features:
+- 1,743 sq ft
+- 2-level townhouse
+- 3 bedrooms
+- 2.5 bathrooms
+- Large main-floor office / flex room
+- Quiet inner courtyard exposure
+- Steps to Oakridge Centre and SkyTrain
+- Excellent school catchment: Jamieson Elementary & Eric Hamber Secondary
+- Close to York House and Little Flower Academy
+- Furnitures not included
+Rental Terms:
+- Available: May 15, 2026
+- Rent: $ 5300/month
+- Security deposit: half month’s rent
+- Utilities: Not included
+- Parking/storage: 2 underground parking stalls
+- Extra storage locker in basement
+- No smoking / no vaping
+- Pets: pets considered upon approval
+- Tenant insurance required
+- References, proof of income, and credit check required
+- Tenant must comply with strata bylaws
+- No subletting
+Please reply with a brief introduction, number of occupants, desired move-in date, and any pet information."
+4190,4.0,,,28,"Dunbar, Vancouver","Highbury St., Vancouver, BC V6L2V9","Highbury St., Vancouver, BC V6L2V9",49.238249,-123.187058,craigslist_van,7933004141,craigslist_van:7933004141,https://vancouver.craigslist.org/van/apa/d/vancouver-sept1-bright-newer-br-garden/7933004141.html,Sept.1 - Bright Newer 4 Br. Garden Suite in Prime Dunbar,"Newly updated 4 bedroom garden suite in character house in prime area west of Dunbar St. near Highbury St. & 37th Ave.
+Bright south facing new open plan kitchen with stone countertops, new stainless steel appliances including gas range & side-by-side fridge with bottom-mount freezer, microwave and dishwasher.
+Wood grain plank floors, gas fireplace, in-suite laundry, prewired for fibre optics, bedrooms with large walk-in closets.
+Close to transit, shopping, UBC, downtown.
+Partial furnished including white leather couch, kitchen island bar with stools, pots, pans, dishes, small appliances.
+$4190 per month including utilities. Available September 1. One year lease.
+Some pets allowed on approval. Non-smoking house (including no cannabis or vaping)."
+3600,4.0,,,58,vancouver,"5274 Taunton Street, Vancouver, BC V5R4B3","5274 Taunton Street, Vancouver, BC V5R4B3",49.236915,-123.038192,craigslist_van,7932896720,craigslist_van:7932896720,https://vancouver.craigslist.org/van/apa/d/vancouver-br-brand-new-renovation/7932896720.html,"$3,600 4 br BRAND NEW RENOVATION VANCOUVER 2nd floor with a big Patio","Bedrooms: 4
+Bathrooms: 2
+Laundry: Available
+Parking: Available
+A second-floor unit in a house in the Renfrew-Collingwood area is available for rent.  Next to the Park. 4 bedrooms and 2 bathrooms with a big patio. Kitchen with full-size appliances with a new renovation. EV charging is available.
+This location is close to Joyce Skytrain Station and bus station (10 minutes' walk), as well as restaurants and shops in the Joyce community.  Commute easily to Downtown and Richmond.
+10 minutes' walk to Joyce Collingwood Community Centre and Skytrain Station.
+We are looking for a one-year lease to start.
+Utilities are included.
+No pets
+No smoking
+No subletting
+Credit and reference check required
+Income and employment confirmation required"
+2500,5.0,,,62,city of vancouver,"Approx map: 49.277900, -123.090800","Approx map: 49.277900, -123.090800",49.2779,-123.0908,craigslist_van,7932862052,craigslist_van:7932862052,https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-floor-apartment-in/7932862052.html,5 Bedroom 2 Floor Apartment in DTES / Strathcona,"Unique 1500 sq ft two-level apartment at 306 Jackson Ave (pls google location)
+Best suited for group of friends or roommates
+May/June free rent if you want to do aesthetic improvement yourself like paint and carpet
+All electrical, plumbing, kitchen appliances and bathroom fixtures in good working condition
+Kitchen ceiling will be patched by owner
+August forward $2,500/month (all-in)
+Includes utilities, wifi, and waste
+Two-level layout
+5 separate bedrooms + common area, kitchen and 2 bathrooms (turn the 3 small bedrooms into 1 large room if you want), lots of closet space
+Kitchen has dishwasher, fridge stove
+Second-floor access
+Lots of flexibility for layout + use
+Can use as creative space, multi art studio for a collective instead of apartment if you want, 2 bedrooms have sinks in them
+This unit has SRO buildings on either side, well kept and good tenants, but must be okay with this
+Please message with your intended use to arrange a viewing"
+3850,4.0,,,27,Vancouver,"3233 SW Marine Dr, Vancouver, BC V6N3Y7","3233 SW Marine Dr, Vancouver, BC V6N3Y7",49.22942,-123.176769,craigslist_van,7932725808,craigslist_van:7932725808,https://vancouver.craigslist.org/van/apa/d/vancouver-featuring-private-gym-theater/7932725808.html,"Featuring Private Gym, Theater & Golf Training Facility","Located in central Vancouver, this private 4-bedroom Hamptons-style home offers exceptional space, privacy, and unique golf-focused amenities rarely found in a residential setting.
+The home features superfast gigabit Wi-Fi, central air conditioning, and a fully equipped chef’s kitchen with Sub-Zero refrigerator and Viking range. Enjoy hotel-quality bedding and spacious living areas designed for comfort and entertaining.
+Recreation highlights include:
+• Private home gym
+• Pool table and dedicated home theater
+• Large practice green with professional-size golf cage
+• Night golf on a fully lit green
+• Landscaped garden with fish pond, heated covered porch, and BBQ
+• Fully fenced, very private property
+Perfect for families, golf enthusiasts, or groups seeking a high-end private stay close to shopping, dining, and Vancouver’s top golf courses."
+4550,6.0,,,44,"Vancouver,Canada Line, Cambie","Approx map: 49.247500, -123.121000","Approx map: 49.247500, -123.121000",49.2475,-123.121,craigslist_van,7932671497,craigslist_van:7932671497,https://vancouver.craigslist.org/van/apa/d/vancouver-entire-house-bedrooms-by/7932671497.html,Entire House 6 Bedrooms By Canada Line Station,"Entire house 6 bedrooms by Canada Line sky train station.
+Three bedrooms on main floor with living and dining room plus downstairs.
+Walk to major shopping, restaurants, big box stores, coffee shops, cinema, gym, parks.
+Quiet street in westside close to multiple bus lines, train station.
+No smoking, no pets. Available now. Some renos.
+Leave a contact number."
+6595,7.0,,,23,Shaughnessy,"Approx map: 49.257834, -123.185406","Approx map: 49.257834, -123.185406",49.257834,-123.185406,craigslist_van,7932450603,craigslist_van:7932450603,https://vancouver.craigslist.org/van/apa/d/vancouver-shaughnessy-character-house/7932450603.html,Shaughnessy character house Upper 2 floors or whole house PRIME Locati,"RECENTLY PAINTED AND CLEAN, with NEWLY REFINISHED HARDWOOD FLOORS
+For leases starting May 1 or before, the rent is - $6595 for upper 2 levels or $9695 for the whole house with 3 full bathrooms & 2 kitchens.  Rare opportunity to rent a whole house with a separate basement suite in prestigious First Shaughnessy.   For leases after May 1, the rent will be $400 more per month.
+**************************** IMPORTANT!!! : EMAIL ME YOUR PHONE NUMBER IF YOU ARE SERIOUSLY INTERESTED -- I WILL NOT RESPOND TO ANYONE BY EMAIL. IF YOU EMAIL AND & DO NOT RECEIVE A RESPONSE BACK -- PLEASE DOUBLE CHECK YOUR EMAIL TO MAKE SURE YOU INCLUDED YOUR PHONE NUMBER --THANKS *******************************
+* HUGE LOT
+- A double wide 54 X130 lot (not like the small 25 or 30 foot lots found in most of Vancouver) -- You don't have to choose between moving to the boonies & commuting an hour + everyday just to have a decent sized lot OR living in a decent location and opening your front door into your neighbour's yard.
+* HUGE DECK
+- and a private yard with mature apple and fig trees for summer lounging and relaxing and those fun backyard BBQ's.
+* ARBUTUS GEENWAY / SEAWALL ACCESS
+- This property fronts onto the Arbutus Greenway - the South Arm of the Vancouver Seawall - connecting False Creek to the Fraser River.
+* LOCATION, LOCATION, LOCATION
+- Rare combination of a suite on a large lot that is near transit, shopping, beaches, & downtown -- In Vancouver's most prestigious and affluent neighbourhood!  Situated blocks away from the soon to be completed Arbutus station of the Broadway Skytrain line.  Easy access to prime health facilities like Vancouver General Hospital ( VGH ) & BC Women and Children’s Hospital, GF Strong, The Diamond Centre, BC Cancer Agency and others.
+* SUPER TRANSIT FRIENDLY CONVENIENCE
+- # 33 & # 16 Buses to UBC or 29th Ave station right outside the property, With bus stops right outside the property, and located at a major transit hub going North, South East or West is super easy. 4 bus stops right outside your door....Think of all the extra sleeping in time !
+* GROCERY STORE AT YOUR DOOR
+- It's tough to find good quality healthy, tasty food - conveniently...but not here! There is a Loblaw's City Market right across the street, where you can get healthy food and groceries with no need to drive or pay crazy high delivery fees.  Whole Foods, Capers, IGA, Safeway, & Green's Organic & Natural Health, are all within 5 minutes away.<
+* THE BEST SCHOOLS
+- This house falls in the catchment area for the prestigious Shaughnessy Elementary school, mere doors away from York House School Early Childhood Learning Centre, as well as being very close to York House School, Vancouver College, Little Flower Academy, the best schools that Vancouver has to offer.  Easy UBC access too!
+* UBC / UNIVERSITY ACCESS
+- Super Easy access to UBC, and downtown schools and universities like SFU & BCIT.
+* BIKE SHARE FRIENDLY
+- Don't have your own bike ? - No worries, pick up one of the MOBI Bike share bikes at the MOBI Bike share station right across the street
+* SAFETY AND SECURITY
+-- located in Vancouver's most prestigious neighbourhood of Shaughnessy and surrounded by safe tree lined streets this property has the additional security of a LARGE fenced / hedged in yard with mature apple and fig trees
+* LIFESTYLE & CONVENIENCE
+- blocks to trendy 4th Ave, funky Broadway with some of Vancouver's best dining and entertainment pubs, restaurants, etc & classy South Granville shopping - Walking distance to London Drugs, Shoppers Drug Mart, Yoga studios, Subway, dry cleaning & banks etc
+RENTAL OPTIONS:
+B) $6595 per month – UPPER 2 LEVELS ONLY: - Upper 2 levels, 4 - 5 bedrooms plus living room, dining room, kitchen & 2 baths.
+B) $9695 per month - WHOLE HOUSE RENTAL: - Upper 2 levels as listed above, plus with a 2 bedroom separate suite that you can rent out / sublet for $3000+ / month, AND you get to pick who you live next to
+**************************** IMPORTANT!!!: EMAIL ME YOUR PHONE # IF YOU ARE SERIOUSLY INTERESTED -- I WILL NOT RESPOND TO ANYONE BY EMAIL. IF YOU EMAIL AND AND DO NOT RECEIVE A RESPONSE BACK -- PLEASE DOUBLE CHECK YOUR EMAIL TO MAKE SURE YOU INCLUDED YOUR PHONE NUMBER --THANKS *******************************
+Some people spell Shaughnessy like Shaunessy, Shaugnessey, Shaughnessy, Shauhnesy, Shaugnesy, Shaugnessey, shaughnessy, shawnassey, shawnasey, shawnisy, Shaunessy, Shaugnessey, Shaughnessy, Shauhnesy, Shaugnesy, Shaugnessey, shaughnessy, kits, cambie, west van, kitsalano, point grey, road, kerrisdale, dunbar, UBC, SFU, west side, westside, character home, british properties, dundarave, collingwood, birch, cypress, skytrain trafalgar, osler, connaught, kitsilano, Kits point, point grey road, pt. Grey, kitsilano, dunbar, macdonald, Cornwall, traditional, shaugnessy, arbutus, historic, character home, classic, full house, whole house, shawnassey, shawnasey, shawnisy, full house, complete house, home, angus drive, osler cambie douglas park private public day care childcare facility early childhood education learning daycare childcare school schools blenheim blenhiem trutch, oak king edward bus canada line Totem Park Gage Walter Gage towers Fairview Crescent Place Vanier residence residency residense Pacific Spirit park trail ptgrey point grey bus stop transit canada line busstop Skytrain Sky train biking cycling amenities"
+4500,4.0,,,50,Vancouver,"ontario, Vancouver, BC V5Y2V9","ontario, Vancouver, BC V5Y2V9",49.229341,-123.107128,craigslist_van,7932442041,craigslist_van:7932442041,https://vancouver.craigslist.org/van/apa/d/vancouver-move-in-ready-bedroom-house/7932442041.html,MOVE IN READY 4 bedroom house for rent in Oakridge Area,"+++ 82 W 45th Avenue, Vancouver, V5Y 2V9 +++
+4 Bedrooms 2 Bathroom Upper-Level Home in Prime Oakridge Location
+Well-maintained 4-bedroom, 2-bathroom upper-level home situated on a quiet residential street in the highly desirable Oakridge neighborhood. Functional layout with generous living space, ideal for families seeking stability and convenience.
+Key Features
+•	4 full bedrooms with practical layout (3 bedrooms in the upper level and 1 bedroom in the ground level)
+•	Bright interior with ample natural light
+•	Brand new appliances including stove, fridge, washer, and dryer
+•	Shared laundry
+•	Private front yard
+•	Quiet, family-friendly street
+•	Some photos include virtual staging
+Important
+•	This is for the upper level of the house and one bedroom in the ground floor only (not the entire property)
+Location Highlights
+•	Walking distance to Canada Line SkyTrain
+•	Minutes to Oakridge Park redevelopment, shopping, and dining
+•	Close to parks, Langara College, and major transit routes
+School Catchment
+•	Sir William Van Horne Elementary
+•	Eric Hamber Secondary
+•	Sir Winston Churchill Secondary (French Immersion)
+Lease Details
+•	Rent: $4,500/month
+•	Minimum 12-month lease
+•	Incentive: 1 month free rent (applied to the 12th month of a full-term lease)
+Utilities
+•	Tenant responsible for Hydro, Gas, and Internet
+•	Utilities shared with ground floor 1 bedroom tenant based on number of occupants
+Requirements
+•	References and credit check required
+•	Suitable for responsible, long-term tenants
+Please include a brief introduction when inquiring (number of occupants, employment, reason for moving).
+++Viewings by appointment only through property manager++"
+4500,4.0,,,29,Vancouver,"W48th Avenue, Vancouver, BC V5Y2V9","W48th Avenue, Vancouver, BC V5Y2V9",49.226929,-123.107697,craigslist_van,7930801532,craigslist_van:7930801532,https://vancouver.craigslist.org/van/apa/d/vancouver-available-now-bedrooms-house/7930801532.html,Available NOW 4 bedrooms house for rent in Oakridge Area,"+++ 82 W 45th Avenue, Vancouver,V5Y 2V9 +++
+This well-located 4-bedroom, 2-bathroom home offers a functional layout in one of Vancouver’s most desirable family neighborhoods, Oakridge.
+*Ideal for tenants seeking a long-term, stable residence with access to top schools and transit.
+*Feature:
+-Generous living space with 4 full bedrooms
+-Bright and practical layout
+-Quiet residential street
+-Private outdoor area
+**Location Highlights
+-Walking distance to Canada Line SkyTrain
+-Near Oakridge Park redevelopment, shops and dining
+-Close to parks and Langara College
+***School Catchment
+-Sir William Van Horne Elementary
+-Eric Hamber Secondary
+-Sir Winston Churchill Secondary (French Immersion nearby)
+****Lease Details
+-Rent: $4,500/month
+-Minimum 12-month lease
+-Incentive: 1 month free rent (applied to the 12th month)
+-Tenant insurance required
+-Tenant responsible to pay Hydro, Gas and internet shared with ground level tenants based on number of occupants
+-References and credit check required
+- Some photos include virtual staging
+We are seeking responsible tenants who will care for the property long-term.
+--- Please include a brief introduction when inquiring (occupants, employment, reason for moving)---
+++The property manager will arrange the appointment for viewing++"
+6000,4.0,4.0,,46,Mount Pleasant,"Approx map: 49.262000, -123.092300","Approx map: 49.262000, -123.092300",49.262,-123.0923,craigslist_van,7932383707,craigslist_van:7932383707,https://vancouver.craigslist.org/van/apa/d/vancouver-mount-pleasant-half-duplex/7932383707.html,Mount Pleasant - Half Duplex | 4 bed/4 bath | Avail June 15 or July 1,"Rare unit in the heart of Mount Pleasant. Nearly new, high-end finishes throughout — gourmet kitchen, spa bathrooms, private backyard, A/C, radiant heat, EV-ready garage. Mountain views.
+Ideal for a professional family or someone relocating to Vancouver looking for something unique in one of the city's most walkable neighborhoods.  Close to schools, parks, transit, shopping, etc.
+Approx monthly range of $6,000 – $6,500/month depending on terms.
+Serious inquiries only — the property is not yet officially listed for rent, so no photos or address are provided at this stage. Please reply with a brief intro if you're interested and we can take it from there.
+Thank you for your interest."
+4400,5.0,,,65,Vancouver,"Approx map: 49.226423, -123.042412","Approx map: 49.226423, -123.042412",49.226423,-123.042412,craigslist_van,7932368554,craigslist_van:7932368554,https://vancouver.craigslist.org/van/apa/d/vancouver-van-east-house-for-rent/7932368554.html,Van East House for Rent,"5 bedroom 3 full baths for rent. Upper two floors. Very central location. Walk to bus, skytrain, Safeway, restaurants, schools. Around 41st and Joyce. Text
+show contact info"
+5800,4.0,4.0,,41,Main/Fraser,"Approx map: 49.232700, -123.091700","Approx map: 49.232700, -123.091700",49.2327,-123.0917,craigslist_van,7932151174,craigslist_van:7932151174,https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-family-home-for-rent/7932151174.html,4 Bed / 4 Bath Family Home for Rent – East Vancouver,"Spacious and well-maintained 4 bedroom, 4 bathroom home available for rent in a highly desirable East Vancouver neighbourhood, conveniently located between Main Street and Fraser Street.
+This home offers plenty of space for families or professionals, with a functional layout, generous bedrooms, and multiple bathrooms for comfort and privacy.
+Features include:
+4 large bedrooms
+4 bathrooms
+Bright and open living spaces
+Ideal family-friendly layout
+Located in a great, central neighbourhood close to shops, schools, parks, and transit
+Perfect for a family looking to settle into a vibrant and convenient community.
+Available: June 1, 2026
+Lease Term: 1 year
+Please message with a bit about yourself/your group for more details and to arrange a viewing."
+3800,4.0,3.5,,127,Willoughby,"80 Avenue, Langley, BC V2Y0J4","80 Avenue, Langley, BC V2Y0J4",49.1285,-122.6236,craigslist_van,7929688454,craigslist_van:7929688454,https://vancouver.craigslist.org/van/apa/d/langley-township-northwest-bed-35-bath/7929688454.html,🏡 4 Bed + 3.5 Bath Townhouse for Rent – Willoughby area Langley,"🏡 4 Bed + 3.5 Bath Townhouse for Rent – Willoughby
+💰 Rent: $3,800/month (utilities not included)
+📅 Available: June 15, 2026
+📄 Lease Term: 1 year minimum
+Bright, spacious, and perfect for families! This beautiful townhouse in Willoughby offers a functional layout and modern finishes throughout.
+✨ Features:
+• 4 Bedrooms + 3.5 Bathrooms
+• Open-concept living & dining area
+• Modern kitchen with stainless steel appliances
+• Powder room on main floor
+• Primary bedroom with walk-in closet & private ensuite
+• Two additional rooms on the top floor
+• Washer & dryer on top floor
+• Ground floor includes 1 bedroom + 1 full bathroom
+• Private patio
+• 2 parking spaces"
+5200,4.0,,,40,Vancouver,"Approx map: 49.257274, -123.123436","Approx map: 49.257274, -123.123436",49.257274,-123.123436,craigslist_van,7931993631,craigslist_van:7931993631,https://vancouver.craigslist.org/van/apa/d/vancouver-bright-bedroom-character/7931993631.html,Bright 4-bedroom character duplex near VGH with sunny gardens,"Available July 1st, this well-maintained character duplex offers a rare opportunity to live on a quiet, tree-lined street just steps from Vancouver General Hospital.
+This spacious home provides comfortable living with a bright, functional layout, abundant natural light, and classic character throughout.
+4 bedrooms total, including a studio suite with kitchen and separate entry—ideal for guests, extended family, or a home office.
+Features include hardwood floors, a wood-burning fireplace, in-suite laundry, and a private front and backyard with garden and patio space. Storage and parking are also included.
+Ideally suited for professionals or families seeking a long-term home in a highly desirable central location.
+📩 Please include a brief introduction (who will be living in the home, employment, and desired lease term) when reaching out.
+📞 For fastest response, please call or text:
+show contact info
+Phone inquiries preferred. Serious inquiries only."
+3000,5.0,,,,West Vancouver,"Approx map: 49.461400, -123.329400","Approx map: 49.461400, -123.329400",49.4614,-123.3294,craigslist_van,7931993532,craigslist_van:7931993532,https://vancouver.craigslist.org/van/apa/d/west-vancouver-luxury-mega-mansion/7931993532.html,Luxury mega mansion,"Waterfront luxury home in west vancouver. 5 bedrooms 7 bathrooms. Outdoor, indoor pool. Theater room. Gym
+3k per night, 70k for full month"
+5000,5.0,,,38,Vancouver,"34th ave, Vancouver, BC V6P3W4","34th ave, Vancouver, BC V6P3W4",49.2151,-123.1396,craigslist_van,7931992299,craigslist_van:7931992299,https://vancouver.craigslist.org/van/apa/d/vancouver-fifa-2026-luxury-short-term/7931992299.html,FIFA 2026 Luxury short term Rental – Westside Vancouver (Private Home),"🔥 FIFA 2026 Luxury Rental – Westside Vancouver (Private Home)
+Looking for premium accommodation during the FIFA World Cup in Vancouver?
+We are offering a **brand new luxury home on Vancouver’s Westside** – ideal for executives, families, or VIP groups seeking privacy, space, and convenience during the event.
+✨ Property Highlights:
+• Newly built, high-end modern home
+• 5 bedrooms | spacious layout for groups
+• Designer interiors + premium finishes
+• Private outdoor space + entertainment areas
+• Quiet, prestigious neighbourhood (Westside Vancouver)
+• Easy access to Downtown & stadium
+🏆 Perfect for:
+• Corporate groups / sponsors
+• International visitors & families
+• Media teams / extended stays
+📅 Availability: During FIFA 2026
+💰 Pricing: Premium rates $5000/night (depending on dates & length of stay)
+📩 Serious inquiries only
+This is a rare opportunity to secure a **full private luxury home** during one of Vancouver’s busiest global events.
+https://s.onikon.com/howard-wang/3530-west-34th-avenue-vancouver/#cinematic-film
+Feel free to message directly for more details, photos, and availability."
+1000,4.0,,,30,Alma st and W 10th AVE,"Alma st, VANCOUVER, BC V6X0C3","Alma st, VANCOUVER, BC V6X0C3",49.272873,-123.185555,craigslist_van,7927725239,craigslist_van:7927725239,https://vancouver.craigslist.org/van/apa/d/vancouver-one-bedroom-available-now-in/7927725239.html,one bedroom available now in basement CLOSE TO UBC,"7–10 minutes TO UBC, surrounded by local cafés,
+restaurants, takeout spots, and grocery stores like No Frills and Safeway. Banks, pharmacies,
+and other daily essentials are close by.
+a
+Available NOW
+$1000-1200/Month  utilities anf wifi included.
+One year lease minimum, credit check and reference required.
+No pets and non-smoker, No drugs.
+Could you please introduce yourself."
+3800,4.0,,,52,Vancouver,"Approx map: 49.250383, -123.095069","Approx map: 49.250383, -123.095069",49.250383,-123.095069,craigslist_van,7926682125,craigslist_van:7926682125,https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-basement-suite-in/7926682125.html,Spacious Basement Suite in trendy Main St. Neighbourhood,Basement Suite - 3 bedrooms and den(can be used as a 4th bedroom). All 4 rooms can fit a queen bed and desk.  Spacious 1450 sqft suite with 2 full bathrooms and laundry. Finished with stainless steel appliances. Excellent location. Can furnish for an additional fee.  Available May 1st or June 1st. Can furnish for an addition $300/month.
+5500,4.0,4.0,,35,Vancouver west,"Approx map: 49.249100, -123.208800","Approx map: 49.249100, -123.208800",49.2491,-123.2088,craigslist_van,7929962128,craigslist_van:7929962128,https://vancouver.craigslist.org/van/apa/d/vancouver-new-built-duplex-house-bed/7929962128.html,New built Duplex house 4 bed room4 bathroom for rent,"Very close to UBC and Pacific Spirit park.
+Near 24th and Crown Vancouver west.
+Convenient bus route and shopping.
+Quiet and beautiful neighbourhood.
+Ideal for UBC student group."
+3135,4.0,,,56,Knight Street,"Knight Street, Vancouver, BC V5N3K4","Knight Street, Vancouver, BC V5N3K4",49.257388,-123.074589,craigslist_van,7926009746,craigslist_van:7926009746,https://vancouver.craigslist.org/van/apa/d/vancouver-large-bedroom-apartment-with/7926009746.html,Large 4 Bedroom Apartment with Deck 15 Mins to Downtown,"Nicely renovated Large 4-bedroom apartment with large deck in a nice, clean and safe neighborhood with high ceilings, lounge, 4-piece bathroom, fully fitted kitchen, very large private deck and shared laundry room with washer, dryer and sink. Steps to bus stop and 5 mins walk to Skytrain, shopping, restaurants, Community Park, Tennis Courts, Recreation Center, public library, all amenities. Looking for quiet, respectful tenants who are non-smokers. Available for June 1, 2026. References required.
+• Nicely renovated throughout with built-in closets and double pane windows
+• Living room with Hardwood Floors
+• 4 Bedrooms with Hardwood Floors and built-in closets in 3 Bedrooms
+• Large kitchen with tiled floor, easy clean range, fridge freezer and hood
+• Large bathroom with tiled bath surround, tiled floor, vanity with marble top sink, medicine cabinet with mirror & WC
+• Very large Patio for own use with table & chairs
+• Laundry room with sink, washer and dryer
+• 35% share of utilities
+• Convenient location for Downtown, Burnaby, Richmond, VCC, BCIT, SFU, Douglas College,
+• 1 Off-street parking, Lots of street parking. No Pets. No Smoking
+If interested please reply with your Tel. #"
+2650,4.0,,,43,Vancouver,"Knight Street, Vancouver, BC V5N3K6","Knight Street, Vancouver, BC V5N3K6",49.256701,-123.075018,craigslist_van,7925067792,craigslist_van:7925067792,https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-bedroom-apartment-15/7925067792.html,Spacious 4 Bedroom Apartment 15 mins to Downtown,"Newly Renovated Large 4 Bed Apartment 15 Mins to Downtown.
+Newly renovated large 4 bed apartment in a nice, clean and safe neighborhood with high ceilings, large lounge, 4 piece bathroom, fully fitted kitchen and shared laundry room with washer, dryer and sink. Steps to bus stop and 6 minutes walk to sky train, shopping, restaurants, community park, tennis courts, public library, all amenities. Looking for quiet, respectful tenants who are non-smokers. Available for April 1, 2026. References required.
+• Newly renovated throughout with double pane windows
+• Newly Renovated Large living room with hardwood floor
+• Newly renovated 4 bedrooms with laminate floors
+• Newly renovated large kitchen with tiled floor, easy clean range, fridge freezer, hood and space for dining table
+• Newly renovated bathroom with tiled bath surround, shower enclosure, tiled floor, sink, medicine cabinet with mirror & WC
+• Shared Laundry room with sink, washer and dryer
+• 35% share of utilities
+• Convenient location for Downtown, UBC, VCC, BCIT, SFU, Langara College, Douglas College,
+• 1 Off-street parking, Lots of street parking. No Pets. No Smoking."
+2500,4.0,2.0,,56,Vancouver,"Kingsway, Vancouver, BC V5R4S7","Kingsway, Vancouver, BC V5R4S7",49.25894,-123.095181,craigslist_van,7926506111,craigslist_van:7926506111,https://vancouver.craigslist.org/van/apa/d/vancouver-house-with-bedrooms-and/7926506111.html,House with 4 bedrooms and 2 bathrooms,"The house is close to Slocan and Kingsway
+Good location. walking distance to skytrain
+4 bedrooms and 2 full baths, kitchen, family room and laundry room
+Reply with phone number and a little about who will be living there
+There is beds in all bedrooms and some furniture
+No pets"
+2500,4.0,,,55,Vancouver,"2262 nanaimo street, Vancouver, BC V5N5C9","2262 nanaimo street, Vancouver, BC V5N5C9",49.263982,-123.056145,craigslist_van,7925726147,craigslist_van:7925726147,https://vancouver.craigslist.org/van/apa/d/vancouver-bedrooms-upper-floor-house/7925726147.html,4 Bedrooms Upper Floor House for Rent 2262 Nanaimo Street & E 7th Ave,"Title: 2262 Nanaimo St, Vancouver, BC V5N 5C9
+4 Bedrooms Upper Floor House for Rent near Commercial–Broadway | 2262 Nanaimo Street & E 7th Ave
+Description:
+Upper floor of a house for rent located at 2262 Nanaimo Street near E 7th Avenue, Vancouver. The unit includes 4 bedrooms, 1 bathroom, and 1 kitchen, suitable for students or working professionals.
+The house is on the second floor. The ground level is open area with only a small electrical room, so you will have good privacy.
+Appliances included:
+Washer, dryer, refrigerator, induction stove, range hood, and basic kitchen appliances.
+Heating is included. No air conditioning.
+Street parking available.
+Transportation:
+• 17-minute walk to Commercial–Broadway SkyTrain Station
+• Bus stop within 150m (including Bus 007 and others)
+School Catchment:
+• Chief Maquinna Elementary
+• Vancouver Technical Secondary
+Quiet residential neighborhood, convenient location, close to transit, schools, and shopping."
+4340,4.0,,,16,Point grey,"4443west 8th, vancouver, BC V6R2A3","4443west 8th, vancouver, BC V6R2A3",49.26555,-123.20733,craigslist_van,7925535333,craigslist_van:7925535333,https://vancouver.craigslist.org/van/apa/d/vancouver-4bedroom-ground-floor-suite/7925535333.html,4bedroom ground floor suite near UBC,"Spacious four bedroom ground floor suite in a house , located just 2blocks from the UBC gate in a great location. Walking distance to shopping park ,bus stop and the beach.
+Rent $4340 per month including utilities
+Available: June first
+No pets, No smoking"
+4500,4.0,,2026-04-29,49,Oakridge,"82 West 45th Avenue, Vancouver, BC, V5Y 2V9","82 West 45th Avenue, Vancouver, BC, V5Y 2V9",49.22930419999999,-123.1078514,padmapper,64223378,padmapper:64223378,https://www.padmapper.com/rentals/28423702p/4-bedroom-2-bath-apartment-at-82-west-45th-avenue-vancouver-bc-v5y-2v9,,
+4900,4.0,,2026-06-01,50,Riley Park - Little Mountain,"4359 Main Street, Vancouver, BC, V5V 3R1","4359 Main Street, Vancouver, BC, V5V 3R1",49.2464569,-123.1016032,padmapper,59887444,padmapper:59887444,https://www.padmapper.com/rentals/28177301p/4-bedroom-2-bath-apartment-at-4359-main-street-vancouver-bc-v5v-3r1,,
+5000,4.0,,2026-09-01,13,West Point Grey,"W 8th Ave & Tolmie St, Vancouver, BC, V6R 2A4","W 8th Ave & Tolmie St, Vancouver, BC, V6R 2A4",49.2656236,-123.2121177,padmapper,64319285,padmapper:64319285,https://www.padmapper.com/rentals/64319285/4-bedroom-1-bath-apartment-at-w-8th-ave-tolmie-st-vancouver-bc-v6r-2a4,,
+5400,4.0,,2026-09-01,52,Riley Park - Little Mountain,"4285 St George St, Vancouver, BC, V5V 4A3","4285 St George St, Vancouver, BC, V5V 4A3",49.2466083,-123.0945042,padmapper,64310024,padmapper:64310024,https://www.padmapper.com/rentals/64310024/4-bedroom-2-bath-apartment-at-4285-st-george-st-vancouver-bc-v5v-4a3,,
+6500,5.0,,2026-05-01,34,Dunbar,"Camosun St & W 28th Ave, Vancouver, BC, V6S 1S8","Camosun St & W 28th Ave, Vancouver, BC, V6S 1S8",49.2471854,-123.1967453,padmapper,62284509,padmapper:62284509,https://www.padmapper.com/rentals/62284509/5-bedroom-3-bath-apartment-at-camosun-st-w-28th-ave-vancouver-bc-v6s-1s8,,
+3800,4.0,,2026-05-16,68,Victoria-Fraserview,"2300 Harrison Drive, Vancouver, BC, V5P 2P8","2300 Harrison Drive, Vancouver, BC, V5P 2P8",49.20843499999999,-123.059839,padmapper,64087176,padmapper:64087176,https://www.padmapper.com/rentals/64087176/4-bedroom-2-bath-apartment-at-2300-harrison-drive-vancouver-bc-v5p-2p8,,
+1125,5.0,,2026-05-01,15,West Point Grey,"4615 West 4th Avenue, Vancouver, BC, V6R 1R6","4615 West 4th Avenue, Vancouver, BC, V6R 1R6",49.2693391,-123.2125124,padmapper,64039717,padmapper:64039717,https://www.padmapper.com/rentals/64039717/5-bedroom-2-bath-apartment-at-4615-west-4th-avenue-vancouver-bc-v6r-1r6,,
+3499,4.0,,2026-05-01,55,Grandview-Woodland,"E 6th Ave & Nanaimo St, Vancouver, BC, V5N 5C7","E 6th Ave & Nanaimo St, Vancouver, BC, V5N 5C7",49.2648006,-123.0565997,padmapper,63622948,padmapper:63622948,https://www.padmapper.com/rentals/63622948/4-bedroom-1-bath-apartment-at-e-6th-ave-nanaimo-st-vancouver-bc-v5n-5c7,,
+3300,4.0,,2025-10-01,47,Oakridge,"720 West 54th Avenue, Vancouver, BC, V6P 0A8","720 West 54th Avenue, Vancouver, BC, V6P 0A8",49.22138959999999,-123.121657,padmapper,62388259,padmapper:62388259,https://www.padmapper.com/rentals/18671490p/4-bedroom-2-bath-apartment-at-720-west-54th-avenue-vancouver-bc-v6p-0a8,,
+5500,5.0,,,39,Oakridge,"1458 45th Ave W, Vancouver, BC, V6M 2H1","1458 45th Ave W, Vancouver, BC, V6M 2H1",49.23052152679109,-123.13862967752746,padmapper,64295278,padmapper:64295278,https://www.padmapper.com/rentals/28436450p/5-bedroom-3-bath-apartment-at-1458-45th-ave-w-vancouver-bc-v6m-2h1,,
+4100,5.0,3.0,,48,,"1500 66TH WEST Street, Vancouver, BC, V6P 2R9","1500 66TH WEST Street, Vancouver, BC, V6P 2R9",49.211372,-123.141135,rentals_ca,cmVudGFsbGlzdGluZzoxMTcyNDk5,rentals_ca:cmVudGFsbGlzdGluZzoxMTcyNDk5,https://rentals.ca/vancouver/1500-66th-west-street,"1500 66TH WEST Street house — 1500 66TH WEST STREET, Vancouver BC (5-Bedroom)",
+6500,5.0,3.0,,35,,"4xxx 28 Avenue, Vancouver, BC, V6S 1S7","4xxx 28 Avenue, Vancouver, BC, V6S 1S7",49.247092,-123.195908,rentals_ca,cmVudGFsbGlzdGluZzoxMTU2NTQz,rentals_ca:cmVudGFsbGlzdGluZzoxMTU2NTQz,https://rentals.ca/vancouver/4xxx-28-avenue,"4xxx 28 Avenue house — 4xxx W 28 AVENUE, Vancouver BC (5-Bedroom)",
+6000,4.0,3.0,,30,,"2683 W 41ST AVE, Vancouver, BC, V6N 3C3","2683 W 41ST AVE, Vancouver, BC, V6N 3C3",49.235002,-123.16531,rentals_ca,cmVudGFsbGlzdGluZzoxMTk4NDIy,rentals_ca:cmVudGFsbGlzdGluZzoxMTk4NDIy,https://rentals.ca/vancouver/2683-w-41st-ave,"2683 W 41ST AVE duplex — 2683 W 41ST AVE, Vancouver BC (4-Bedroom)",
+5400,4.0,2.0,2026-09-01,52,,"4285 Saint George Street, Vancouver, BC, V5V 4A3","4285 Saint George Street, Vancouver, BC, V5V 4A3",49.246619,-123.094496,rentals_ca,cmVudGFsbGlzdGluZzoxMzE1MTM5,rentals_ca:cmVudGFsbGlzdGluZzoxMzE1MTM5,https://rentals.ca/vancouver/4285-saint-george-street-1,"4285 Saint George Street house — 4285 Saint George Street, Vancouver BC (4-Bedroom)",
+6600,6.0,4.0,,31,,"2400 WEST 19TH Avenue, Vancouver, BC, V6L 1C7","2400 WEST 19TH Avenue, Vancouver, BC, V6L 1C7",49.255424,-123.160361,rentals_ca,cmVudGFsbGlzdGluZzoxMTk2MzIw,rentals_ca:cmVudGFsbGlzdGluZzoxMTk2MzIw,https://rentals.ca/vancouver/2400-west-19th-avenue-id1196320,"2400 WEST 19TH Avenue house — 2400 WEST 19TH AVENUE, Vancouver BC (6-Bedroom)",

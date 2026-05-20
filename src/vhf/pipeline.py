@@ -139,6 +139,13 @@ async def _run_async(*, criteria: SearchCriteria) -> PipelineResult:
     export_html(html_path, listings, generated_at=ran_at)
     console.print(f"  Exported CSV ->        {csv_path}")
     console.print(f"  Exported HTML ->       {html_path}")
+    n_geo = sum(
+        1 for x in listings if x.latitude is not None and x.longitude is not None
+    )
+    console.print(
+        f"  Listings with lat/lng: {n_geo}/{len(listings)} "
+        f"({100 * n_geo / len(listings):.0f}%)" if listings else "  Listings with lat/lng: 0/0"
+    )
     console.rule()
 
     return PipelineResult(listings=listings, ran_at=ran_at)

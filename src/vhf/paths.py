@@ -12,6 +12,7 @@ DATA_DIR = repo_root() / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 EXPORTS_DIR = DATA_DIR / "exports"
+LABELS_DIR = DATA_DIR / "labels"
 STATE_DIR = DATA_DIR / "state"
 LOGS_DIR = repo_root() / "logs"
 

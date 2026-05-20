@@ -42,6 +42,9 @@ jobs:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: vhf
 
+      - name: Verify export HTML
+        run: python -m vhf.verify_export_html
+
       # ------------------------------------------------------------------ #
       # 4. Detect new listings and send email                                #
       # ------------------------------------------------------------------ #

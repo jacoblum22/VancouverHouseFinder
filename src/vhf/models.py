@@ -39,4 +39,6 @@ class Listing(BaseModel):
     dedupe_key: str | None = None
     status: Literal["active", "inactive"] = "active"
     transit_minutes_to_ubc: int | None = None
+    latitude: float | None = None
+    longitude: float | None = None
 

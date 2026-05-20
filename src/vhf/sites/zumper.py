@@ -186,6 +186,15 @@ def _parse_listable(item: dict[str, Any], source: str) -> Listing | None:
 
     neighborhood: str | None = item.get("neighborhood_name") or None
 
+    lat: float | None = None
+    lng: float | None = None
+    try:
+        if item.get("lat") is not None and item.get("lng") is not None:
+            lat = float(item["lat"])
+            lng = float(item["lng"])
+    except (TypeError, ValueError):
+        pass
+
     avail_date: date | None = None
     avail_raw = item.get("date_available")
     if avail_raw:
@@ -204,4 +213,6 @@ def _parse_listable(item: dict[str, Any], source: str) -> Listing | None:
         address_text=address_text,
         neighborhood=neighborhood,
         availability_date=avail_date,
+        latitude=lat,
+        longitude=lng,
     )

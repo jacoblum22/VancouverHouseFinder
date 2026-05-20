@@ -33,6 +33,10 @@ logs/
 # Temp planning files
 TEMP_*.md
 
+# Scratch outputs (e.g. description dumps for keyword exploration)
+tmp/
+temp/
+
 # data/exports/       ← NOT ignored: results.html + results.csv committed each run
 # data/processed/transit_cache.json ← NOT ignored: committed to preserve transit data
 # data/state/         ← NOT ignored: last_seen.json persists new-listing detection state

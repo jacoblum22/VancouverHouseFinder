@@ -17,6 +17,7 @@ from rich.console import Console
 
 from ..models import Listing, RawDocument
 from ..paths import RAW_DIR
+from ..rentals_ca_title import format_rentals_listing_title, is_rentals_ca_room_listing
 from .base import SiteScraper
 
 console = Console()
@@ -66,6 +67,7 @@ query RentalListingSearch(
         path
         name
         listingType
+        location
         address { street streetSuffix cityName regionCode postalCode }
         rentRange
         bedsRange
@@ -239,7 +241,8 @@ def _parse_node(node: dict[str, Any], source: str) -> Listing | None:
     node_id: str = node.get("id") or ""
     full_url = f"{_RENTALS_BASE}/{path}"
 
-    title: str | None = node.get("name") or None
+    if is_rentals_ca_room_listing(node):
+        return None
 
     # -- City filter: Vancouver proper only --
     addr: dict[str, Any] = node.get("address") or {}
@@ -247,9 +250,24 @@ def _parse_node(node: dict[str, Any], source: str) -> Listing | None:
     if city_name and city_name.lower() != "vancouver":
         return None
 
+    street = (addr.get("street") or "").strip()
+    suffix = (addr.get("streetSuffix") or "").strip()
+    street_line = f"{street} {suffix}".strip() if suffix else street
+    region = (addr.get("regionCode") or "").strip()
+
     # -- Bedrooms --
     beds_range: list[float] = node.get("bedsRange") or []
     max_beds = float(max(beds_range)) if beds_range else None
+
+    title: str | None = format_rentals_listing_title(
+        node,
+        street_line=street_line,
+        city_name=city_name,
+        region=region,
+        max_beds=max_beds,
+    )
+    if not title:
+        title = (node.get("name") or "").strip() or None
 
     # -- Price: find the cheapest floor plan at the highest bedroom count --
     floor_plans: list[dict[str, Any]] = node.get("floorPlans") or []
@@ -283,13 +301,21 @@ def _parse_node(node: dict[str, Any], source: str) -> Listing | None:
         price_cad = int(min(rent_range))
 
     # -- Address string --
-    street = (addr.get("street") or "").strip()
-    suffix = (addr.get("streetSuffix") or "").strip()
     city = city_name
-    region = (addr.get("regionCode") or "").strip()
     postal = (addr.get("postalCode") or "").strip()
-    parts = [f"{street} {suffix}".strip() if suffix else street, city, region, postal]
+    parts = [street_line, city, region, postal]
     address_text: str | None = ", ".join(p for p in parts if p) or None
+
+    # GeographyPoint scalar: [longitude, latitude]
+    lat: float | None = None
+    lng: float | None = None
+    loc = node.get("location")
+    if isinstance(loc, (list, tuple)) and len(loc) >= 2:
+        try:
+            lng = float(loc[0])
+            lat = float(loc[1])
+        except (TypeError, ValueError):
+            pass
 
     # -- Bathrooms (from first matching floor plan) --
     bathrooms: float | None = None
@@ -308,4 +334,6 @@ def _parse_node(node: dict[str, Any], source: str) -> Listing | None:
         bathrooms=bathrooms,
         address_text=address_text,
         availability_date=avail_date,
+        latitude=lat,
+        longitude=lng,
     )
