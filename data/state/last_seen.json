@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-05-22T01:08:51.609260+00:00",
+  "updated_at": "2026-05-22T12:57:16.855492+00:00",
   "entries": {
+    "craigslist_van:7929517213": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-executive-spacious-family/7929517213.html",
+      "title": "Executive & Spacious Family Home Vancouver West Side",
+      "source": "craigslist_van",
+      "price_cad": 5199,
+      "bedrooms": 5.0,
+      "neighborhood": "Vancouver West \u2013Marpole Oakridge",
+      "address_text": "W62 Ave, Vancouver, BC V6X2E4",
+      "transit_minutes_to_ubc": 48
+    },
+    "craigslist_van:7935289379": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-month-free-for-12-months/7935289379.html",
+      "title": "1 month free for 12 months lease 4 bedroom house in Oakridge area",
+      "source": "craigslist_van",
+      "price_cad": 4500,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Approx map: 49.249200, -123.110400",
+      "transit_minutes_to_ubc": 43
+    },
+    "craigslist_van:7934784292": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934784292.html",
+      "title": "A Furnished Room for Rent in Vancouver",
+      "source": "craigslist_van",
+      "price_cad": 1000,
+      "bedrooms": 6.0,
+      "neighborhood": "Vancouver",
+      "address_text": "1842 W 63rd Ave, Vancouver, BC V6P2J1",
+      "transit_minutes_to_ubc": 43
+    },
+    "craigslist_van:7934781399": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934781399.html",
+      "title": "A Furnished Room for Rent in Vancouver",
+      "source": "craigslist_van",
+      "price_cad": 1100,
+      "bedrooms": 6.0,
+      "neighborhood": "Vancouver",
+      "address_text": "3550 W 39th Ave, Vancouver, BC V6N3A5",
+      "transit_minutes_to_ubc": 25
+    },
+    "craigslist_van:7934779794": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934779794.html",
+      "title": "A Furnished Room for Rent in Vancouver",
+      "source": "craigslist_van",
+      "price_cad": 1000,
+      "bedrooms": 6.0,
+      "neighborhood": "Vancouver",
+      "address_text": "3853 W 15th Ave, Vancouver, BC V6R3A1",
+      "transit_minutes_to_ubc": 24
+    },
+    "craigslist_van:7927725239": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-one-bedroom-available-now-in/7927725239.html",
+      "title": "one bedroom available now in basement CLOSE TO UBC",
+      "source": "craigslist_van",
+      "price_cad": 1000,
+      "bedrooms": 4.0,
+      "neighborhood": "Alma st and W 10th AVE",
+      "address_text": "Alma st, VANCOUVER, BC V6X0C3",
+      "transit_minutes_to_ubc": 30
+    },
+    "craigslist_van:7933972358": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-new-built-bed-35-bath-laneway/7933972358.html",
+      "title": "New Built 4 Bed 3.5 Bath Laneway at E45th",
+      "source": "craigslist_van",
+      "price_cad": 3100,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Approx map: 49.223200, -123.043400",
+      "transit_minutes_to_ubc": 63
+    },
     "craigslist_van:7928323538": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-br-house-east-vancouver-great/7928323538.html",
       "title": "4 BR HOUSE-East Vancouver Great Location",
@@ -40,16 +110,6 @@
       "neighborhood": "Vancouver",
       "address_text": "122 Walter Hardwick Ave, vancouver, BC V5Y0C9",
       "transit_minutes_to_ubc": 38
-    },
-    "craigslist_van:7925998985": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-two-storeys-bed-bath-unit-in/7925998985.html",
-      "title": "TWO STOREYS 4 BED & 2 BATH UNIT IN DESIRABLE MAIN",
-      "source": "craigslist_van",
-      "price_cad": 4900,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Approx map: 49.248000, -123.091300",
-      "transit_minutes_to_ubc": 52
     },
     "craigslist_van:7930221460": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-west-oak-street/7930221460.html",
@@ -100,16 +160,6 @@
       "neighborhood": "Vancouver Dunbar",
       "address_text": "3636 marine dr, Vancouver, BC V6N3Z4",
       "transit_minutes_to_ubc": 22
-    },
-    "craigslist_van:7926009746": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-large-bedroom-apartment-with/7926009746.html",
-      "title": "Large 4 Bedroom Apartment with Deck 15 Mins to Downtown",
-      "source": "craigslist_van",
-      "price_cad": 3135,
-      "bedrooms": 4.0,
-      "neighborhood": "Knight Street",
-      "address_text": "Knight Street, Vancouver, BC V5N3K4",
-      "transit_minutes_to_ubc": 56
     },
     "craigslist_van:7935801864": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-penthouse-cambie-corridor/7935801864.html",
@@ -371,16 +421,6 @@
       "address_text": "57 Ave, Surrey, BC, BC V3S8W3",
       "transit_minutes_to_ubc": 136
     },
-    "craigslist_van:7925953279": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bargain/7925953279.html",
-      "title": "**BARGAIN**",
-      "source": "craigslist_van",
-      "price_cad": 3500,
-      "bedrooms": 5.0,
-      "neighborhood": "VANCOUVER",
-      "address_text": "1257 E 18TH AVE, Vancouver, BC V5V1H3",
-      "transit_minutes_to_ubc": 61
-    },
     "craigslist_van:7931563746": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-newly-crafted-vancouver-west/7931563746.html",
       "title": "Newly Crafted Vancouver West 1500SF 4bed 3bath Laneway available NOW!",
@@ -391,16 +431,6 @@
       "address_text": "41st Ave, Vancouver, BC V6N1Z1",
       "transit_minutes_to_ubc": 21
     },
-    "craigslist_van:7929517213": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-executive-spacious-family/7929517213.html",
-      "title": "Executive & Spacious Family Home Vancouver West Side",
-      "source": "craigslist_van",
-      "price_cad": 5199,
-      "bedrooms": 5.0,
-      "neighborhood": "Vancouver West \u2013Marpole Oakridge",
-      "address_text": "W62 Ave, Vancouver, BC V6X2E4",
-      "transit_minutes_to_ubc": 48
-    },
     "craigslist_van:7935510126": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-brand-new-house-for-rent/7935510126.html",
       "title": "Brand new house for rent Beside the PNE LONG OR SHORT TERM RENTAL",
@@ -410,16 +440,6 @@
       "neighborhood": "hastings sunrise",
       "address_text": "Approx map: 49.280700, -123.039700",
       "transit_minutes_to_ubc": 75
-    },
-    "craigslist_van:7927725239": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-one-bedroom-available-now-in/7927725239.html",
-      "title": "one bedroom available now in basement CLOSE TO UBC",
-      "source": "craigslist_van",
-      "price_cad": 1000,
-      "bedrooms": 4.0,
-      "neighborhood": "Alma st and W 10th AVE",
-      "address_text": "Alma st, VANCOUVER, BC V6X0C3",
-      "transit_minutes_to_ubc": 30
     },
     "craigslist_van:7934720914": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-east-vancouver/7934720914.html",
@@ -451,36 +471,6 @@
       "address_text": "5030 BLENHEIM STREET, vancouver, BC V6N1N5",
       "transit_minutes_to_ubc": 37
     },
-    "craigslist_van:7934784292": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934784292.html",
-      "title": "A Furnished Room for Rent in Vancouver",
-      "source": "craigslist_van",
-      "price_cad": 1000,
-      "bedrooms": 6.0,
-      "neighborhood": "Vancouver",
-      "address_text": "1842 W 63rd Ave, Vancouver, BC V6P2J1",
-      "transit_minutes_to_ubc": 43
-    },
-    "craigslist_van:7934781399": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934781399.html",
-      "title": "A Furnished Room for Rent in Vancouver",
-      "source": "craigslist_van",
-      "price_cad": 1100,
-      "bedrooms": 6.0,
-      "neighborhood": "Vancouver",
-      "address_text": "3550 W 39th Ave, Vancouver, BC V6N3A5",
-      "transit_minutes_to_ubc": 25
-    },
-    "craigslist_van:7934778581": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934778581.html",
-      "title": "A furnished room for rent in Vancouver",
-      "source": "craigslist_van",
-      "price_cad": 900,
-      "bedrooms": 6.0,
-      "neighborhood": "Vancouver",
-      "address_text": "3853 W 15th Ave, Vancouver, BC V6R3A1",
-      "transit_minutes_to_ubc": 24
-    },
     "craigslist_van:7926291709": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-viewings-tonight-house-near/7926291709.html",
       "title": "Viewings tonight! - House near Trout Lake/CommercialDr",
@@ -500,16 +490,6 @@
       "neighborhood": "UBC, Dunbar, Southlands, Kerrisdale",
       "address_text": "Holland Street, Vancouver, BC V6N2A7",
       "transit_minutes_to_ubc": 21
-    },
-    "craigslist_van:7935289379": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-month-free-for-12-months/7935289379.html",
-      "title": "1 month free for 12 months lease 4 bedroom house in Oakridge area",
-      "source": "craigslist_van",
-      "price_cad": 4500,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Approx map: 49.249200, -123.110400",
-      "transit_minutes_to_ubc": 43
     },
     "craigslist_van:7932442041": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-move-in-ready-bedroom-house/7932442041.html",
@@ -550,16 +530,6 @@
       "neighborhood": "city of vancouver",
       "address_text": "Dunbar Street, Vancouver, BC V6R2G3",
       "transit_minutes_to_ubc": 18
-    },
-    "craigslist_van:7933972358": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-new-built-bed-35-bath-laneway/7933972358.html",
-      "title": "New Built 4 Bed 3.5 Bath Laneway at E45th",
-      "source": "craigslist_van",
-      "price_cad": 3100,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Approx map: 49.223200, -123.043400",
-      "transit_minutes_to_ubc": 63
     },
     "craigslist_van:7931923778": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-master-suite-in-mansion-live/7931923778.html",
@@ -950,36 +920,6 @@
       "neighborhood": "Victoria-Fraserview",
       "address_text": "2300 Harrison Drive, Vancouver, BC, V5P 2P8",
       "transit_minutes_to_ubc": 68
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMTk2MzIw": {
-      "url": "https://rentals.ca/vancouver/2400-west-19th-avenue-id1196320",
-      "title": "2400 WEST 19TH Avenue house \u2014 2400 WEST 19TH AVENUE, Vancouver BC (6-Bedroom)",
-      "source": "rentals_ca",
-      "price_cad": 6600,
-      "bedrooms": 6.0,
-      "neighborhood": null,
-      "address_text": "2400 WEST 19TH Avenue, Vancouver, BC, V6L 1C7",
-      "transit_minutes_to_ubc": 31
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMjAwMzMy": {
-      "url": "https://rentals.ca/vancouver/3400-18th-avenue",
-      "title": "3400 18TH Avenue house \u2014 3400 W 18TH AVENUE, Vancouver BC (4-Bedroom)",
-      "source": "rentals_ca",
-      "price_cad": 6250,
-      "bedrooms": 4.0,
-      "neighborhood": null,
-      "address_text": "3400 18TH Avenue, Vancouver, BC, V6S 1A7",
-      "transit_minutes_to_ubc": 29
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMTk4NDIy": {
-      "url": "https://rentals.ca/vancouver/2683-w-41st-ave",
-      "title": "2683 W 41ST AVE duplex \u2014 2683 W 41ST AVE, Vancouver BC (4-Bedroom)",
-      "source": "rentals_ca",
-      "price_cad": 5900,
-      "bedrooms": 4.0,
-      "neighborhood": null,
-      "address_text": "2683 W 41ST AVE, Vancouver, BC, V6N 3C3",
-      "transit_minutes_to_ubc": 30
     }
   }
 }
