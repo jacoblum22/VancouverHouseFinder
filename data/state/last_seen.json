@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-05-27T00:53:41.504448+00:00",
+  "updated_at": "2026-05-27T13:18:19.883905+00:00",
   "entries": {
+    "craigslist_van:7927399279": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-student/7927399279.html",
+      "title": "4-bedroom 2-bathroom student housing",
+      "source": "craigslist_van",
+      "price_cad": 1150,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver West",
+      "address_text": "Approx map: 49.234727, -123.194675",
+      "transit_minutes_to_ubc": 21
+    },
+    "craigslist_van:7927399350": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-suite-near-ubc/7927399350.html",
+      "title": "4-bedroom suite near UBC",
+      "source": "craigslist_van",
+      "price_cad": 1200,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver West",
+      "address_text": "SW Marine Drive, Vancouver, BC V6N1Y4",
+      "transit_minutes_to_ubc": 43
+    },
+    "craigslist_van:7933564248": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-coastal-luxury-with-zen/7933564248.html",
+      "title": "Coastal Luxury with Zen Tranquility",
+      "source": "craigslist_van",
+      "price_cad": 3895,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "4150 W 8th Ave, Vancouver, BC V6R1Z6",
+      "transit_minutes_to_ubc": 24
+    },
+    "craigslist_van:7932644110": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-arbutus-whole/7932644110.html",
+      "title": "Fully Furnished Arbutus Whole House",
+      "source": "craigslist_van",
+      "price_cad": 5000,
+      "bedrooms": 7.0,
+      "neighborhood": "Burnaby, BC, UBC",
+      "address_text": "2429 McBain Ave, Vancouver, BC, BC V6L2C5",
+      "transit_minutes_to_ubc": 35
+    },
+    "craigslist_van:7936973172": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-kitsilano-4br/7936973172.html",
+      "title": "Furnished Kitsilano 4BR Laneway w/utilities, near #99 UBC Express Bus",
+      "source": "craigslist_van",
+      "price_cad": 4800,
+      "bedrooms": 4.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "Dunbar Street, Vancouver, BC V6R2G3",
+      "transit_minutes_to_ubc": 18
+    },
+    "craigslist_van:7934059479": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-east-van-entire-house-for-rent/7934059479.html",
+      "title": "East Van Entire House For Rent",
+      "source": "craigslist_van",
+      "price_cad": 4800,
+      "bedrooms": 5.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "E 55 Ave, Vancouver, BC V5P1Z4",
+      "transit_minutes_to_ubc": 62
+    },
     "craigslist_van:7935735074": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-upper-level-home/7935735074.html",
       "title": "4 Bed 2 Bath Upper-Level Home",
@@ -411,16 +471,6 @@
       "address_text": "Approx map: 49.230202, -123.056381",
       "transit_minutes_to_ubc": 52
     },
-    "craigslist_van:7934059479": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-east-van-entire-house-for-rent/7934059479.html",
-      "title": "East Van Entire House For Rent",
-      "source": "craigslist_van",
-      "price_cad": 4800,
-      "bedrooms": 5.0,
-      "neighborhood": "city of vancouver",
-      "address_text": "E 55 Ave, Vancouver, BC V5P1Z4",
-      "transit_minutes_to_ubc": 62
-    },
     "craigslist_van:7934720914": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-east-vancouver/7934720914.html",
       "title": "4 Bedroom East Vancouver",
@@ -551,26 +601,6 @@
       "address_text": "3853 W 15th Ave, Vancouver, BC V6R3A1",
       "transit_minutes_to_ubc": 24
     },
-    "craigslist_van:7927399350": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-suite-near-ubc/7927399350.html",
-      "title": "4-bedroom suite near UBC",
-      "source": "craigslist_van",
-      "price_cad": 1200,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver West",
-      "address_text": "SW Marine Drive, Vancouver, BC V6N1Y4",
-      "transit_minutes_to_ubc": 43
-    },
-    "craigslist_van:7927399279": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-student/7927399279.html",
-      "title": "4-bedroom 2-bathroom student housing",
-      "source": "craigslist_van",
-      "price_cad": 1150,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver West",
-      "address_text": "Approx map: 49.234727, -123.194675",
-      "transit_minutes_to_ubc": 21
-    },
     "craigslist_van:7930518372": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-br-unit-for-rent/7930518372.html",
       "title": "$3913.00 / 4BR Unit for Rent",
@@ -600,26 +630,6 @@
       "neighborhood": "Vancouver",
       "address_text": "Approx map: 49.260000, -123.039800",
       "transit_minutes_to_ubc": 61
-    },
-    "craigslist_van:7935716894": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/west-vancouver-west-br-and-baths-in/7935716894.html",
-      "title": "4 BR and 3 Baths in Ansell Place",
-      "source": "craigslist_van",
-      "price_cad": 5799,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "ansell, West Vancouver West, BC V7W2W3",
-      "transit_minutes_to_ubc": 94
-    },
-    "craigslist_van:7932644110": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-arbutus-whole/7932644110.html",
-      "title": "Fully Furnished Arbutus Whole House",
-      "source": "craigslist_van",
-      "price_cad": 5500,
-      "bedrooms": 7.0,
-      "neighborhood": "Burnaby, BC, UBC",
-      "address_text": "2429 McBain Ave, Vancouver, BC, BC V6L2C5",
-      "transit_minutes_to_ubc": 35
     },
     "craigslist_van:7935676032": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-killarney-corner-lot-near/7935676032.html",
@@ -670,16 +680,6 @@
       "neighborhood": "city of vancouver",
       "address_text": "3719 W11th ave, vancouver, BC V6R2K7",
       "transit_minutes_to_ubc": 17
-    },
-    "craigslist_van:7932157524": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-kitsilano-4br/7932157524.html",
-      "title": "Furnished Kitsilano 4BR Laneway w/utilities, near #99 UBC Express Bus",
-      "source": "craigslist_van",
-      "price_cad": 4800,
-      "bedrooms": 4.0,
-      "neighborhood": "city of vancouver",
-      "address_text": "Dunbar Street, Vancouver, BC V6R2G3",
-      "transit_minutes_to_ubc": 18
     },
     "craigslist_van:7935146798": {
       "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-latest-bedrooms-bathrooms-in/7935146798.html",
@@ -801,16 +801,6 @@
       "address_text": "Knight Street, Vancouver, BC V5W3N3",
       "transit_minutes_to_ubc": 43
     },
-    "craigslist_van:7933564248": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-coastal-luxury-with-zen/7933564248.html",
-      "title": "Coastal Luxury with Zen Tranquility",
-      "source": "craigslist_van",
-      "price_cad": 3895,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "4150 W 8th Ave, Vancouver, BC V6R1Z6",
-      "transit_minutes_to_ubc": 24
-    },
     "padmapper:64223378": {
       "url": "https://www.padmapper.com/rentals/28423702p/4-bedroom-2-bath-apartment-at-82-west-45th-avenue-vancouver-bc-v5y-2v9",
       "title": null,
@@ -880,16 +870,6 @@
       "neighborhood": "Hastings-Sunrise",
       "address_text": "2723 Turner Street, Vancouver, BC, V5K 2G3",
       "transit_minutes_to_ubc": 73
-    },
-    "padmapper:64319285": {
-      "url": "https://www.padmapper.com/rentals/64319285/4-bedroom-1-bath-apartment-at-w-8th-ave-tolmie-st-vancouver-bc-v6r-2a4",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 5000,
-      "bedrooms": 4.0,
-      "neighborhood": "West Point Grey",
-      "address_text": "W 8th Ave & Tolmie St, Vancouver, BC, V6R 2A4",
-      "transit_minutes_to_ubc": 13
     },
     "padmapper:62284509": {
       "url": "https://www.padmapper.com/rentals/62284509/5-bedroom-3-bath-apartment-at-camosun-st-w-28th-ave-vancouver-bc-v6s-1s8",
