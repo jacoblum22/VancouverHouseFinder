@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-05-31T00:55:59.897702+00:00",
+  "updated_at": "2026-05-31T12:36:08.183380+00:00",
   "entries": {
+    "craigslist_van:7934660646": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/coquitlam-spacious-bedroom-den-home/7934660646.html",
+      "title": "Spacious 4 Bedroom + Den Home \u2013 Coquitlam",
+      "source": "craigslist_van",
+      "price_cad": 4500,
+      "bedrooms": 4.0,
+      "neighborhood": "Coquitlam",
+      "address_text": "101 - 914 Rochester Ave, V3K 2W6, BC V3K2W6",
+      "transit_minutes_to_ubc": 84
+    },
+    "craigslist_van:7937195912": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-single-house/7937195912.html",
+      "title": "Vancouver single house 8 bedroom 3 bath suite for rent.",
+      "source": "craigslist_van",
+      "price_cad": 5580,
+      "bedrooms": 8.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Canbie st, Vancouver, BC V5X2E4",
+      "transit_minutes_to_ubc": 44
+    },
+    "craigslist_van:7937801997": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-house-upper-suite/7937801997.html",
+      "title": "4 Bed 2 Bath House Upper Suite Fraserview Vancouver East",
+      "source": "craigslist_van",
+      "price_cad": 3600,
+      "bedrooms": 4.0,
+      "neighborhood": "Fraserview",
+      "address_text": "Approx map: 49.209044, -123.059235",
+      "transit_minutes_to_ubc": 69
+    },
+    "craigslist_van:7937800546": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-shaughnessy-character-house/7937800546.html",
+      "title": "Shaughnessy character house Upper 2 floors or whole house PRIME Locati",
+      "source": "craigslist_van",
+      "price_cad": 6595,
+      "bedrooms": 7.0,
+      "neighborhood": "Shaughnessy",
+      "address_text": "Approx map: 49.257834, -123.185406",
+      "transit_minutes_to_ubc": 23
+    },
+    "craigslist_van:7930221460": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-west-oak-street/7930221460.html",
+      "title": "Vancouver West Oak Street 4 Bedrooms Townhouse",
+      "source": "craigslist_van",
+      "price_cad": 4700,
+      "bedrooms": 4.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "Approx map: 49.215100, -123.139600",
+      "transit_minutes_to_ubc": 44
+    },
     "craigslist_van:7932644110": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-arbutus-whole/7932644110.html",
       "title": "Fully Furnished Arbutus Whole House",
@@ -170,16 +220,6 @@
       "neighborhood": "Joyce Collingwood",
       "address_text": "4268 Skeena Street, Vancouver, BC V5R2L5",
       "transit_minutes_to_ubc": 61
-    },
-    "craigslist_van:7937595149": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-bedroom-basement/7937595149.html",
-      "title": "Spacious 4-Bedroom Basement Suite in Prime Vancouver Location",
-      "source": "craigslist_van",
-      "price_cad": 3100,
-      "bedrooms": 4.0,
-      "neighborhood": "Oakridge",
-      "address_text": "Approx map: 49.215100, -123.139600",
-      "transit_minutes_to_ubc": 45
     },
     "craigslist_van:7932327305": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-ground-floor/7932327305.html",
@@ -531,16 +571,6 @@
       "address_text": "Approx map: 49.260000, -123.039800",
       "transit_minutes_to_ubc": 61
     },
-    "craigslist_van:7937195912": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-single-house/7937195912.html",
-      "title": "Vancouver single house 8 bedroom 3 bath suite for rent.",
-      "source": "craigslist_van",
-      "price_cad": 5580,
-      "bedrooms": 8.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Canbie st, Vancouver, BC V5X2E4",
-      "transit_minutes_to_ubc": 44
-    },
     "craigslist_van:7931563746": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-newly-crafted-vancouver-west/7931563746.html",
       "title": "Newly Crafted Vancouver West 1500SF 4bed 3bath Laneway available NOW!",
@@ -641,16 +671,6 @@
       "address_text": "Approx map: 49.264000, -122.936900",
       "transit_minutes_to_ubc": 86
     },
-    "craigslist_van:7934660646": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/coquitlam-spacious-bedroom-den-home/7934660646.html",
-      "title": "Spacious 4 Bedroom + Den Home \u2013 Coquitlam",
-      "source": "craigslist_van",
-      "price_cad": 4500,
-      "bedrooms": 4.0,
-      "neighborhood": "Coquitlam",
-      "address_text": "101 - 914 Rochester Ave, V3K 2W6, BC V3K2W6",
-      "transit_minutes_to_ubc": 84
-    },
     "craigslist_van:7931773481": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-garden-level-suite/7931773481.html",
       "title": "4 Bedroom Garden Level Suite",
@@ -670,16 +690,6 @@
       "neighborhood": "Vancouver",
       "address_text": "Approx map: 49.266600, -123.197600",
       "transit_minutes_to_ubc": 21
-    },
-    "craigslist_van:7936720995": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-shaughnessy-character-house/7936720995.html",
-      "title": "Shaughnessy character house Upper 2 floors or whole house PRIME Locati",
-      "source": "craigslist_van",
-      "price_cad": 6595,
-      "bedrooms": 7.0,
-      "neighborhood": "Shaughnessy",
-      "address_text": "Approx map: 49.257834, -123.185406",
-      "transit_minutes_to_ubc": 23
     },
     "craigslist_van:7936568052": {
       "url": "https://vancouver.craigslist.org/van/apa/d/surrey-northeast-spacious-storey-family/7936568052.html",
@@ -890,6 +900,16 @@
       "neighborhood": "Dunbar",
       "address_text": "Camosun St & W 28th Ave, Vancouver, BC, V6S 1S8",
       "transit_minutes_to_ubc": 34
+    },
+    "padmapper:64471510": {
+      "url": "https://www.padmapper.com/rentals/22805877p/4-bedroom-2-bath-apartment-at-754-69th-ave-w-vancouver-bc-v6p-2w3",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 4350,
+      "bedrooms": 4.0,
+      "neighborhood": "Marpole",
+      "address_text": "754 69th Ave W, Vancouver, BC, V6P 2W3",
+      "transit_minutes_to_ubc": 52
     },
     "zumper:60088636": {
       "url": "https://www.zumper.com/listings/28616530p/4-bedroom-university-endowment-lands-vancouver-bc",
