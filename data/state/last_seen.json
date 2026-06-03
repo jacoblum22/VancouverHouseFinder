@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-06-03T01:04:07.720452+00:00",
+  "updated_at": "2026-06-03T13:46:12.092127+00:00",
   "entries": {
+    "craigslist_van:7937562857": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-washroom-house-for/7937562857.html",
+      "title": "4 bedroom 3 washroom house for rent",
+      "source": "craigslist_van",
+      "price_cad": 4500,
+      "bedrooms": 4.0,
+      "neighborhood": "VANCOUVER",
+      "address_text": "Approx map: 49.215600, -123.097900",
+      "transit_minutes_to_ubc": 56
+    },
+    "craigslist_van:7936843665": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-4bed5bath1den-house/7936843665.html",
+      "title": "Vancouver W 4bed5bath1den House",
+      "source": "craigslist_van",
+      "price_cad": 6500,
+      "bedrooms": 4.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "30xx w 15th, Vancouver, BC V6K3A5",
+      "transit_minutes_to_ubc": 26
+    },
+    "craigslist_van:7932565625": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-plhref2442charming-whole/7932565625.html",
+      "title": "(PLH_REF#2442)***Charming Whole 4-Bedroom House with Backyard & Garage",
+      "source": "craigslist_van",
+      "price_cad": 4800,
+      "bedrooms": 4.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "2442 East 19th Avenue, Vancouver, BC V5M2R9",
+      "transit_minutes_to_ubc": 67
+    },
+    "craigslist_van:7929875795": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-plhref7969spacious-bedroom/7929875795.html",
+      "title": "(PLH_REF#7969)***Spacious 4-Bedroom Family Home in Desirable Marpole \u2014",
+      "source": "craigslist_van",
+      "price_cad": 4350,
+      "bedrooms": 4.0,
+      "neighborhood": "Marpole",
+      "address_text": "7989 Cambie Street, Vancouver, BC V6P3J4",
+      "transit_minutes_to_ubc": 50
+    },
     "craigslist_van:7937340374": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-room-in-house-near-commercial/7937340374.html",
       "title": "Room in house near Commercial Drive/Trout Lake",
@@ -421,16 +461,6 @@
       "address_text": "7xx W69th Ave, Vancouver, BC V6P2W3",
       "transit_minutes_to_ubc": 55
     },
-    "craigslist_van:7928626280": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/cranbrook-dunbar-house-upstairs-4bd-2ba/7928626280.html",
-      "title": "Dunbar House Upstairs 4bd 2ba For Rent",
-      "source": "craigslist_van",
-      "price_cad": 4800,
-      "bedrooms": 4.0,
-      "neighborhood": "city of vancouver",
-      "address_text": "Dunbar St, Vancouver, BC V6S1W5",
-      "transit_minutes_to_ubc": 26
-    },
     "craigslist_van:7935288598": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-beautiful-vancouver/7935288598.html",
       "title": "Furnished Beautiful Vancouver West Single House for Rent \u2013 $4,850/mont",
@@ -440,16 +470,6 @@
       "neighborhood": "city of vancouver",
       "address_text": "3719 W11th ave, vancouver, BC V6R2K7",
       "transit_minutes_to_ubc": 17
-    },
-    "craigslist_van:7934651062": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-upper-level-bed-bath-house/7934651062.html",
-      "title": "Upper Level 4 Bed / 3 Bath House with A/C in East Vancouver Hastings",
-      "source": "craigslist_van",
-      "price_cad": 4200,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "2723 Turner St, Vancouver, BC V5K2G8",
-      "transit_minutes_to_ubc": 73
     },
     "craigslist_van:7937990922": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-shared-accomodation-available/7937990922.html",
@@ -501,16 +521,6 @@
       "address_text": "41st Ave, Vancouver, BC V6N1Z1",
       "transit_minutes_to_ubc": 21
     },
-    "craigslist_van:7937562857": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-washroom-house-for/7937562857.html",
-      "title": "4 bedroom 3 washroom house for rent",
-      "source": "craigslist_van",
-      "price_cad": 4500,
-      "bedrooms": 4.0,
-      "neighborhood": "VANCOUVER",
-      "address_text": "Approx map: 49.215600, -123.097900",
-      "transit_minutes_to_ubc": 56
-    },
     "craigslist_van:7937974306": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-newly-renovated-br-home-10/7937974306.html",
       "title": "Newly Renovated 4-BR Home  - 10 Min Walk to Downtown - In Suit Laundry",
@@ -520,26 +530,6 @@
       "neighborhood": "Vancouver",
       "address_text": "527 Hastings E, Vancouver, BC V6A1P9",
       "transit_minutes_to_ubc": 54
-    },
-    "craigslist_van:7932565625": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-plhref2442charming-whole/7932565625.html",
-      "title": "(PLH_REF#2442)***Charming Whole 4-Bedroom House with Backyard & Garage",
-      "source": "craigslist_van",
-      "price_cad": 4800,
-      "bedrooms": 4.0,
-      "neighborhood": "city of vancouver",
-      "address_text": "2442 East 19th Avenue, Vancouver, BC V5M2R9",
-      "transit_minutes_to_ubc": 67
-    },
-    "craigslist_van:7929875795": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-plhref7969spacious-bedroom/7929875795.html",
-      "title": "(PLH_REF#7969)***Spacious 4-Bedroom Family Home in Desirable Marpole \u2014",
-      "source": "craigslist_van",
-      "price_cad": 4350,
-      "bedrooms": 4.0,
-      "neighborhood": "Marpole",
-      "address_text": "7989 Cambie Street, Vancouver, BC V6P3J4",
-      "transit_minutes_to_ubc": 50
     },
     "craigslist_van:7931923778": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-master-suite-in-mansion-live/7931923778.html",
@@ -631,16 +621,6 @@
       "address_text": "Salsbury Drive, Vancouver, BC V5L3Z4",
       "transit_minutes_to_ubc": 70
     },
-    "craigslist_van:7936843665": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-4bed5bath1den-house/7936843665.html",
-      "title": "Vancouver W 4bed5bath1den House",
-      "source": "craigslist_van",
-      "price_cad": 6500,
-      "bedrooms": 4.0,
-      "neighborhood": "city of vancouver",
-      "address_text": "30xx w 15th, Vancouver, BC V6K3A5",
-      "transit_minutes_to_ubc": 26
-    },
     "craigslist_van:7937181031": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-suite-near-joyce/7937181031.html",
       "title": "4-bedroom suite near Joyce Skytrain",
@@ -670,16 +650,6 @@
       "neighborhood": "Vancouver",
       "address_text": "122 Walter Hardwick Ave, vancouver, BC V5Y0C9",
       "transit_minutes_to_ubc": 38
-    },
-    "craigslist_van:7937406976": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-spacious-bed-bath-townhome-at/7937406976.html",
-      "title": "Spacious 4 Bed / 4 Bath Townhome at Terramor \u2014 35-9088 Halston Court",
-      "source": "craigslist_van",
-      "price_cad": 3500,
-      "bedrooms": 4.0,
-      "neighborhood": "Burnaby",
-      "address_text": "Approx map: 49.227500, -122.930100",
-      "transit_minutes_to_ubc": 90
     },
     "craigslist_van:7937361114": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-4br-25ba-vancouver-west/7937361114.html",
@@ -791,16 +761,6 @@
       "address_text": "Arbutus, Vancouver, BC V6L2B2",
       "transit_minutes_to_ubc": 42
     },
-    "padmapper:64483152": {
-      "url": "https://www.padmapper.com/rentals/28650663p/4-bedroom-1-bath-apartment-at-527-hastings-st-e-vancouver-bc-v6a-1p9",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 3680,
-      "bedrooms": 4.0,
-      "neighborhood": "Strathcona",
-      "address_text": "527 Hastings St E, Vancouver, BC, V6A 1P9",
-      "transit_minutes_to_ubc": 54
-    },
     "padmapper:64453438": {
       "url": "https://www.padmapper.com/rentals/64453438/4-bedroom-1-bath-apartment-at-3433-worthington-drive-vancouver-bc-v5m-3y1",
       "title": null,
@@ -900,16 +860,6 @@
       "neighborhood": "Grandview-Woodland",
       "address_text": "E 6th Ave & Nanaimo St, Vancouver, BC, V5N 5C7",
       "transit_minutes_to_ubc": 55
-    },
-    "padmapper:64366068": {
-      "url": "https://www.padmapper.com/rentals/64366068/4-bedroom-3-bath-apartment-at-2723-turner-street-vancouver-bc-v5k-2g3",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 4200,
-      "bedrooms": 4.0,
-      "neighborhood": "Hastings-Sunrise",
-      "address_text": "2723 Turner Street, Vancouver, BC, V5K 2G3",
-      "transit_minutes_to_ubc": 73
     },
     "padmapper:64422911": {
       "url": "https://www.padmapper.com/rentals/28572945p/4-bedroom-3-bath-apartment-at-1249-lillooet-st-vancouver-bc-v5k-4h3",
