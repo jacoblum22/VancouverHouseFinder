@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-06-06T00:53:46.191142+00:00",
+  "updated_at": "2026-06-06T12:34:49.696592+00:00",
   "entries": {
+    "craigslist_van:7931841407": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedrooms-duplex-in-arbutus/7931841407.html",
+      "title": "4 bedrooms Duplex in Arbutus (Dunbar UBC Point Grey)",
+      "source": "craigslist_van",
+      "price_cad": 5500,
+      "bedrooms": 4.0,
+      "neighborhood": "vancouver",
+      "address_text": "Carnarvon St, Vancouver, BC V6L1L1",
+      "transit_minutes_to_ubc": 30
+    },
+    "craigslist_van:7938516848": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-stunning-home-with-mountain/7938516848.html",
+      "title": "Stunning Home with Mountain Views | 4 Bed + 3 Bath | Renfrew Heights",
+      "source": "craigslist_van",
+      "price_cad": 4600,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Seaforth Dr, Vancouver, BC V5M4C5",
+      "transit_minutes_to_ubc": 73
+    },
+    "craigslist_van:7939133260": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-west-bed-bath-house/7939133260.html",
+      "title": "Vancouver West: 4 Bed 4 Bath House Near Magee School",
+      "source": "craigslist_van",
+      "price_cad": 4500,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Approx map: 49.218982, -123.153863",
+      "transit_minutes_to_ubc": 42
+    },
+    "craigslist_van:7938158141": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-oakridge-area-close-to/7938158141.html",
+      "title": "Oakridge area close to skytrain 4 bedrooms house for rent",
+      "source": "craigslist_van",
+      "price_cad": 4300,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Approx map: 49.249200, -123.110400",
+      "transit_minutes_to_ubc": 43
+    },
+    "craigslist_van:7939120883": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bed-bath-house-10-minute/7939120883.html",
+      "title": "4 Bed 3 Bath House; 10-minute Drive to UBC; 12-minute drive to Langara",
+      "source": "craigslist_van",
+      "price_cad": 6200,
+      "bedrooms": 4.0,
+      "neighborhood": "Kerrisdale, on W 45th Ave near Elm St, 10-min Drive to UBC",
+      "address_text": "W 45th Avenue, Vancouver, BC V6N3K9",
+      "transit_minutes_to_ubc": 31
+    },
+    "craigslist_van:7932327305": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-ground-floor/7932327305.html",
+      "title": "\u2600 4 Bedroom, 1 Bathroom Ground Floor Rupert Skytrain Available June 1\u2600",
+      "source": "craigslist_van",
+      "price_cad": 2800,
+      "bedrooms": 4.0,
+      "neighborhood": "Rupert Station",
+      "address_text": "Rupert, Vancouver, BC V5M2M5",
+      "transit_minutes_to_ubc": 60
+    },
+    "craigslist_van:7932674659": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-entire-bedroom-house-for-rent/7932674659.html",
+      "title": "\ud83c\udfe1 Entire 7 Bedroom House for Rent",
+      "source": "craigslist_van",
+      "price_cad": 5500,
+      "bedrooms": 7.0,
+      "neighborhood": "North Burnaby (Near SFU)",
+      "address_text": "Approx map: 49.264000, -122.936900",
+      "transit_minutes_to_ubc": 86
+    },
     "craigslist_van:7939087441": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-now-or-july-1st-house-in-east/7939087441.html",
       "title": "Now or July 1st! HOUSE in EAST VANCOUVER! 5bd+2bth+yard+parking!",
@@ -521,16 +591,6 @@
       "address_text": "West 45th Avenue, Vancouver, BC V6M2G7",
       "transit_minutes_to_ubc": 38
     },
-    "craigslist_van:7938516848": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-stunning-home-with-mountain/7938516848.html",
-      "title": "Stunning Home with Mountain Views | 4 Bed + 3 Bath | Renfrew Heights",
-      "source": "craigslist_van",
-      "price_cad": 4600,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Seaforth Dr, Vancouver, BC V5M4C5",
-      "transit_minutes_to_ubc": 73
-    },
     "craigslist_van:7938514191": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-rare-sw-marine-marpole-beds/7938514191.html",
       "title": "Rare SW Marine/Marpole 4 Beds House by a Private Park @ Angus Lands",
@@ -601,16 +661,6 @@
       "address_text": "W King Edward, Vancouver, BC V6H1Z5",
       "transit_minutes_to_ubc": 39
     },
-    "craigslist_van:7935512308": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedrooms-duplex-in-arbutus/7935512308.html",
-      "title": "4 bedrooms Duplex in Arbutus (Dunbar UBC Point Grey) (vancouver)",
-      "source": "craigslist_van",
-      "price_cad": 5500,
-      "bedrooms": 4.0,
-      "neighborhood": "vancouver",
-      "address_text": "Carnarvon St, Vancouver, BC V6L1L1",
-      "transit_minutes_to_ubc": 30
-    },
     "craigslist_van:7937195912": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-single-house/7937195912.html",
       "title": "Vancouver single house 8 bedroom 3 bath suite for rent.",
@@ -630,26 +680,6 @@
       "neighborhood": "Vancouver",
       "address_text": "Larch, vancouver, BC V6M4E4",
       "transit_minutes_to_ubc": 32
-    },
-    "craigslist_van:7932327305": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-ground-floor/7932327305.html",
-      "title": "\u2600 4 Bedroom, 1 Bathroom Ground Floor Rupert Skytrain Available June 1\u2600",
-      "source": "craigslist_van",
-      "price_cad": 2800,
-      "bedrooms": 4.0,
-      "neighborhood": "Rupert Station",
-      "address_text": "Rupert, Vancouver, BC V5M2M5",
-      "transit_minutes_to_ubc": 60
-    },
-    "craigslist_van:7938158141": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-oakridge-area-close-to/7938158141.html",
-      "title": "Oakridge area close to skytrain 4 bedrooms house for rent",
-      "source": "craigslist_van",
-      "price_cad": 4300,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "Approx map: 49.249200, -123.110400",
-      "transit_minutes_to_ubc": 43
     },
     "craigslist_van:7938149463": {
       "url": "https://vancouver.craigslist.org/van/apa/d/north-vancouver-beautiful-home-offering/7938149463.html",
