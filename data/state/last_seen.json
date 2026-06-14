@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-06-14T01:00:11.263305+00:00",
+  "updated_at": "2026-06-14T12:46:47.664626+00:00",
   "entries": {
+    "craigslist_van:7940849238": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-bed-den-basement/7940849238.html",
+      "title": "Spacious 4 Bed + Den Basement Suite in Prime South Vancouver Location",
+      "source": "craigslist_van",
+      "price_cad": 2800,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "720 W 54th Ave, Vancouver, BC V6P0A8",
+      "transit_minutes_to_ubc": 44
+    },
+    "craigslist_van:7938514191": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-rare-sw-marine-marpole-beds/7938514191.html",
+      "title": "Rare SW Marine/Marpole 4 Beds House by a Private Park @ Angus Lands",
+      "source": "craigslist_van",
+      "price_cad": 6550,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "8241 Tugboat Place, Vancouver, BC V6P6P9",
+      "transit_minutes_to_ubc": 61
+    },
+    "craigslist_van:7933960538": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-kerrisdale-bed-bath-character/7933960538.html",
+      "title": "Kerrisdale 4 Bed 2 Bath Character House w/ Fenced Backyard",
+      "source": "craigslist_van",
+      "price_cad": 4500,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "5998 Larch Street, Vancouver, BC V6M4E4",
+      "transit_minutes_to_ubc": 33
+    },
     "craigslist_van:7932644110": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-arbutus-whole/7932644110.html",
       "title": "Fully Furnished Arbutus Whole House",
@@ -272,11 +302,11 @@
       "transit_minutes_to_ubc": 30
     },
     "craigslist_van:7938758406": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-near-ubc-bedrooms-bath/7938758406.html",
-      "title": "Near UBC: 6 bedrooms 2 bath - Available Sept 1",
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-near-ubc-bedrooms-flex-bath/7938758406.html",
+      "title": "Near UBC: 5 bedrooms + Flex + 2 bath - Available Sept 1",
       "source": "craigslist_van",
       "price_cad": 6000,
-      "bedrooms": 6.0,
+      "bedrooms": 5.0,
       "neighborhood": "West 15th & Discovery",
       "address_text": "4300 Block West 15th Ave, Vancouver, BC V6R3A9",
       "transit_minutes_to_ubc": 18
@@ -571,26 +601,6 @@
       "address_text": "5030 BLENHEIM STREET, vancouver, BC V6N1N5",
       "transit_minutes_to_ubc": 37
     },
-    "craigslist_van:7938514191": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-rare-sw-marine-marpole-beds/7938514191.html",
-      "title": "Rare SW Marine/Marpole 4 Beds House by a Private Park @ Angus Lands",
-      "source": "craigslist_van",
-      "price_cad": 6550,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "8241 Tugboat Place, Vancouver, BC V6P6P9",
-      "transit_minutes_to_ubc": 61
-    },
-    "craigslist_van:7933960538": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-kerrisdale-bed-bath-character/7933960538.html",
-      "title": "Kerrisdale 4 Bed 2 Bath Character House w/ Fenced Backyard",
-      "source": "craigslist_van",
-      "price_cad": 4500,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "5998 Larch Street, Vancouver, BC V6M4E4",
-      "transit_minutes_to_ubc": 33
-    },
     "craigslist_van:7938516848": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-stunning-home-with-mountain/7938516848.html",
       "title": "Stunning Home with Mountain Views | 4 Bed + 3 Bath | Renfrew Heights",
@@ -660,16 +670,6 @@
       "neighborhood": "city of vancouver",
       "address_text": "2442 East 19th Avenue, Vancouver, BC V5M2R9",
       "transit_minutes_to_ubc": 67
-    },
-    "craigslist_van:7940188589": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-bed-den-basement/7940188589.html",
-      "title": "Spacious 4 Bed + Den Basement Suite in Prime South Vancouver Location",
-      "source": "craigslist_van",
-      "price_cad": 2800,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "720 W 54th Ave, Vancouver, BC V6P0A8",
-      "transit_minutes_to_ubc": 44
     },
     "craigslist_van:7940150598": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-fully-furnished-luxury-3790/7940150598.html",
@@ -891,6 +891,16 @@
       "address_text": "Approx map: 49.247500, -123.121000",
       "transit_minutes_to_ubc": 40
     },
+    "craigslist_van:7939246621": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-this-weekend-only-big-yard/7939246621.html",
+      "title": "this Weekend ONLY Big Yard",
+      "source": "craigslist_van",
+      "price_cad": 4000,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "E 12th Ave, Vancouver, BC V5T2H8",
+      "transit_minutes_to_ubc": 49
+    },
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
       "title": null,
@@ -900,16 +910,6 @@
       "neighborhood": "Victoria-Fraserview",
       "address_text": "6589 Elliott St, Vancouver, BC, V5S 2M6",
       "transit_minutes_to_ubc": 57
-    },
-    "padmapper:64483152": {
-      "url": "https://www.padmapper.com/rentals/28650663p/4-bedroom-1-bath-apartment-at-527-hastings-st-e-vancouver-bc-v6a-1p9",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 2980,
-      "bedrooms": 4.0,
-      "neighborhood": "Strathcona",
-      "address_text": "527 Hastings St E, Vancouver, BC, V6A 1P9",
-      "transit_minutes_to_ubc": 54
     },
     "padmapper:64453438": {
       "url": "https://www.padmapper.com/rentals/64453438/4-bedroom-1-bath-apartment-at-3433-worthington-drive-vancouver-bc-v5m-3y1",
