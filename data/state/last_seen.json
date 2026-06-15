@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-06-15T01:02:01.894477+00:00",
+  "updated_at": "2026-06-15T14:14:49.217811+00:00",
   "entries": {
+    "craigslist_van:7939594013": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-executive-luxury-family-house/7939594013.html",
+      "title": "Executive Luxury Family house at great community",
+      "source": "craigslist_van",
+      "price_cad": 6599,
+      "bedrooms": 6.0,
+      "neighborhood": "Vancouver West \u2013South Granville",
+      "address_text": "Wiltshire St, Vancouver, BC V6P5G8",
+      "transit_minutes_to_ubc": 30
+    },
+    "craigslist_van:7937408128": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-suite-near-ubc/7937408128.html",
+      "title": "4-bedroom suite near UBC",
+      "source": "craigslist_van",
+      "price_cad": 1200,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver West",
+      "address_text": "SW Marine Drive, Vancouver, BC V6N1Y4",
+      "transit_minutes_to_ubc": 43
+    },
+    "craigslist_van:7937408141": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-student/7937408141.html",
+      "title": "4-bedroom 2-bathroom student housing",
+      "source": "craigslist_van",
+      "price_cad": 1150,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver West",
+      "address_text": "Approx map: 49.234727, -123.194675",
+      "transit_minutes_to_ubc": 21
+    },
+    "craigslist_van:7941023420": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bed-churchill-catchment-upper/7941023420.html",
+      "title": "4-Bed Churchill Catchment Upper Suite Near Skytrain \u2013 Marpole Vancouver",
+      "source": "craigslist_van",
+      "price_cad": 4250,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "Approx map: 49.209492, -123.123329",
+      "transit_minutes_to_ubc": 52
+    },
+    "craigslist_van:7939799401": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-5bed4bath1office/7939799401.html",
+      "title": "Vancouver W 5bed4bath1office House",
+      "source": "craigslist_van",
+      "price_cad": 6000,
+      "bedrooms": 5.0,
+      "neighborhood": "city of vancouver",
+      "address_text": "30xx West King Edward Avenue, Vancouver, BC V6L1V4",
+      "transit_minutes_to_ubc": 26
+    },
+    "craigslist_van:7938758406": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-near-ubc-bedrooms-flex-bath/7938758406.html",
+      "title": "Near UBC: 5 bedrooms + Flex + 2 bath - Available Sept 1",
+      "source": "craigslist_van",
+      "price_cad": 6000,
+      "bedrooms": 5.0,
+      "neighborhood": "West 15th & Discovery",
+      "address_text": "4300 Block West 15th Ave, Vancouver, BC V6R3A9",
+      "transit_minutes_to_ubc": 18
+    },
+    "craigslist_van:7937620958": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-ideally-located-bed-bath-main/7937620958.html",
+      "title": "Ideally located 4 bed 2 bath main floor in the central of Vancouver",
+      "source": "craigslist_van",
+      "price_cad": 4280,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver",
+      "address_text": "7xx W69th Ave, Vancouver, BC V6P2W3",
+      "transit_minutes_to_ubc": 55
+    },
+    "craigslist_van:7939469266": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-dunbar-near-ubc-furnished/7939469266.html",
+      "title": "Dunbar near UBC furnished Master bedroom with private bathroom for rent",
+      "source": "craigslist_van",
+      "price_cad": 1300,
+      "bedrooms": 4.0,
+      "neighborhood": "Vancouver Dunbar",
+      "address_text": "Approx map: 49.230600, -123.185400",
+      "transit_minutes_to_ubc": 22
+    },
+    "craigslist_van:7941012345": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-family-home-in-arbutus-top/7941012345.html",
+      "title": "Family Home in Arbutus | Top School Catchment| Semi-Furnished",
+      "source": "craigslist_van",
+      "price_cad": 6000,
+      "bedrooms": 4.0,
+      "neighborhood": "Arbutus, Vancouver",
+      "address_text": "Approx map: 49.249700, -123.166000",
+      "transit_minutes_to_ubc": 29
+    },
     "craigslist_van:7940985057": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-kerrisdale-bed-bath-character/7940985057.html",
       "title": "Kerrisdale 4 Bed 2 Bath Character House w/ Fenced Backyard",
@@ -281,16 +371,6 @@
       "address_text": "Hastings, Vancouver, BC V5K2Y4",
       "transit_minutes_to_ubc": 72
     },
-    "craigslist_van:7939754758": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-vancouver-5bed4bath1office/7939754758.html",
-      "title": "Vancouver w 5bed4bath1office House",
-      "source": "craigslist_van",
-      "price_cad": 6000,
-      "bedrooms": 5.0,
-      "neighborhood": "city of vancouver",
-      "address_text": "30xx West King Edward Avenue, Vancouver, BC V6L1V4",
-      "transit_minutes_to_ubc": 26
-    },
     "craigslist_van:7940712730": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-big-rooms-sundeck-front-yard/7940712730.html",
       "title": "Big Rooms Sundeck Front yard Backyard 1 block to SkyTrain shops",
@@ -361,11 +441,11 @@
       "address_text": "3550 W 39th Ave, Vancouver, BC V6N3A5",
       "transit_minutes_to_ubc": 25
     },
-    "craigslist_van:7934779794": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934779794.html",
-      "title": "A Furnished Room for Rent in Vancouver",
+    "craigslist_van:7934778581": {
+      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-room-for-rent-in/7934778581.html",
+      "title": "A furnished room for rent in Vancouver",
       "source": "craigslist_van",
-      "price_cad": 1000,
+      "price_cad": 900,
       "bedrooms": 6.0,
       "neighborhood": "Vancouver",
       "address_text": "3853 W 15th Ave, Vancouver, BC V6R3A1",
@@ -411,26 +491,6 @@
       "address_text": "4381 Puget Dr, Vancouver, BC V6L2V7",
       "transit_minutes_to_ubc": 29
     },
-    "craigslist_van:7937408141": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-student/7937408141.html",
-      "title": "4-bedroom 2-bathroom student housing",
-      "source": "craigslist_van",
-      "price_cad": 1150,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver West",
-      "address_text": "Approx map: 49.234727, -123.194675",
-      "transit_minutes_to_ubc": 21
-    },
-    "craigslist_van:7937408128": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-suite-near-ubc/7937408128.html",
-      "title": "4-bedroom suite near UBC",
-      "source": "craigslist_van",
-      "price_cad": 1200,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver West",
-      "address_text": "SW Marine Drive, Vancouver, BC V6N1Y4",
-      "transit_minutes_to_ubc": 43
-    },
     "craigslist_van:7940643780": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-near-ubc-beach-front-house/7940643780.html",
       "title": "Near UBC beach front House rooms for rent",
@@ -471,16 +531,6 @@
       "address_text": "renfrew, vancouver, BC V5K4A7",
       "transit_minutes_to_ubc": 73
     },
-    "craigslist_van:7939594013": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-executive-luxury-family-house/7939594013.html",
-      "title": "Executive Luxury Family house at great community",
-      "source": "craigslist_van",
-      "price_cad": 6599,
-      "bedrooms": 6.0,
-      "neighborhood": "Vancouver West \u2013South Granville",
-      "address_text": "Wiltshire St, Vancouver, BC V6P5G8",
-      "transit_minutes_to_ubc": 30
-    },
     "craigslist_van:7938777418": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-one-bedroom-available-now-in/7938777418.html",
       "title": "one bedroom available now in basement CLOSE TO UBC",
@@ -490,16 +540,6 @@
       "neighborhood": "Alma st and W 10th AVE",
       "address_text": "Alma st, VANCOUVER, BC V6X0C3",
       "transit_minutes_to_ubc": 30
-    },
-    "craigslist_van:7938758406": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-near-ubc-bedrooms-flex-bath/7938758406.html",
-      "title": "Near UBC: 5 bedrooms + Flex + 2 bath - Available Sept 1",
-      "source": "craigslist_van",
-      "price_cad": 6000,
-      "bedrooms": 5.0,
-      "neighborhood": "West 15th & Discovery",
-      "address_text": "4300 Block West 15th Ave, Vancouver, BC V6R3A9",
-      "transit_minutes_to_ubc": 18
     },
     "craigslist_van:7940590386": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-top-floor-br-15-bath-fraser/7940590386.html",
@@ -571,16 +611,6 @@
       "address_text": "Approx map: 49.217500, -123.038000",
       "transit_minutes_to_ubc": 75
     },
-    "craigslist_van:7939469266": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-dunbar-near-ubc-furnished/7939469266.html",
-      "title": "Dunbar near UBC furnished Master bedroom with private bathroom for rent",
-      "source": "craigslist_van",
-      "price_cad": 1300,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver Dunbar",
-      "address_text": "Approx map: 49.230600, -123.185400",
-      "transit_minutes_to_ubc": 22
-    },
     "craigslist_van:7940426780": {
       "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-private-room-with-private/7940426780.html",
       "title": "private room( with private washroom)for rent 3mins away from UBC",
@@ -600,16 +630,6 @@
       "neighborhood": "kitsilano",
       "address_text": "3131 west 6th ave, Vancouver, BC V6K1X5",
       "transit_minutes_to_ubc": 26
-    },
-    "craigslist_van:7937620958": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-ideally-located-bed-bath-main/7937620958.html",
-      "title": "Ideally located 4 bed 2 bath main floor in the central of Vancouver",
-      "source": "craigslist_van",
-      "price_cad": 4280,
-      "bedrooms": 4.0,
-      "neighborhood": "Vancouver",
-      "address_text": "7xx W69th Ave, Vancouver, BC V6P2W3",
-      "transit_minutes_to_ubc": 55
     },
     "craigslist_van:7940422136": {
       "url": "https://vancouver.craigslist.org/van/apa/d/burnaby-full-house-for-rent/7940422136.html",
@@ -881,16 +901,6 @@
       "address_text": "628 E 12th ave, vancouver, BC V5T2H8",
       "transit_minutes_to_ubc": 48
     },
-    "craigslist_van:7939336418": {
-      "url": "https://vancouver.craigslist.org/van/apa/d/vancouver-spacious-4br-15ba-lower-suite/7939336418.html",
-      "title": "Spacious 4BR / 1.5BA Lower Suite in Marpole",
-      "source": "craigslist_van",
-      "price_cad": 2800,
-      "bedrooms": 4.0,
-      "neighborhood": "vancouver",
-      "address_text": "selkirk, vancouver, BC V6P4J1",
-      "transit_minutes_to_ubc": 50
-    },
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
       "title": null,
@@ -990,16 +1000,6 @@
       "neighborhood": "Dunbar",
       "address_text": "Camosun St & W 28th Ave, Vancouver, BC, V6S 1S8",
       "transit_minutes_to_ubc": 34
-    },
-    "padmapper:63325663": {
-      "url": "https://www.padmapper.com/rentals/28616453p/4-bedroom-4-bath-apartment-at-159-west-2nd-avenue-vancouver-bc-v5y-0l8",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 5200,
-      "bedrooms": 4.0,
-      "neighborhood": "Mt. Pleasant",
-      "address_text": "159 West 2nd Avenue, Vancouver, BC, V5Y 0L8",
-      "transit_minutes_to_ubc": 35
     },
     "padmapper:64531083": {
       "url": "https://www.padmapper.com/rentals/64531083/4-bedroom-1-bath-apartment-at-8495-selkirk-street-vancouver-bc-v6p-4j1",
