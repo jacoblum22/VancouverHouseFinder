@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T12:49:38.702042+00:00",
+  "updated_at": "2026-06-25T00:51:40.683405+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -10,6 +10,16 @@
       "neighborhood": "Victoria-Fraserview",
       "address_text": "6589 Elliott St, Vancouver, BC, V5S 2M6",
       "transit_minutes_to_ubc": 57
+    },
+    "padmapper:64483152": {
+      "url": "https://www.padmapper.com/rentals/28650663p/4-bedroom-1-bath-apartment-at-527-hastings-st-e-vancouver-bc-v6a-1p9",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 2980,
+      "bedrooms": 4.0,
+      "neighborhood": "Strathcona",
+      "address_text": "527 Hastings St E, Vancouver, BC, V6A 1P9",
+      "transit_minutes_to_ubc": 54
     },
     "padmapper:64453438": {
       "url": "https://www.padmapper.com/rentals/64453438/4-bedroom-1-bath-apartment-at-3433-worthington-drive-vancouver-bc-v5m-3y1",
@@ -70,6 +80,16 @@
       "neighborhood": "Southlands",
       "address_text": "Highbury St, Vancouver, BC, V6N 1Z3",
       "transit_minutes_to_ubc": 31
+    },
+    "padmapper:64654364": {
+      "url": "https://www.padmapper.com/rentals/28813699p/4-bedroom-3-bath-apartment-at-7430-angus-dr-vancouver-bc-v6p-5k2",
+      "title": "7430 Angus Drive - Main",
+      "source": "padmapper",
+      "price_cad": 5200,
+      "bedrooms": 4.0,
+      "neighborhood": "South Granville",
+      "address_text": "7430 Angus Dr #MAIN, Vancouver, BC, V6P 5K2",
+      "transit_minutes_to_ubc": 44
     },
     "padmapper:64653801": {
       "url": "https://www.padmapper.com/rentals/64653801/4-bedroom-4-bath-apartment-at-1458-w-45th-ave-vancouver-bc-v6m-2h1",
@@ -180,16 +200,6 @@
       "neighborhood": "Grandview-Woodland",
       "address_text": "E 6th Ave & Nanaimo St, Vancouver, BC, V5N 5C7",
       "transit_minutes_to_ubc": 55
-    },
-    "padmapper:64654364": {
-      "url": "https://www.padmapper.com/rentals/28813699p/4-bedroom-3-bath-apartment-at-7430-angus-dr-vancouver-bc-v6p-5k2",
-      "title": "7430 Angus Drive - Main",
-      "source": "padmapper",
-      "price_cad": 5200,
-      "bedrooms": 4.0,
-      "neighborhood": "South Granville",
-      "address_text": "7430 Angus Dr #MAIN, Vancouver, BC, V6P 5K2",
-      "transit_minutes_to_ubc": 44
     },
     "padmapper:64471510": {
       "url": "https://www.padmapper.com/rentals/22805877p/4-bedroom-2-bath-apartment-at-754-69th-ave-w-vancouver-bc-v6p-2w3",
