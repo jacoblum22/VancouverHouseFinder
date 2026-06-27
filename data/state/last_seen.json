@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T12:48:12.153980+00:00",
+  "updated_at": "2026-06-27T00:50:27.535037+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -130,16 +130,6 @@
       "neighborhood": "Kitsilano",
       "address_text": "3131 W 6th Ave, Vancouver, BC, V6K 1X5",
       "transit_minutes_to_ubc": 26
-    },
-    "padmapper:62284509": {
-      "url": "https://www.padmapper.com/rentals/28706816p/5-bedroom-3-bath-apartment-at-camosun-st-w-28th-ave-vancouver-bc-v6s-1s8",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 6000,
-      "bedrooms": 5.0,
-      "neighborhood": "Dunbar",
-      "address_text": "Camosun St & W 28th Ave, Vancouver, BC, V6S 1S8",
-      "transit_minutes_to_ubc": 34
     },
     "padmapper:64531083": {
       "url": "https://www.padmapper.com/rentals/64531083/4-bedroom-1-bath-apartment-at-8495-selkirk-street-vancouver-bc-v6p-4j1",
