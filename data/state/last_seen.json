@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T12:31:43.466806+00:00",
+  "updated_at": "2026-06-28T00:53:00.584321+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -182,10 +182,10 @@
       "transit_minutes_to_ubc": 48
     },
     "padmapper:63622948": {
-      "url": "https://www.padmapper.com/rentals/28514222p/4-bedroom-1-bath-apartment-at-e-6th-ave-nanaimo-st-vancouver-bc-v5n-5c7",
+      "url": "https://www.padmapper.com/rentals/63622948/4-bedroom-1-bath-apartment-at-e-6th-ave-nanaimo-st-vancouver-bc-v5n-5c7",
       "title": null,
       "source": "padmapper",
-      "price_cad": 2999,
+      "price_cad": 3000,
       "bedrooms": 4.0,
       "neighborhood": "Grandview-Woodland",
       "address_text": "E 6th Ave & Nanaimo St, Vancouver, BC, V5N 5C7",
