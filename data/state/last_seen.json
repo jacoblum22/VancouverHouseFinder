@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T00:54:11.440513+00:00",
+  "updated_at": "2026-06-29T13:33:26.536241+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -21,16 +21,6 @@
       "address_text": "3433 Worthington Drive, Vancouver, BC, V5M 3Y1",
       "transit_minutes_to_ubc": 75
     },
-    "padmapper:64596623": {
-      "url": "https://www.padmapper.com/rentals/28750106p/4-bedroom-3-bath-apartment-at-3288-east-5th-avenue-vancouver-bc-v5m-1p3",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 6500,
-      "bedrooms": 4.0,
-      "neighborhood": "Hastings-Sunrise",
-      "address_text": "3288 East 5th Avenue, Vancouver, BC, V5M 1P3",
-      "transit_minutes_to_ubc": 70
-    },
     "padmapper:64432855": {
       "url": "https://www.padmapper.com/rentals/28758569p/5-bedroom-5-bath-apartment-at-3000-west-15th-avenue-vancouver-bc-v6k-3a4",
       "title": null,
@@ -40,6 +30,16 @@
       "neighborhood": "Kitsilano",
       "address_text": "3000 West 15th Avenue, Vancouver, BC, V6K 3A4",
       "transit_minutes_to_ubc": 28
+    },
+    "padmapper:64596623": {
+      "url": "https://www.padmapper.com/rentals/28750106p/4-bedroom-3-bath-apartment-at-3288-east-5th-avenue-vancouver-bc-v5m-1p3",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 6500,
+      "bedrooms": 4.0,
+      "neighborhood": "Hastings-Sunrise",
+      "address_text": "3288 East 5th Avenue, Vancouver, BC, V5M 1P3",
+      "transit_minutes_to_ubc": 70
     },
     "padmapper:64543069": {
       "url": "https://www.padmapper.com/rentals/28713280p/5-bedroom-3-bath-apartment-at-3000-west-king-edward-avenue-vancouver-bc-v6l-1t9",
@@ -60,6 +60,16 @@
       "neighborhood": "Riley Park - Little Mountain",
       "address_text": "4359 Main Street, Vancouver, BC, V5V 3R1",
       "transit_minutes_to_ubc": 50
+    },
+    "padmapper:64717543": {
+      "url": "https://www.padmapper.com/rentals/64717543/6-bedroom-4-bath-apartment-at-7776-osler-street-vancouver-bc-v6p-4c7",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 6500,
+      "bedrooms": 6.0,
+      "neighborhood": "Marpole",
+      "address_text": "7776 Osler Street, Vancouver, BC, V6P 4C7",
+      "transit_minutes_to_ubc": 47
     },
     "padmapper:53454609": {
       "url": "https://www.padmapper.com/rentals/28887600p/4-bedroom-2-bath-apartment-at-825-west-46th-avenue-vancouver-bc-v5z-2r4",
