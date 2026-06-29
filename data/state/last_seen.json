@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T12:32:59.632044+00:00",
+  "updated_at": "2026-06-29T00:54:11.440513+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -60,6 +60,16 @@
       "neighborhood": "Riley Park - Little Mountain",
       "address_text": "4359 Main Street, Vancouver, BC, V5V 3R1",
       "transit_minutes_to_ubc": 50
+    },
+    "padmapper:53454609": {
+      "url": "https://www.padmapper.com/rentals/28887600p/4-bedroom-2-bath-apartment-at-825-west-46th-avenue-vancouver-bc-v5z-2r4",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 3800,
+      "bedrooms": 4.0,
+      "neighborhood": "Oakridge",
+      "address_text": "825 West 46th Avenue, Vancouver, BC, V5Z 2R4",
+      "transit_minutes_to_ubc": 40
     },
     "padmapper:64654533": {
       "url": "https://www.padmapper.com/rentals/64654533/4-bedroom-2-bath-apartment-at-highbury-st-vancouver-bc-v6n-1z3",
