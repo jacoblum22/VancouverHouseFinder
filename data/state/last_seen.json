@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T12:45:32.192133+00:00",
+  "updated_at": "2026-07-01T00:54:17.300458+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -60,6 +60,16 @@
       "neighborhood": "Riley Park - Little Mountain",
       "address_text": "4359 Main Street, Vancouver, BC, V5V 3R1",
       "transit_minutes_to_ubc": 50
+    },
+    "padmapper:64737959": {
+      "url": "https://www.padmapper.com/rentals/64737959/4-bedroom-2-bath-apartment-at-146-east-53rd-avenue-vancouver-bc-v5x-1h8",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 4600,
+      "bedrooms": 4.0,
+      "neighborhood": "Oakridge",
+      "address_text": "146 East 53rd Avenue #Main, Vancouver, BC, V5X 1H8",
+      "transit_minutes_to_ubc": 39
     },
     "padmapper:64717543": {
       "url": "https://www.padmapper.com/rentals/64717543/6-bedroom-4-bath-apartment-at-7776-osler-street-vancouver-bc-v6p-4c7",
