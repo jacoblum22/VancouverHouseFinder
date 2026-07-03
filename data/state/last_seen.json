@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T02:52:43.391769+00:00",
+  "updated_at": "2026-07-03T14:01:31.234124+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -70,6 +70,16 @@
       "neighborhood": "Oakridge",
       "address_text": "7050 Hudson Street, Vancouver, BC, V6P 4K5",
       "transit_minutes_to_ubc": 40
+    },
+    "padmapper:64576461": {
+      "url": "https://www.padmapper.com/rentals/28929888p/4-bedroom-1-bath-apartment-at-3131-w-6th-ave-vancouver-bc-v6k-1x5",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 2800,
+      "bedrooms": 4.0,
+      "neighborhood": "Kitsilano",
+      "address_text": "3131 W 6th Ave, Vancouver, BC, V6K 1X5",
+      "transit_minutes_to_ubc": 26
     },
     "padmapper:63622948": {
       "url": "https://www.padmapper.com/rentals/28514222p/4-bedroom-1-bath-apartment-at-e-6th-ave-nanaimo-st-vancouver-bc-v5n-5c7",
@@ -151,16 +161,6 @@
       "address_text": "82 West 45th Avenue, Vancouver, BC, V5Y 2V9",
       "transit_minutes_to_ubc": 49
     },
-    "padmapper:64576461": {
-      "url": "https://www.padmapper.com/rentals/64576461/4-bedroom-1-bath-apartment-at-3131-w-6th-ave-vancouver-bc-v6k-1x5",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 2995,
-      "bedrooms": 4.0,
-      "neighborhood": "Kitsilano",
-      "address_text": "3131 W 6th Ave, Vancouver, BC, V6K 1X5",
-      "transit_minutes_to_ubc": 26
-    },
     "padmapper:64531083": {
       "url": "https://www.padmapper.com/rentals/64531083/4-bedroom-1-bath-apartment-at-8495-selkirk-street-vancouver-bc-v6p-4j1",
       "title": null,
@@ -231,25 +231,15 @@
       "address_text": "4268 Skeena Street, Vancouver, BC, V5R 2L5",
       "transit_minutes_to_ubc": 67
     },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMzk3NTA0": {
-      "url": "https://rentals.ca/vancouver/1000-east-49th-avenue",
-      "title": "1000 East 49th Avenue house \u2014 1000 East 49th Avenue, Vancouver BC (5-Bedroom)",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxNDA5Njkw": {
+      "url": "https://rentals.ca/vancouver/7xx-w-69th-ave-avenue",
+      "title": "7xx 69TH AVE Avenue house \u2014 7xx W 69TH AVE AVENUE, Vancouver BC (4-Bedroom)",
       "source": "rentals_ca",
-      "price_cad": 4700,
-      "bedrooms": 5.0,
-      "neighborhood": null,
-      "address_text": "1000 East 49th Avenue, Vancouver, BC, V5W 2H8",
-      "transit_minutes_to_ubc": 44
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxNDA3ODkw": {
-      "url": "https://rentals.ca/vancouver/3288-e-5th-avenue",
-      "title": "3288 5TH Avenue house \u2014 3288 E 5TH AVENUE, Vancouver BC (4-Bedroom)",
-      "source": "rentals_ca",
-      "price_cad": 6500,
+      "price_cad": 4250,
       "bedrooms": 4.0,
       "neighborhood": null,
-      "address_text": "3288 5TH Avenue, Vancouver, BC, V5M 1P3",
-      "transit_minutes_to_ubc": 70
+      "address_text": "7xx 69TH AVE Avenue, Vancouver, BC, V6P 2W3",
+      "transit_minutes_to_ubc": 55
     },
     "rentals_ca:cmVudGFsbGlzdGluZzo5NTI5NDI=": {
       "url": "https://rentals.ca/vancouver/6279-eagles-drive-id952942",
@@ -261,15 +251,35 @@
       "address_text": "6279 Eagles Drive, Vancouver, BC, V6T 1Z4",
       "transit_minutes_to_ubc": 15
     },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxNDA5Njkw": {
-      "url": "https://rentals.ca/vancouver/7xx-w-69th-ave-avenue",
-      "title": "7xx 69TH AVE Avenue house \u2014 7xx W 69TH AVE AVENUE, Vancouver BC (4-Bedroom)",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMzk3NTA0": {
+      "url": "https://rentals.ca/vancouver/1000-east-49th-avenue",
+      "title": "1000 East 49th Avenue house \u2014 1000 East 49th Avenue, Vancouver BC (5-Bedroom)",
       "source": "rentals_ca",
-      "price_cad": 4250,
+      "price_cad": 4700,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "1000 East 49th Avenue, Vancouver, BC, V5W 2H8",
+      "transit_minutes_to_ubc": 44
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxNDA2NzAx": {
+      "url": "https://rentals.ca/vancouver/720-w-54th-avenue",
+      "title": "720 54TH Avenue house \u2014 720 W 54TH AVENUE, Vancouver BC (4-Bedroom)",
+      "source": "rentals_ca",
+      "price_cad": 2800,
       "bedrooms": 4.0,
       "neighborhood": null,
-      "address_text": "7xx 69TH AVE Avenue, Vancouver, BC, V6P 2W3",
-      "transit_minutes_to_ubc": 55
+      "address_text": "720 54TH Avenue, Vancouver, BC, V6P 0A8",
+      "transit_minutes_to_ubc": 44
+    },
+    "rentals_ca:cmVudGFsbGlzdGluZzoxNDI1ODEw": {
+      "url": "https://rentals.ca/vancouver/5370-crooked-branch-road-id1425810",
+      "title": "5370 Crooked Branch Road 104 town house \u2014 5370 Crooked Branch Road 104, Vancouver BC (5-Bedroom)",
+      "source": "rentals_ca",
+      "price_cad": 1300,
+      "bedrooms": 5.0,
+      "neighborhood": null,
+      "address_text": "5370 Crooked Branch Road 104, Vancouver, BC, V6T 0E6",
+      "transit_minutes_to_ubc": 15
     },
     "rentals_ca:cmVudGFsbGlzdGluZzoxMzkwMTI2": {
       "url": "https://rentals.ca/vancouver/3000-w-15-avenue",
@@ -281,25 +291,15 @@
       "address_text": "3000 W 15 Avenue, Vancouver, BC, V6K 3A5",
       "transit_minutes_to_ubc": 24
     },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxNDA3OTY4": {
-      "url": "https://rentals.ca/vancouver/3000-west-king-edward-avenue-id1407968",
-      "title": "3000 WEST KING EDWARD Avenue house \u2014 3000 WEST KING EDWARD AVENUE, Vancouver BC (5-Bedroom)",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTgyMTYy": {
+      "url": "https://rentals.ca/vancouver/3715-west-38th-avenue",
+      "title": "3715 West 38th Avenue house \u2014 3715 West 38th Avenue, Vancouver BC (4-Bedroom)",
       "source": "rentals_ca",
-      "price_cad": 5800,
-      "bedrooms": 5.0,
-      "neighborhood": null,
-      "address_text": "3000 WEST KING EDWARD Avenue, Vancouver, BC, V6L 1V4",
-      "transit_minutes_to_ubc": 26
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMzkyMTQz": {
-      "url": "https://rentals.ca/vancouver/3433-worthington-drive",
-      "title": "3433 Worthington Drive Upper Unit apartment \u2014 3433 Worthington Drive Upper Unit, Vancouver BC (4-Bedroom)",
-      "source": "rentals_ca",
-      "price_cad": 3900,
+      "price_cad": 6600,
       "bedrooms": 4.0,
       "neighborhood": null,
-      "address_text": "3433 Worthington Drive Upper Unit, Vancouver, BC, V5M 3Y1",
-      "transit_minutes_to_ubc": 74
+      "address_text": "3715 West 38th Avenue, Vancouver, BC, V6N 2Y3",
+      "transit_minutes_to_ubc": 26
     },
     "rentals_ca:cmVudGFsbGlzdGluZzo5NDAxODA=": {
       "url": "https://rentals.ca/vancouver/833-seymour-street-id940180",
@@ -311,45 +311,25 @@
       "address_text": "833 Seymour Street 3504, Vancouver, BC, V6B 0G4",
       "transit_minutes_to_ubc": 45
     },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxNDEzMzA0": {
-      "url": "https://rentals.ca/vancouver/5370-crooked-branch-road-id1413304",
-      "title": "5370 Crooked Branch Road 104 town house \u2014 5370 Crooked Branch Road 104, Vancouver BC (5-Bedroom)",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxMTcyNDk5": {
+      "url": "https://rentals.ca/vancouver/1500-66th-west-street",
+      "title": "1500 66TH WEST Street house \u2014 1500 66TH WEST STREET, Vancouver BC (5-Bedroom)",
       "source": "rentals_ca",
-      "price_cad": 1300,
+      "price_cad": 4100,
       "bedrooms": 5.0,
       "neighborhood": null,
-      "address_text": "5370 Crooked Branch Road 104, Vancouver, BC, V6T 0E6",
-      "transit_minutes_to_ubc": 15
+      "address_text": "1500 66TH WEST Street, Vancouver, BC, V6P 2R9",
+      "transit_minutes_to_ubc": 48
     },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMTk2MzIw": {
-      "url": "https://rentals.ca/vancouver/2400-west-19th-avenue-id1196320",
-      "title": "2400 WEST 19TH Avenue house \u2014 2400 WEST 19TH AVENUE, Vancouver BC (6-Bedroom)",
+    "rentals_ca:cmVudGFsbGlzdGluZzoxNDA3OTY4": {
+      "url": "https://rentals.ca/vancouver/3000-west-king-edward-avenue-id1407968",
+      "title": "3000 WEST KING EDWARD Avenue house \u2014 3000 WEST KING EDWARD AVENUE, Vancouver BC (5-Bedroom)",
       "source": "rentals_ca",
-      "price_cad": 6600,
-      "bedrooms": 6.0,
+      "price_cad": 5800,
+      "bedrooms": 5.0,
       "neighborhood": null,
-      "address_text": "2400 WEST 19TH Avenue, Vancouver, BC, V6L 1C7",
-      "transit_minutes_to_ubc": 31
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxMTgyMTYy": {
-      "url": "https://rentals.ca/vancouver/3715-west-38th-avenue",
-      "title": "3715 West 38th Avenue house \u2014 3715 West 38th Avenue, Vancouver BC (4-Bedroom)",
-      "source": "rentals_ca",
-      "price_cad": 6600,
-      "bedrooms": 4.0,
-      "neighborhood": null,
-      "address_text": "3715 West 38th Avenue, Vancouver, BC, V6N 2Y3",
+      "address_text": "3000 WEST KING EDWARD Avenue, Vancouver, BC, V6L 1V4",
       "transit_minutes_to_ubc": 26
-    },
-    "rentals_ca:cmVudGFsbGlzdGluZzoxNDA2NzAx": {
-      "url": "https://rentals.ca/vancouver/720-w-54th-avenue",
-      "title": "720 54TH Avenue house \u2014 720 W 54TH AVENUE, Vancouver BC (4-Bedroom)",
-      "source": "rentals_ca",
-      "price_cad": 2800,
-      "bedrooms": 4.0,
-      "neighborhood": null,
-      "address_text": "720 54TH Avenue, Vancouver, BC, V6P 0A8",
-      "transit_minutes_to_ubc": 44
     },
     "zumper:64759537": {
       "url": "https://www.zumper.com/listings/28729100p/5-bedroom-university-endowment-lands-vancouver-bc",
