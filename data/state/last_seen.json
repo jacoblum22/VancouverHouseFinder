@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T13:22:52.793167+00:00",
+  "updated_at": "2026-07-05T03:18:49.244913+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -21,16 +21,6 @@
       "address_text": "3433 Worthington Drive, Vancouver, BC, V5M 3Y1",
       "transit_minutes_to_ubc": 75
     },
-    "padmapper:64432855": {
-      "url": "https://www.padmapper.com/rentals/28758569p/5-bedroom-5-bath-apartment-at-3000-west-15th-avenue-vancouver-bc-v6k-3a4",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 5800,
-      "bedrooms": 5.0,
-      "neighborhood": "Kitsilano",
-      "address_text": "3000 West 15th Avenue, Vancouver, BC, V6K 3A4",
-      "transit_minutes_to_ubc": 28
-    },
     "padmapper:64596623": {
       "url": "https://www.padmapper.com/rentals/28750106p/4-bedroom-3-bath-apartment-at-3288-east-5th-avenue-vancouver-bc-v5m-1p3",
       "title": null,
@@ -40,16 +30,6 @@
       "neighborhood": "Hastings-Sunrise",
       "address_text": "3288 East 5th Avenue, Vancouver, BC, V5M 1P3",
       "transit_minutes_to_ubc": 70
-    },
-    "padmapper:64543069": {
-      "url": "https://www.padmapper.com/rentals/28713280p/5-bedroom-3-bath-apartment-at-3000-west-king-edward-avenue-vancouver-bc-v6l-1t9",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 6000,
-      "bedrooms": 5.0,
-      "neighborhood": "Mackenzie Heights",
-      "address_text": "3000 West King Edward Avenue, Vancouver, BC, V6L 1T9",
-      "transit_minutes_to_ubc": 26
     },
     "padmapper:59887444": {
       "url": "https://www.padmapper.com/rentals/28177301p/4-bedroom-2-bath-apartment-at-4359-main-street-vancouver-bc-v5v-3r1",
@@ -70,6 +50,26 @@
       "neighborhood": "Oakridge",
       "address_text": "7050 Hudson Street, Vancouver, BC, V6P 4K5",
       "transit_minutes_to_ubc": 40
+    },
+    "padmapper:64432855": {
+      "url": "https://www.padmapper.com/rentals/28758569p/5-bedroom-5-bath-apartment-at-3000-west-15th-avenue-vancouver-bc-v6k-3a4",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 5800,
+      "bedrooms": 5.0,
+      "neighborhood": "Kitsilano",
+      "address_text": "3000 West 15th Avenue, Vancouver, BC, V6K 3A4",
+      "transit_minutes_to_ubc": 28
+    },
+    "padmapper:64543069": {
+      "url": "https://www.padmapper.com/rentals/28713280p/5-bedroom-3-bath-apartment-at-3000-west-king-edward-avenue-vancouver-bc-v6l-1t9",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 6000,
+      "bedrooms": 5.0,
+      "neighborhood": "Mackenzie Heights",
+      "address_text": "3000 West King Edward Avenue, Vancouver, BC, V6L 1T9",
+      "transit_minutes_to_ubc": 26
     },
     "padmapper:64531083": {
       "url": "https://www.padmapper.com/rentals/9516801p/4-bedroom-1-bath-apartment-at-8495-selkirk-street-vancouver-bc-v6p-4j1",
