@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T15:30:07.974824+00:00",
+  "updated_at": "2026-07-07T03:17:15.442242+00:00",
   "entries": {
     "padmapper:61956055": {
       "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
@@ -11,16 +11,6 @@
       "address_text": "6589 Elliott St, Vancouver, BC, V5S 2M6",
       "transit_minutes_to_ubc": 57
     },
-    "padmapper:64453438": {
-      "url": "https://www.padmapper.com/rentals/64453438/4-bedroom-1-bath-apartment-at-3433-worthington-drive-vancouver-bc-v5m-3y1",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 3900,
-      "bedrooms": 4.0,
-      "neighborhood": "Renfrew-Collingwood",
-      "address_text": "3433 Worthington Drive, Vancouver, BC, V5M 3Y1",
-      "transit_minutes_to_ubc": 75
-    },
     "padmapper:64596623": {
       "url": "https://www.padmapper.com/rentals/28750106p/4-bedroom-3-bath-apartment-at-3288-east-5th-avenue-vancouver-bc-v5m-1p3",
       "title": null,
@@ -31,16 +21,6 @@
       "address_text": "3288 East 5th Avenue, Vancouver, BC, V5M 1P3",
       "transit_minutes_to_ubc": 70
     },
-    "padmapper:59887444": {
-      "url": "https://www.padmapper.com/rentals/28177301p/4-bedroom-2-bath-apartment-at-4359-main-street-vancouver-bc-v5v-3r1",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 4900,
-      "bedrooms": 4.0,
-      "neighborhood": "Riley Park - Little Mountain",
-      "address_text": "4359 Main Street, Vancouver, BC, V5V 3R1",
-      "transit_minutes_to_ubc": 50
-    },
     "padmapper:64740033": {
       "url": "https://www.padmapper.com/rentals/28905850p/4-bedroom-3-bath-apartment-at-7050-hudson-street-vancouver-bc-v6p-4k5",
       "title": null,
@@ -49,6 +29,16 @@
       "bedrooms": 4.0,
       "neighborhood": "Oakridge",
       "address_text": "7050 Hudson Street, Vancouver, BC, V6P 4K5",
+      "transit_minutes_to_ubc": 40
+    },
+    "padmapper:43415414": {
+      "url": "https://www.padmapper.com/rentals/2900456p/4-bedroom-2-bath-apartment-at-granville-st-w-57th-ave-vancouver-bc-v6p-1t1",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 4950,
+      "bedrooms": 4.0,
+      "neighborhood": "South Granville",
+      "address_text": "Granville St & W 57th Ave, Vancouver, BC, V6P 1T1",
       "transit_minutes_to_ubc": 40
     },
     "padmapper:64432855": {
@@ -70,6 +60,16 @@
       "neighborhood": "Mackenzie Heights",
       "address_text": "3000 West King Edward Avenue, Vancouver, BC, V6L 1T9",
       "transit_minutes_to_ubc": 26
+    },
+    "padmapper:59887444": {
+      "url": "https://www.padmapper.com/rentals/28177301p/4-bedroom-2-bath-apartment-at-4359-main-street-vancouver-bc-v5v-3r1",
+      "title": null,
+      "source": "padmapper",
+      "price_cad": 4900,
+      "bedrooms": 4.0,
+      "neighborhood": "Riley Park - Little Mountain",
+      "address_text": "4359 Main Street, Vancouver, BC, V5V 3R1",
+      "transit_minutes_to_ubc": 50
     },
     "padmapper:64531083": {
       "url": "https://www.padmapper.com/rentals/9516801p/4-bedroom-1-bath-apartment-at-8495-selkirk-street-vancouver-bc-v6p-4j1",
@@ -100,16 +100,6 @@
       "neighborhood": "Grandview-Woodland",
       "address_text": "E 6th Ave & Nanaimo St, Vancouver, BC, V5N 5C7",
       "transit_minutes_to_ubc": 55
-    },
-    "padmapper:64717543": {
-      "url": "https://www.padmapper.com/rentals/64717543/6-bedroom-4-bath-apartment-at-7776-osler-street-vancouver-bc-v6p-4c7",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 6500,
-      "bedrooms": 6.0,
-      "neighborhood": "Marpole",
-      "address_text": "7776 Osler Street, Vancouver, BC, V6P 4C7",
-      "transit_minutes_to_ubc": 47
     },
     "padmapper:53454609": {
       "url": "https://www.padmapper.com/rentals/28887600p/4-bedroom-2-bath-apartment-at-825-west-46th-avenue-vancouver-bc-v5z-2r4",
