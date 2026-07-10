@@ -1,16 +1,6 @@
 {
-  "updated_at": "2026-07-09T14:56:23.646190+00:00",
+  "updated_at": "2026-07-10T02:56:10.310077+00:00",
   "entries": {
-    "padmapper:61956055": {
-      "url": "https://www.padmapper.com/rentals/26087342p/4-bedroom-2-bath-apartment-at-6589-elliott-st-vancouver-bc-v5s-2m6",
-      "title": null,
-      "source": "padmapper",
-      "price_cad": 3595,
-      "bedrooms": 4.0,
-      "neighborhood": "Victoria-Fraserview",
-      "address_text": "6589 Elliott St, Vancouver, BC, V5S 2M6",
-      "transit_minutes_to_ubc": 57
-    },
     "padmapper:64740033": {
       "url": "https://www.padmapper.com/rentals/28905850p/4-bedroom-3-bath-apartment-at-7050-hudson-street-vancouver-bc-v6p-4k5",
       "title": null,
@@ -131,6 +121,16 @@
       "address_text": "1458 W 45th Ave, Vancouver, BC, V6M 2H1",
       "transit_minutes_to_ubc": 35
     },
+    "padmapper:59340553": {
+      "url": "https://www.padmapper.com/rentals/24034224p/5-bedroom-2-bath-apartment-at-2208-burquitlam-dr-vancouver-bc-v5p-2p1",
+      "title": "2208 Burquitlam Drive - 1",
+      "source": "padmapper",
+      "price_cad": 4485,
+      "bedrooms": 5.0,
+      "neighborhood": "Victoria-Fraserview",
+      "address_text": "2208 Burquitlam Dr #1, Vancouver, BC, V5P 2P1",
+      "transit_minutes_to_ubc": 66
+    },
     "padmapper:64223378": {
       "url": "https://www.padmapper.com/rentals/28423702p/4-bedroom-2-bath-apartment-at-82-west-45th-avenue-vancouver-bc-v5y-2v9",
       "title": null,
@@ -170,16 +170,6 @@
       "neighborhood": "Victoria-Fraserview",
       "address_text": "2300 Harrison Drive, Vancouver, BC, V5P 2P8",
       "transit_minutes_to_ubc": 68
-    },
-    "padmapper:59340553": {
-      "url": "https://www.padmapper.com/rentals/24034224p/5-bedroom-2-bath-apartment-at-2208-burquitlam-dr-vancouver-bc-v5p-2p1",
-      "title": "2208 Burquitlam Drive - 1",
-      "source": "padmapper",
-      "price_cad": 4485,
-      "bedrooms": 5.0,
-      "neighborhood": "Victoria-Fraserview",
-      "address_text": "2208 Burquitlam Dr #1, Vancouver, BC, V5P 2P1",
-      "transit_minutes_to_ubc": 66
     },
     "zumper:60088636": {
       "url": "https://www.zumper.com/listings/28616530p/4-bedroom-university-endowment-lands-vancouver-bc",
