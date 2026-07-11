@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T14:24:06.328426+00:00",
+  "updated_at": "2026-07-11T02:32:56.673812+00:00",
   "entries": {
     "padmapper:64740033": {
       "url": "https://www.padmapper.com/rentals/28905850p/4-bedroom-3-bath-apartment-at-7050-hudson-street-vancouver-bc-v6p-4k5",
@@ -101,6 +101,16 @@
       "address_text": "825 West 46th Avenue, Vancouver, BC, V5Z 2R4",
       "transit_minutes_to_ubc": 40
     },
+    "padmapper:64654364": {
+      "url": "https://www.padmapper.com/rentals/28813699p/4-bedroom-3-bath-apartment-at-7430-angus-dr-vancouver-bc-v6p-5k2",
+      "title": "7430 Angus Drive - Main",
+      "source": "padmapper",
+      "price_cad": 5200,
+      "bedrooms": 4.0,
+      "neighborhood": "South Granville",
+      "address_text": "7430 Angus Dr #MAIN, Vancouver, BC, V6P 5K2",
+      "transit_minutes_to_ubc": 44
+    },
     "padmapper:64653801": {
       "url": "https://www.padmapper.com/rentals/64653801/4-bedroom-4-bath-apartment-at-1458-w-45th-ave-vancouver-bc-v6m-2h1",
       "title": null,
@@ -160,16 +170,6 @@
       "neighborhood": "Victoria-Fraserview",
       "address_text": "2300 Harrison Drive, Vancouver, BC, V5P 2P8",
       "transit_minutes_to_ubc": 68
-    },
-    "padmapper:64654364": {
-      "url": "https://www.padmapper.com/rentals/28813699p/4-bedroom-3-bath-apartment-at-7430-angus-dr-vancouver-bc-v6p-5k2",
-      "title": "7430 Angus Drive - Main",
-      "source": "padmapper",
-      "price_cad": 5200,
-      "bedrooms": 4.0,
-      "neighborhood": "South Granville",
-      "address_text": "7430 Angus Dr #MAIN, Vancouver, BC, V6P 5K2",
-      "transit_minutes_to_ubc": 44
     },
     "zumper:60088636": {
       "url": "https://www.zumper.com/listings/28616530p/4-bedroom-university-endowment-lands-vancouver-bc",
